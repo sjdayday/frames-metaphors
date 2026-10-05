@@ -1,0 +1,11 @@
+In this project, we will try to better understand and make use of theories of meaning from cognitive linguistics. Important authors are George Lakoff (e.g., “Metaphors We Live By”), Charles Fillmore (https://framenet.icsi.berkeley.edu/ and prior writings), and Jerome Feldman (e.g., “From Molecule to Metaphor”).
+
+A simple beginning: a frame is a template for dealing with particular kinds of situations. It consists of roles, other elements, and permissible scenarios of action.  Please use https://framenet.icsi.berkeley.edu/ as a resource for frames in English. 
+
+A metaphor maps from a source domain to a target domain. Using a metaphor, a frame that originated in a source domain can be mapped to a different target domain. Then the logic of the permissible scenarios in the frame can be used to make inferences in the new target domain.  A typical format is “target domain is source domain.”
+
+For example, the source domain of the building frame is the physical construction of buildings.  Possible scenarios include “workers begin construction after the architect completes the building plans“.  Through the metaphor “a software system is a building“, the building frame can be imported into the target domain of software. Then, according to the logic of the above scenario, the software developers begin writing the software after the software architect completes the overall system design.
+
+My understanding of frames & metaphors is limited and preliminary.  I am unfamiliar with other aspects of cognitive linguistics that might complement these concepts.  For example, it might be useful to include some notion of narrative to relate the linking of multiple frames and metaphors together to analyze an argument or paper.
+
+The challenges and limitations involved in making any of this useful in a specifi human interaction are explained by the rider and elephant metaphor Jonathan Haidt discusses in "The Righteous Mind" and by the System 1 and System 2 metaphor that Daniel Kahneman discusses in "Thinking Fast and Slow".  
