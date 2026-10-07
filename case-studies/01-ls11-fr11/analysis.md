@@ -279,7 +279,156 @@ The frame symmetry here is close to exact, but the substantive disputes under it
 
 ---
 
-## After three pairs: what the two modes gave, and what to do next
+## Pair 4 — The contest and its scoring: "beating the pants off" vs. "put an end to"
+
+### The statements
+
+LS side (Watts, 2012-02-10; Scafetta, 2012-03-11; Loehle, 2011-07-25):
+
+> Time will tell how well his forecast model holds up. So far it is already beating the pants off the highly upwards IPCC forecast model, but like any forecast model, isn't perfect. (LS-12, host)
+
+> On the contrary, the data continue to be in reasonable agreement with my empirical model, which I remind, is constructed as a full forecast since Jan/2000. (LS-15)
+
+> It is evident from the figure above that my model (blue curve) agrees very well with the temperature 4-year smooth component, while the IPCC projection is always worst, and statistically diverges from the temperature since 2006. (LS-15)
+
+> Moreover, the claim of skepticalscience that we need to use a 2-sigma error envelope indirectly also proves that the IPCC models cannot be validated according the scientific method and, therefore, do not belong to the realm of science. (LS-11)
+
+> 5) Cooling/flat temperatures till 2030 are likely (as also predicted by others). (LS-7)
+
+FR side (Foster, 2011-12-06; Rahmstorf, 2011-12-05 and 2011-12-08; ScienceDaily lede):
+
+> And, it should put an end to real skeptics claiming that global warming has recently stopped or slowed down, because real skeptics base their beliefs on evidence. (FR-4)
+
+> None of the data sets shows any evidence that the global warming rate has changed recently. […] All five data sets show statistically significant warming since 2000. (FR-15)
+
+> Our approach shows that the idea that the global warming trend has slowed or even paused over the last decade or so is a groundless misconception. (FR-7)
+
+> Also auch hier keinerlei Hinweise auf eine Verlangsamung oder gar Pause in der globalen Erwärmung. / *So here too, no indication whatsoever of a slowdown, let alone a pause, in global warming.* (FR-9)
+
+> Researchers have added further clarity to the global climate trend, proving that global warming is showing no signs of slowing down […] (FR-8, publisher)
+
+### Mode A — FrameNet-literal annotation
+
+| Side | Span | Target | FrameNet frame | Frame elements | Note |
+|---|---|---|---|---|---|
+| LS | Time will TELL how well his forecast model HOLDS UP | tell.v; hold up.v | `Evidence` / `Becoming_aware`; — | Support = time; Proposition = how well the model holds up | hold up.v in FrameNet is only `Robbery` or `Change_event_time` — **(gap)** for the "withstand a test" sense; the force-dynamic image (bearing a load) is unrecorded. |
+| LS | it is already BEATING the pants off the … IPCC FORECAST model | beat.v; forecast | `Beat_opponent`; `Predicting` (forecast.v; the noun has no LU) | Winner = his forecast model; Loser = the IPCC forecast model | The idiom intensifies the Beat_opponent frame; "so far" marks a contest in progress. |
+| LS | like any forecast model, isn't PERFECT | perfect.a | `Usefulness` | Entity = the model; Purpose = (forecasting) | |
+| LS | the data continue to be in reasonable AGREEMENT with my empirical model | agree | `Compatibility` | Item_1 = the data; Item_2 = my model; Parameter = (temperature) | The data and the model are made *parties* that agree — the same frame as "the models agree with observations". |
+| LS | constructed as a full FORECAST since Jan/2000 | forecast | `Predicting` | Speaker = Scafetta; Eventuality = temperature after 2000 | |
+| LS | my model AGREES very well … the IPCC projection is always WORST, and statistically DIVERGES from the temperature since 2006 | agree; worst; diverge | `Compatibility`; (evaluation); — | Item_1/Item_2 as above | diverge.v **(gap)**; "projection" **(gap)** (project.v has no LU). |
+| LS | PROVES that the IPCC models cannot be VALIDATED according the scientific method and … do not BELONG to the REALM of science | prove.v; validate; belong.v; realm.n | `Evidence`; —; `Membership`; `Political_locales` | Support = SkS's 2σ claim; Proposition = the models cannot be validated; Member = the IPCC models; Group = science; Locale = science | validate **(gap)**. Science is construed as a Group with membership rules and as a territory (realm). |
+| LS | Cooling/flat temperatures till 2030 are LIKELY (as also PREDICTED by others) | likely.a; predict.v | `Likelihood`; `Predicting` | Hypothetical_event = cooling/flat temperatures till 2030; Speaker = others | "cooling" (n.) and "flat" **(gap)**; cool.v is `Change_of_temperature` (Item) or `Cause_temperature_change` (Agent/Cause, Item). |
+| FR | it should PUT AN END TO real skeptics CLAIMING that global warming has recently STOPPED or SLOWED DOWN | put an end to.v; claim.v; stop.v; slow down | `Cause_to_end`; `Statement`; `Process_stop`; `Change_event_duration` | Agent/Cause = the result; Process = real skeptics claiming…; Speaker = real skeptics; Process = global warming; Event = global warming | `Cause_to_end` makes the finding an agent that terminates a process of claiming. |
+| FR | None of the data sets shows any EVIDENCE that the global warming RATE has CHANGED recently | evidence.n; rate.n; change.v | `Evidence`; `Rate_quantification`; `Undergo_change` | Support = the data sets (negated); Proposition = the rate changed; Entity = the rate | |
+| FR | statistically SIGNIFICANT warming since 2000 | significant.a | `Importance` only | — | **(gap)** for the statistical sense — the lexicon has only "important", which is exactly the slide a lay reader makes. |
+| FR | the IDEA that the global warming trend has SLOWED or even PAUSED … is a groundless MISCONCEPTION | idea.n; slow; pause; misconception | `Awareness`; `Change_event_duration`; `Activity_pause`; — | Cognizer = (those who hold it); Content = the trend slowed/paused; Event/Activity = the global warming trend | misconception, groundless **(gap)**; `Activity_pause` again supplies an Agent slot for warming. |
+| FR | keinerlei HINWEISE auf eine VERLANGSAMUNG oder gar PAUSE | (German: Hinweis, Verlangsamung, Pause) | by sense: `Evidence`/`Sign`; `Change_event_duration`; `Activity_pause` | Support = (none); Indicated = a slowdown or pause | "gar" ("let alone") orders slowdown < pause on a scale of claims. |
+| FR | PROVING that global warming is showing no SIGNS of SLOWING DOWN | prove.v; sign.n; slow down | `Evidence`; `Sign`; `Change_event_duration` | Support = the analysis; Proposition = no slowing; Indicator = (none) | The publisher's lede uses FrameNet's strongest Evidence verb. |
+
+**What Mode A gave for Pair 4.** Two frames divide the pair. The LS side is in `Beat_opponent`, `Compatibility` and `Membership`/`Political_locales` — a contest with a scoreboard and a border around the "realm of science". The FR side is in `Cause_to_end`, `Evidence` and `Sign` — a verdict that ends a claim. And both sides rest their case on the same two frames, `Evidence` and `Change_event_duration`: each says the data show (or fail to show) a change of pace, over a window of its own choosing. The two gaps are telling: FrameNet's only sense of "significant" is *important*, which is the lay reading that makes "statistically significant warming since 2000" and "no statistically significant warming for N years" sound like statements about size rather than about a test; and "hold up" has no withstanding sense, so the load-bearing image in "time will tell how well his forecast model holds up" is carried entirely by Mode B.
+
+### Mode B — frames, metaphors, construal, scenario
+
+**LS: THE CONTEST — two forecasts, a scoreboard, a referee.** Watts's widget is literally a scoreboard ("updated monthly as new data arrives"), and the language follows: "beating the pants off", "so far", "time will tell", a model that "holds up", a projection that is "always worst" and "diverges". The frame's roles: two Competitors (my model, the IPCC's), a Referee (the data), a Score (the latest month's reading), and Rules (baseline, envelope width — which is why the whole of Pair 3's dispute is about rules). Entailments pressed: there is a winner; the game is in progress and one side leads; the latest reading counts. Entailments hidden: (a) a forecast is tested over its stated horizon against criteria fixed in advance, and a monthly scoreboard rewards whoever chose the window; (b) the two competitors are not the same kind of object — a four-cycle harmonic fit with its phases set from the record, against physics-based models run under an emissions scenario — so "beating" on a twelve-year window does not test the physics; (c) "the IPCC forecast" is a multi-model mean, not a bet, and its envelope is part of the forecast, not an evasion (LS-11 construes the envelope as a trick, which is the contest frame protecting its scoreboard). LS-11 then draws a border: a model that cannot be "validated" by the scoreboard does not "belong to the realm of science" — `Membership` and `Political_locales` — so that the contest's rules decide who is a scientist.
+
+**FR: THE VERDICT — evidence rules, the case is closed.** "Put an end to", "groundless misconception", "proving", "no signs", "keinerlei Hinweise … oder gar Pause". The frame's roles: a Claim on trial, Evidence, a Verdict, and a Claimant who should now stop. Entailments pressed: finality; the claimant was wrong; further argument is bad faith (Foster's "real skeptics … base their beliefs on evidence" makes continued claiming a mark of fakery). Entailments hidden: (a) the result was about 1979–2010 with three regressors, and its author's own statement of it was careful ("mostly (but not completely!)") in a way the verdict is not; (b) "put an end to" treats the next decade's data as already in — the verdict is itself a forecast; (c) a claim can be wrong for a specific reason (a window starting at the 1998 El Niño) without being "groundless", and the specific reason is the more useful thing to say.
+
+**The shared move: a chosen window and a significance test.** FR-15 — "statistically significant warming since 2000" — is the mirror image of the contrarian scoreboard that later became Monckton's "no global warming at all for N years N months" (case 02). Both compute a trend over a window chosen by the speaker, run a significance test, and read the result as the verdict. The construal variable of the whole pause dispute is the window: its start (1998 or 2000 or 1979), its end (the latest month), and whether the series has been adjusted first. Each side profiles the window that favours it and backgrounds the choice.
+
+**Force dynamics.** "Holds up" (a structure bearing a load), "diverges", "unabated" (Pair 2), "put an end to" — the contest side images the models as structures under test, the verdict side images the finding as a force that stops a process.
+
+**Scenario / narrative.** LS: the outsider's simple model beats the establishment's expensive one — an underdog story whose moral is the border-drawing of LS-11 (the establishment's models are not even science). FR: the court rules and the nuisance claim should cease — a story whose moral is the fake/real partition of Pair 3. Each side's sentence already contains the other side's refusal: Watts's "time will tell", Foster's "I don't expect it will have much effect on the behavior of fake skeptics". A frame that predicts its own rejection by the other side is a frame that cannot lose an argument, and both have one.
+
+### Substance notes (not framing)
+
+The two forecasts can now be read against the record, which is the point of forecasts. Loehle & Scafetta's "cooling/flat temperatures till 2030" and "approximately steady until 2030–2040" were followed by the record years of 2014–16, the 2023–25 surge, and — on the figure `climate-explain`'s case file computed on the current NOAA series — a decadal warming from 1996–2005 to 2016–2025 of about +0.47 °C against the paper's ≈0.6 °C-above-2000 ceiling for 2100. On the other side, "put an end to" and "groundless misconception" were overstated in the direction of certainty: within five years the field itself divided on whether the 1998–2012 slowdown was real relative to expectation (Fyfe et al. 2016) or a fluctuation with no change in the underlying trend (Rahmstorf, Foster & Cahill 2017), before the synthesis of Medhaug et al. 2017 — Pacific decadal variability, small negative forcings and coverage bias, within the models' range — and the record El Niño closed the question (`climate-science-evolution/02-problems/P08`, `RESOLVED` 2015–17). Foster & Rahmstorf's narrower result — no detectable change in the 1979–2010 rate once three known fluctuations are removed — is the part that stood. Scafetta's border-drawing in LS-11 rests on a statistical error (a 1σ envelope is not the convention for testing whether observations fall outside a model's spread; see Pair 3's substance notes).
+
+### Second looks
+
+*If a friend says:* "Scafetta's little model has been beating the IPCC's forecast ever since 2000 — the big models flunked the test."
+
+> "Beating" is a scoreboard picture, and a scoreboard needs rules fixed before the game: which dataset, which start date, what counts as a miss, and when the game ends. A monthly scoreboard rewards whoever picked the window. So the questions are what each forecast committed to and over what horizon — Loehle and Scafetta said flat or cooling until 2030 — and what the record has done since, which includes the 2015–16 and 2023–25 record years. Worth knowing: the other side was running the same scoreboard the other way at the time ("statistically significant warming since 2000"), with the same weakness.
+
+*If I say (or a mainstream friend says):* "That analysis should have put an end to the 'warming has paused' claim — it was a groundless misconception."
+
+> "Put an end to" is a verdict picture; it treats the next decade's data as already in, which makes the verdict a forecast of its own. The actual result was narrower and more careful — the 1979–2010 rate didn't change once three known fluctuations were removed, "mostly (but not completely!)" — and within five years the field's own papers were arguing about whether the slowdown was real relative to expectations. The claim's weakness is specific: a short window that starts at the 1998 El Niño. Saying that is stronger than "groundless", and it leaves the friend something to check.
+
+---
+
+## Pair 5 — Nature and humans as causes: "this natural 60-year cycle" vs. "the human influence"
+
+### The statements
+
+LS side (Loehle, 2011-07-25; Scafetta, 2012-03-11):
+
+> About 60% of the warming observed from 1970 to 2000 was very likely caused by this natural 60-year climatic cycle during its warming phase. (LS-4)
+
+> We factor out the natural cycles based on solar activity first, then identify the human signal. (LS-6)
+
+> We observe that there is a regular orbital oscillation of the sun–this orbit pattern is fixed and calculable. We assume that this MAY somehow affect solar output/magnetic field etc. We then test if this pattern matches the temperature pattern. (LS-16)
+
+> In fact, the IPCC models assume that the 1970-2000 warming is 100% produced by anthropogenic forcing […] while the 60-year natural cycle (plus the other cycles) contributed at least 2/3 of the 1970-2000 warming, as proven in my papers. (LS-14)
+
+FR side (Foster, 2011-12-06 and 2011-12-05; Rahmstorf, 2012-09-27):
+
+> Many different factors affect Global temperature. […] Natural factors cause temperature fluctuations which make the man-made global warming signal less clear […] (FR-1)
+
+> […] emphasizing the urgency of confronting the human influence on the climate. (FR-6)
+
+> *(2) The natural influences (volcanoes, solar cycles) on the trend are vanishingly small compared with anthropogenic CO2 […]* (FR-14)
+
+### Mode A — FrameNet-literal annotation
+
+| Side | Span | Target | FrameNet frame | Frame elements | Note |
+|---|---|---|---|---|---|
+| LS | About 60% of the WARMING … was very LIKELY CAUSED by this NATURAL 60-year climatic CYCLE during its warming PHASE | warming; likely.a; cause.v; natural; cycle.n; phase.n | (warm.v: `Change_of_temperature` / `Cause_temperature_change`); `Likelihood`; `Causation`; —; —; `Thermodynamic_phase` only | Cause = the natural 60-year cycle; Effect = ~60% of the 1970–2000 warming; Hypothetical_event = that causation | "natural", "cycle" **(gap)**; "phase" only in its physics sense **(gap)**. "very likely" is the IPCC's calibrated term for 90–100% probability, used here without the apparatus. warm.v has an agentive and a non-agentive frame; the nominal "warming" hides which. |
+| LS | We FACTOR OUT the natural cycles based on SOLAR ACTIVITY first, then IDENTIFY the human SIGNAL | factor out; identify.v; signal.n | —; `Categorization` / `Verification`; `Gesture` only | Cognizer = we; Item = the residual; Category = the human signal | factor out, signal **(gap)**; "identify" presupposes the thing is there to be found (`Verification`: Unconfirmed_content). |
+| LS | We OBSERVE that there is a regular orbital OSCILLATION of the sun … We ASSUME that this MAY somehow AFFECT solar output … We then TEST if this pattern MATCHES the temperature pattern | observe.v; oscillation; assume.v; may.v; affect.v; test.v; match.v | `Becoming_aware`; —; `Adopt_selection`; `Possibility` / `Likelihood`; `Objective_influence`; `Experimentation` / `Operational_testing`; `Compatibility` | Cognizer = we; Phenomenon = the orbital oscillation; Influencing_entity = the oscillation; Dependent_entity = solar output (hedged by MAY and "somehow"); Hypothesis = that the pattern matches | oscillation **(gap)**. The one place the mechanism is stated, and it is hedged twice. |
+| LS | the IPCC models ASSUME that the 1970-2000 warming is 100% PRODUCED by anthropogenic FORCING | assume.v; produce.v; forcing | `Adopt_selection`; `Cause_to_start` / `Intentionally_create` / `Manufacturing`; — | Cause/Creator/Producer = anthropogenic forcing; Effect/Created_entity/Product = the warming | forcing **(gap)**. produce.v carries a `Manufacturing` reading — warming as a product made to order — that "caused" would not. |
+| LS | the 60-year natural cycle … CONTRIBUTED at least 2/3 of the 1970-2000 warming, as PROVEN in my papers | contribute.v; prove.v | `Giving`; `Evidence` | Donor = the cycle; Theme = 2/3 of the warming; Support = my papers | The cycle as a Donor: nature gives warming, humans give the rest. |
+| FR | Many different FACTORS AFFECT Global temperature | factor.n; affect.v | `Contingency`; `Objective_influence` | Determinant = many factors; Outcome/Dependent_entity = global temperature | |
+| FR | NATURAL factors CAUSE temperature FLUCTUATIONS which make the MAN-MADE global warming SIGNAL less CLEAR | natural; cause.v; fluctuation.n; man-made; signal; clear.a | —; `Causation`; `Change_position_on_a_scale`; —; —; `Obviousness` | Cause = natural factors; Effect = fluctuations; Phenomenon = the man-made signal | Nature causes the *wiggles*; the trend is "man-made" (the `Artificiality` criterion "method of creation"). |
+| FR | CONFRONTING the HUMAN INFLUENCE on the climate | confront.v; influence.n | `Confronting_problem` / `Hostile_encounter`; `Objective_influence` | Influencing_entity = humans; Dependent_entity = the climate | The IPCC's own noun for the cause, made an adversary by the verb. |
+| FR | The natural INFLUENCES (volcanoes, solar cycles) on the TREND are VANISHINGLY SMALL compared with anthropogenic CO2 | influence.n; trend; small.a; vanishingly | `Objective_influence`; —; `Size`; — | Influencing_entity = volcanoes, solar cycles; Dependent_entity = the trend; Profiled_item = natural influences; Standard_item = CO₂ | "trend" **(gap)**. The comparison is scoped to the *trend*, which is what makes it compatible with Rahmstorf's own view that natural variability explains the decadal slowdown (case 02). |
+
+**What Mode A gave for Pair 5.** Both sides put nature and humans into the same causal frames — `Causation`, `Objective_influence`, `Contingency` — and the only question the frames leave open is the share. The verbs then do quiet work the frames expose: Loehle's "caused" and "contributed" make the cycle an actor and a donor; Scafetta's "produced" makes the IPCC's warming a manufactured product; Foster's "cause … fluctuations" gives nature the wiggles and keeps the trend "man-made". The adjective pair *natural / man-made* has no lexical units of its own, but it is the `Artificiality` frame's stated criterion (method of creation, identity of creators), which means the partition of warming into natural and human parts is, at the lexical level, a partition into the genuine and the made. And the one sentence that states the LS mechanism (LS-16) is hedged by `Possibility` ("MAY") and "somehow", a hedge the headline claims (LS-4, LS-14) do not carry.
+
+### Mode B — frames, metaphors, construal, scenario
+
+**The shared frame: THE PARTITION — warming is a sum of a natural part and a human part.** Both sides reason inside it: "about 60% … natural" and "at least 2/3" on one side, "vanishingly small compared with anthropogenic CO₂" and "100% produced by anthropogenic forcing" (Scafetta's statement of the IPCC's position) on the other. The frame's roles are two Contributors, a Total, and Shares; its entailment is that the shares sum to one and that each is a quantity nature or humans "gave". Hidden: (a) the two contributors are not the same kind of thing — one is a list of measured forcings and a modelled response, the other a label for whatever is attributed to cycles (LS) or to short-term variability (FR) — so the shares are shares of a construction, not readings of two gauges; (b) the shares depend on the window (1970–2000 is the window both sides quote, because it is where the 60-year cycle's warming phase and the strongest greenhouse forcing coincide); (c) feedbacks amplify whatever forces the system, so a "natural share" and a "human share" are not independent; (d) the partition frame leaves no role for the question that the scientific literature actually asks, which is about the response to specific forcings, measured against indices — a question with answers of the form "likely range 0.8–1.3 °C" rather than "60%".
+
+**Natural as a moral category.** "Natural" carries three entailments beyond "not caused by us": not our responsibility, not within our control, and normal rather than aberrant (the Artificiality frame's valence runs genuine > made). In Deborah Stone's terms, a large natural share moves warming from an *inadvertent* causal story (a side-effect of human conduct, with a remedy in conduct) toward a *mechanical* one (no one's doing; adapt). A large human share does the reverse. The percentages are therefore moral arithmetic as much as physics, which is why 60% against "vanishingly small" is argued with the heat of Pair 3.
+
+**The cycle.** "Cycle", "phase", "warming phase", "oscillation": the WHEEL or SEASON schema — recurrence, predictability, inevitability. Entailments pressed: what goes up comes down (LS-7's "cooling/flat till 2030"); the future repeats the past; there is nothing to confront. Entailments hidden: a 60-year period found in 160 years of record has fewer than three repetitions; a "cycle" is a description of a shape, and its mechanism is the hedged sentence in LS-16 ("MAY somehow affect"); and, as FrameNet's lexical gap suggests, "cycle" in this sense is a technical term doing the work of a metaphor.
+
+**Fluctuation versus cycle: the same wiggles, two names.** Foster's "natural factors cause temperature fluctuations" and Loehle's "natural 60-year climatic cycle" name the same departures from a straight line. "Fluctuation" (`Change_position_on_a_scale`) construes them as random and short — noise around a signal; "cycle" construes them as deterministic and long — a signal in their own right. The naming *is* the dispute: whether the decadal wiggles are what you remove to see the trend or what the trend partly is.
+
+**Scope of "natural influence".** Rahmstorf's "vanishingly small" is scoped to "the trend"; in the same years he attributes the 1998–2012 slowdown mainly to ENSO and the PDO (case 02, M-side). The two are compatible — one is about the long-term rate, the other about a decade's departure from it — but a listener who hears "natural influences are vanishingly small" and then hears "natural variability explains the slowdown" hears a contradiction, and the sceptical side's "nature causes most of it" trades on that hearing. Construal of scope is the variable.
+
+**"The human influence."** The IPCC's own noun is `Objective_influence`, deliberately mild. LS-2's "Human Effect on Climate" is the same frame. Foster's "confronting the human influence" makes the influence an Issue or an Opponent; the noun did not do that. Across the pair, the mainstream side's causal nouns are mild and its verbs are strong; the sceptical side's causal nouns ("natural cycle") are strong and its one mechanism sentence is weak.
+
+**Scenario / narrative.** LS: nature is the protagonist, humans a minor contributor, the plot a wheel that will turn down after 2000 and the moral "not alarming". FR: humans are the protagonist, nature the noise around their signal, the plot a persisting trend and the moral "confront". Both are complete Entman frames; neither sentence marks that its percentage rests on a construction.
+
+### Substance notes (not framing)
+
+The assessments do not state attribution as a percentage split but as a response to forcings with a range: AR5, "the best estimate of the human-induced contribution to warming is similar to the observed warming over this period" (1951–2010); AR6, a likely human-caused warming of 0.8–1.3 °C against the observed rise to 2010–2019, with natural drivers at –0.1 to +0.1 °C (`climate-science-evolution/06-assessment-language.md`, [P]). Loehle and Scafetta's "about 60% natural" for 1970–2000 depends on treating a 60-year fit to the pre-1950 record as a natural forcing with a known future; the mechanism is stated only as LS-16's hedge; and the window is the one in which such a cycle, if real, would subtract most. Foster & Rahmstorf's "natural factors" (ENSO, volcanic aerosols, solar irradiance) are measured independently and account for the short-term fluctuations they were fitted to; whether multidecadal internal variability also contributes to the 1970–2000 trend is a live question (P13), which Rahmstorf's "vanishingly small" — scoped to the trend over 1979–2010 — does not settle for longer periods. The partition frame is where both sides are weakest, because it asks for a number the science does not produce in that form.
+
+### Second looks
+
+*If a friend says:* "Even their own numbers say 60 percent of the warming was a natural cycle — we're only responsible for a third."
+
+> The "60 percent natural" is a share of a construction: it is what is left after fitting a 60-year cycle to the record before 1950 and assuming the cycle continues. Whether that cycle is a force in nature or a shape in the data is the whole question, and the authors' own answer — they "assume that this MAY somehow affect solar output" — is more cautious than the headline. "Natural" also carries a moral load (not our doing, not ours to fix) that a percentage can't carry on its own. The question to ask is what the cycle's mechanism is and what it predicted for after 2000 — flat or cooling until 2030 — and what happened.
+
+*If I say (or a mainstream friend says):* "Natural influences on the trend are vanishingly small — it's essentially all us."
+
+> "Vanishingly small" is true of the specific things measured — volcanoes and the solar cycle — on the long-term trend, and it is not the same claim as "nature does nothing": the same scientists attribute the decade-long slowdown after 1998 mainly to ocean variability, which is natural too. A sceptical friend hears the two statements as a contradiction unless the scope is stated — the long-term rate versus departures from it. And the percentage framing itself is the weak ground; the assessments give a range for the human-caused warming, not a split.
+
+---
+
+## After five pairs: what the two modes gave, and what to do next
+
+**Added by Pairs 4 and 5.** The contest/verdict pair (P4) showed the two sides inside different frames for once — `Beat_opponent` against `Cause_to_end` — while sharing the one move that decides the pause dispute: a trend computed over a window chosen by the speaker and a significance test read as the verdict. That is the hinge into case 02. The causes pair (P5) found the deepest shared frame in the case, the partition of warming into natural and human shares, and FrameNet's quiet contribution to it — that *natural / man-made* is the `Artificiality` frame's own criterion, so the partition is lexically a partition into the genuine and the made, with the moral load that carries. It also found the case's clearest asymmetry of hedging: the sceptical side's only mechanism sentence (LS-16) is hedged twice, its headline claims (LS-4, LS-14) not at all; the mainstream side's careful statement (FR-2) is in the body, its verdicts (FR-4, FR-7, FR-8) in the headlines. Both sides hedge where readers do not look.
 
 **Mode A (FrameNet-literal) earned its place, within a boundary.** It is exact, checkable, and it produced findings I would not have reached by reading: that "pause" evokes a frame with an Agent slot and a built-in resumption; that "valid" is at base a normative word; that *alarming* sits in a lexical family whose base is a warning bell; that both sides' deception vocabulary lands in one three-frame cluster with identical role assignments; that "man-made" is the `Artificiality` frame's own criterion applied to warming. Its boundary is sharp: FrameNet has nothing for the technical vocabulary — fit, filter, factor out, signal, noise, trend, cycle, oscillation, model, attribution, forcing, urgency, circular (reasoning) — and those are the words that carry each side's claim about method. So Mode A is strong on the *social and epistemic* layer of a statement (who is cast as what; how certain; how authentic) and silent on the *technical* layer, where the inferential work is done by domain scripts that have to be written by hand.
 

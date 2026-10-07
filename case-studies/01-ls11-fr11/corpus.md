@@ -83,6 +83,20 @@ Typographical slips in the originals are kept (`[sic]` where a reader might othe
 
 > I just would like to advise the readers of this blog, in particular those with modest scientific knowledge, to take his unfair and unprofessional comments with the proper skepticism.
 
+**LS-14** — Scafetta, 2012-03-11, baseline section.
+
+> In fact, the IPCC models assume that the 1970-2000 warming is 100% produced by anthropogenic forcing (compare figures 9.5a and 9.5b in the IPCC report) while the 60-year natural cycle (plus the other cycles) contributed at least 2/3 of the 1970-2000 warming, as proven in my papers.
+
+**LS-15** — Scafetta, 2012-03-11, on the widget and on his paper's Figure 6.
+
+> On the contrary, the data continue to be in reasonable agreement with my empirical model, which I remind, is constructed as a full forecast since Jan/2000.
+
+> It is evident from the figure above that my model (blue curve) agrees very well with the temperature 4-year smooth component, while the IPCC projection is always worst, and statistically diverges from the temperature since 2006.
+
+**LS-16** — Loehle, WUWT comment, 2011-07-25 4:13 pm, replying to Willis Eschenbach and Steven Mosher.
+
+> We do not ascribe "magical properties" to a fitted curve. We observe that there is a regular orbital oscillation of the sun–this orbit pattern is fixed and calculable. We assume that this MAY somehow affect solar output/magnetic field etc. We then test if this pattern matches the temperature pattern.
+
 ---
 
 ## FR side — Foster & Rahmstorf 2011
@@ -155,6 +169,16 @@ Lexical note (not part of the quotation): *Bauernfänger*, literally "peasant-ca
 >
 > […] it looks like commenters at their site want to torpedo the truth.
 
+**FR-14** — Rahmstorf, *KlimaLounge*, 2012-09-27, the second of two reasons given for the agreement of the CO₂ and temperature curves. Capture as FR-10; translation from the review packet.
+
+> (2) Die natürlichen Einflüsse (Vulkane, Sonnenzyklen) auf den Trend sind verschwindend gering im Vergleich zum anthropogenen CO2 (siehe z.B. Lean & Rind 2008, Foster & Rahmstorf 2011).
+>
+> *(2) The natural influences (volcanoes, solar cycles) on the trend are vanishingly small compared with anthropogenic CO2 (see e.g. Lean & Rind 2008, Foster & Rahmstorf 2011).*
+
+**FR-15** — Foster, "The Real Global Warming Signal," 2011-12-06, on the trend-rate test.
+
+> None of the data sets shows any evidence that the global warming rate has changed recently. A truly fascinating result is that increased precision enables us to establish the statistical significance of a warming trend using a shorter time span than with unadjusted data. All five data sets show statistically significant warming since 2000.
+
 ---
 
 ## Pairs
@@ -164,8 +188,8 @@ Lexical note (not part of the quotation): *Bauernfänger*, literally "peasant-ca
 | **P1** | Frame the **method**: what the analysis does to the record and why it is trustworthy | LS-1, LS-5, LS-6 | FR-1, FR-2, FR-3, FR-7 | analysed in `analysis.md` |
 | **P2** | Frame the **headline result** and its evaluation: what the number means for us | LS-2, LS-3, LS-7 | FR-6, FR-8, FR-3 | analysed |
 | **P3** | Frame the **opponent**: who the other side is and what they are doing | LS-8, LS-9, LS-10, LS-13 | FR-1, FR-4, FR-5, FR-10, FR-11, FR-12, FR-13 | analysed |
-| P4 | Frame the **contest and its scoring**: forecast vs. forecast, pause vs. no pause | LS-11, LS-12, LS-7 | FR-4, FR-7, FR-9, FR-8 | queued — feeds the "pause/hiatus" case |
-| P5 | Frame **nature and humans as causes**: who or what is acting on the climate | LS-4, LS-6 | FR-1, FR-6 | queued |
+| **P4** | Frame the **contest and its scoring**: forecast vs. forecast, pause vs. no pause | LS-11, LS-12, LS-7, LS-15 | FR-4, FR-7, FR-8, FR-9, FR-15 | analysed; continued in case 02 (the pause/hiatus) |
+| **P5** | Frame **nature and humans as causes**: who or what is acting on the climate | LS-4, LS-6, LS-14, LS-16 | FR-1, FR-6, FR-14 | analysed |
 
 ## What is deliberately *not* in this corpus
 
