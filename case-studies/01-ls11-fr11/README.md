@@ -1,6 +1,6 @@
 # Case study 01 — Loehle & Scafetta 2011 and Foster & Rahmstorf 2011: the public communications
 
-**Status:** v0.1, 2026-10-05.
+**Status:** v0.2, 2026-10-06 (all five pairs analysed).
 
 ## Why this pair
 
@@ -10,8 +10,8 @@ Two 2011 papers on the same question — how much of recent warming is anthropog
 
 | File | Contents |
 |---|---|
-| `corpus.md` | Thirteen statements from each side, quoted verbatim with author, venue, date and capture file; German originals with the review packet's translations; five pairs defined by the job the statements do. |
-| `analysis.md` | Pairs P1 (the method), P2 (the headline and its evaluation), P3 (the opponent) analysed in Mode A (FrameNet-literal) and Mode B (frames, metaphors, construal, narrative), each with substance notes kept separate and two second looks — one for the sceptical version of the claim, one for the mainstream version. Ends with an assessment of the two modes and open questions. |
+| `corpus.md` | Sixteen statements from the L&S side and fifteen from the F&R side, quoted verbatim with author, venue, date and capture file; German originals with the review packet's translations; five pairs defined by the job the statements do. |
+| `analysis.md` | Pairs P1 (the method), P2 (the headline and its evaluation), P3 (the opponent), P4 (the contest and its scoring) and P5 (nature and humans as causes), each analysed in Mode A (FrameNet-literal) and Mode B (frames, metaphors, construal, narrative), with substance notes kept separate and two second looks — one for the sceptical version of the claim, one for the mainstream version. Ends with an assessment of the two modes. |
 
 ## Sources
 

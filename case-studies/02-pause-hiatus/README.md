@@ -1,0 +1,22 @@
+# Case study 02 — the "pause", the "hiatus", the slowdown (2006–2018)
+
+**Status:** v0.1, 2026-10-06, written unattended. Several primaries quoted through secondaries; see the provenance classes in `corpus.md`.
+
+## Why this case
+
+The slower surface warming after the 1998 El Niño is the clearest instance in climate discourse of a contest over a *name* — stopped, no warming at all, the Pause, hiatus, slowdown, fluctuation — in which the mainstream adopted the other side's word, defined it, argued with itself about whether it should have, and was then accused of erasing the thing when the data changed. The science is settled (`climate-science-evolution/02-problems/P08`, `RESOLVED` 2015–17), which makes the case a clean test of what framing analysis adds once the facts are not in dispute. It continues case 01's Pair 4 (the window-and-significance move).
+
+## Files
+
+| File | Contents |
+|---|---|
+| `corpus.md` | Nine S-side and thirteen M-side statements, 2006–2018, with provenance classes (`[C]` verified capture, `[W]` fetched this session, `[W-x]` fetched as fragments, `[S]` through a secondary, `[P-08]` via the evolution project's in-original reading); four pairs by job. |
+| `analysis.md` | Q1 the naming scale; Q2 the inference about the models; Q3 the scoreboard; Q4 the meta-pair (airbrushing vs. seepage). Each in both modes with substance notes and two second looks; closes with five additions to the method and open questions. |
+
+## Verification
+
+`[C]` statements are checked by `scripts/check_quotes.py` against the paper-behavior captures. `[W]` statements were quoted as the fetch tool returned them and can be re-fetched; `[S]` and `[W-x]` statements are the ones to capture properly with the in-app browser before this case is relied on (IPCC AR5 SPM §B.1 and §D.1 and chapter 9 Box 9.2; Koonin, WSJ 2014; Carter, Telegraph 2006; Rose, Daily Mail 2012; Monckton, WUWT 2017; Homewood, WUWT 2013; Muller, NYT 2013).
+
+## Reading order
+
+`analysis.md` Q1 (the naming scale) is the case's main result; Q4 is the shortest and the most symmetric; Q2 and Q3 carry the substance.

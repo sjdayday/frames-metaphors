@@ -1,8 +1,8 @@
 # References
 
-**Status:** v0.1, 2026-10-05.
+**Status:** v0.2, 2026-10-06 (case 02 sources added).
 
-**Verification tags.** `[V]` — the publisher's or an institutional repository's record for the item was found during this pass (2026-10-05) and the title, authors, venue and year checked against it; volume, issue and page numbers marked `(m)` were supplied from memory and not seen on the record. `[V-s]` — confirmed only through a secondary listing (a citing site, a reference list, an author's page). `[K]` — a standard reference, not re-verified this pass; check before relying on a detail. Items are listed once, by the section where they are most used.
+**Verification tags.** `[V]` — the publisher's or an institutional repository's record for the item was found during a pass (2026-10-05 or 2026-10-06) and the title, authors, venue and year checked against it; volume, issue and page numbers marked `(m)` were supplied from memory and not seen on the record. `[V-s]` — confirmed only through a secondary listing (a citing site, a reference list, an author's page). `[K]` — a standard reference, not re-verified; check before relying on a detail. `[S]`, `[W-x]`, `[P-08]` — as defined in `case-studies/02-pause-hiatus/corpus.md`. Items are listed once, by the section where they are most used.
 
 ## Cognitive linguistics — frames, metaphor, construal
 
@@ -61,6 +61,34 @@
 - Nerlich, B., Koteyko, N., & Brown, B. (2010). Theory and language of climate change communication. *WIREs Climate Change*, 1(1), 97–110 (m). doi:10.1002/wcc.2 `[V]`
 - Russill, C., & Nyssa, Z. (2009). The tipping point trend in climate change communication. *Global Environmental Change*, 19(3), 336–344. `[V]`
 - van der Hel, S., Hellsten, I., & Steen, G. (2018). Tipping points and climate change: Metaphor between science and the media. *Environmental Communication*, 12(5), 605–620 (m). `[V-s]`
+
+## The pause/hiatus literature (case 02)
+
+- Fyfe, J. C., Meehl, G. A., England, M. H., et al. (2016). Making sense of the early-2000s warming slowdown. *Nature Climate Change*, 6(3), 224–228. doi:10.1038/nclimate2938 `[V]` (abstract fetched 2026-10-06)
+- Hausfather, Z., et al. (2017). Assessing recent warming using instrumentally homogeneous sea surface temperature records. *Science Advances*, 3, e1601207. `[K]` (as cited in `P08`)
+- Karl, T. R., et al. (2015). Possible artifacts of data biases in the recent global surface warming hiatus. *Science*, 348(6242), 1469–1472 (m). `[K]` (title as cited in `P08`; the abstract page was blocked)
+- Kosaka, Y., & Xie, S.-P. (2013). Recent global-warming hiatus tied to equatorial Pacific surface cooling. *Nature*, 501, 403–407 (m). `[K]` (title as cited in `P08`)
+- Medhaug, I., Stolpe, M. B., Fischer, E. M., & Knutti, R. (2017). Reconciling controversies about the "global warming hiatus." *Nature*, 545(7652), 41–47. doi:10.1038/nature22315 `[V]` (abstract fetched 2026-10-06)
+- Met Office (2013, July). *The recent pause in global warming (2): What are the potential causes?* (one of three reports under the series title *The recent pause in global warming*). `[V]` (PDF fetched 2026-10-06 from the Met Office site)
+- Rahmstorf, S., Foster, G., & Cahill, N. (2017). Global temperature evolution: recent trends and some pitfalls. *Environmental Research Letters*, 12, 054001. `[K]` (as cited in `P08`; the record was blocked)
+- Thorne, P., Outten, S., Bethke, I., & Seland, Ø. (2015). Investigating the recent apparent hiatus in surface temperature increases: 2. Comparison of model ensembles to observational estimates. *Journal of Geophysical Research: Atmospheres*, 120. `[V]` (PDF fetched 2026-10-06 from the Maynooth repository; used for its verbatim quotation of AR5 Box 9.2)
+- IPCC (2013). *Climate Change 2013: The Physical Science Basis*, Working Group I, Summary for Policymakers §B.1 and §D.1; Chapter 9, Box 9.2. `[S]` — the IPCC servers were unreachable from the cloud environment; sentences are quoted through Rahmstorf (RealClimate, 2013-12-17), the Grantham Institute Briefing Note 1 (Buckle & MacTavish, September 2013) and Thorne et al. 2015, and should be checked against the PDF.
+
+## Primary statements used in the cases
+
+- Carter, R. M. (2006, April 9). There IS a problem with global warming… it stopped in 1998. *The Telegraph*. `[S]` (headline via Wikipedia; page blocked)
+- Curry, J. (2013, September 30). IPCC's pause 'logic'. *Climate Etc.* `[V]` (PDF copy fetched 2026-10-06 from a Harvard course site)
+- Homewood, P. (2013, September 29). Hide the decline. *Watts Up With That* (guest post). `[W-x]` (fetched as fragments)
+- Koonin, S. E. (2014, September 19). Climate science is not settled. *Wall Street Journal*. `[P-08]` (read in full by the evolution project from the Wayback Machine; blocked from here)
+- Lindsey, R. (2018, September 4). Did global warming stop in 1998? *NOAA Climate.gov*. `[V]` (fetched 2026-10-06)
+- Monckton of Brenchley, C. (2015, September 4). The Pause lengthens yet again. *Watts Up With That*. `[V]` (fetched 2026-10-06)
+- Monckton of Brenchley, C. (2017, July 7). How they airbrushed out the inconvenient Pause. *Watts Up With That*. `[W-x]` (fetched as fragments)
+- Muller, R. A. (2013). A pause, not an end, to warming. *The New York Times* (op-ed), as quoted on Berkeley Earth, "Global Warming Pause?" `[S]`
+- Rahmstorf, S. (2013, December 17). The global temperature jigsaw. *RealClimate*. `[V]` (fetched 2026-10-06)
+- Rose, D. (2012, October 13). Global warming stopped 16 years ago, reveals Met Office report quietly released… *Daily Mail*. `[S]` (headline from the URL; page blocked)
+- Bastasch, M. (2015, April 24). Global warming 'pause' extends nearly 18 and a half years. *Daily Caller*. `[V]` (fetched 2026-10-06; quotes Monckton)
+- Buckle, S., & MacTavish, F. (2013, September). *The slowdown in global mean surface temperature rise* (Grantham Briefing Note 1). Imperial College London. `[V]` (PDF fetched 2026-10-06)
+- Pidcock, R. (2013, July 25). Taking Earth's temperature: three Met Office reports examine the warming pause… *Carbon Brief*. `[V]` (fetched 2026-10-06; quotes the Met Office reports)
 
 ## Primary statements used as examples
 

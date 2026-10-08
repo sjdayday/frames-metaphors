@@ -1,6 +1,6 @@
 # Unpacking a claim in conversation — protocol v0.1
 
-**Status:** v0.1, 2026-10-05, drafted from the first three paired analyses in `case-studies/01-ls11-fr11/`. To be revised as cases accumulate.
+**Status:** v0.2, 2026-10-06 — v0.1 drafted from the first three pairs of case 01; v0.2 adds the reification marks and the "significant" translation to Step 1 and the naming scale, frame concession and meta-frames to Step 2, from case 01 pairs 4–5 and case 02. To be revised as cases accumulate.
 
 ## The use case
 
@@ -35,7 +35,13 @@ Scan the paraphrase for the words FrameNet covers well — the social and episte
 | influence, affect, cause, drive | `Objective_influence`, `Causation` | who or what is acting on what |
 | calibrate, adjust, correct | `Adjusting`, `Correctness` | bringing a part into accord with a standard — which presupposes a standard |
 
-The scan takes a minute and its value is that it is blind to allegiance: it catches the loaded word whichever side it comes from. Record gaps too (fit, filter, signal, noise, trend, cycle, model, urgency): those words are carrying a domain script that has to be stated by hand in Step 2.
+The scan takes a minute and its value is that it is blind to allegiance: it catches the loaded word whichever side it comes from. Record gaps too (fit, filter, signal, noise, trend, cycle, model, urgency, hiatus, slowdown): those words are carrying a domain script that has to be stated by hand in Step 2.
+
+Three things to flag in the scan that are not words (from case 02):
+
+- **Reification marks**: a capital letter on a common noun ("the Pause"), a definite article on a contested thing ("the pause", "the real signal", "the consensus"), a length or a record attached to it. These turn a description into an object, and objects can only be removed by an act — which is where "airbrushed", "hidden", "adjusted away" come from.
+- **"Significant"**: FrameNet's only sense is *important*, which is the lay reading. Whenever the word appears in a claim about a trend, translate the statistical sense in one clause ("a test over a chosen window, not a size").
+- **A date inside the name** ("stopped in 1998", "since 1997", "16 years ago"): the start of a window presented as the moment something happened. Ask what was special about that start.
 
 ### Step 2 — The frame that is carrying the argument (Mode B)
 
@@ -48,6 +54,10 @@ Pick the one or two frames or metaphors doing the inferential work, and for each
 - **The symmetric instance.** The same frame in use on the other side, quoted. If none can be found, say so — that is itself a finding.
 
 Where the claim rests on a technical script (a decomposition, a comparison of two numbers, a test of a forecast), state the script's roles and the condition under which its inference is licensed (e.g., for subtraction: the "known" components must be known independently of the record).
+
+**The naming scale** (case 02). When the claim turns on what a phenomenon is called, list the names in play and order them by what each presupposes about *before* and *after* and by the explanatory burden each imposes. For the slower warming after 1998: STOPPED (ended; nothing to explain about a resumption) → NO WARMING AT ALL (a zero) → THE PAUSE (suspended; resumption built in; an agent invited) → HIATUS (a gap in a continuing sequence) → SLOWDOWN (continuing, slower) → FLUCTUATION (routine; nothing to explain). The second look then names which point on the scale the speaker chose and which the evidence supports, and notes any **frame concession** — the other side's noun adopted, with its presupposition — and how it was handled (adopted and explained; adopted and disarmed; adopted and redefined; refused with scare quotes).
+
+**Meta-frames.** When the claim is about the other side's *process* rather than the data — "airbrushed", "seepage", "manufactured", "hide the decline" — the argument has left the series. Say so, and go back to the checkable thing: was the change published with its method; was it tested against independent records; what did the other datasets do.
 
 ### Step 3 — Substance, kept separate
 

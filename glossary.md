@@ -1,6 +1,6 @@
 # Glossary — the vocabulary this project uses, with one climate example each
 
-**Status:** v0.1, 2026-10-05. Terms are grouped by the level of analysis they belong to. Definitions are deliberately plain; the sources behind them are in `references.md`. Examples are drawn from `case-studies/01-ls11-fr11/` where possible, so that each term can be seen doing work on a real statement.
+**Status:** v0.2, 2026-10-06 (reification, naming scale, frame concession and meta-frame added from case 02). Terms are grouped by the level of analysis they belong to. Definitions are deliberately plain; the sources behind them are in `references.md`. Examples are drawn from `case-studies/01-ls11-fr11/` where possible, so that each term can be seen doing work on a real statement.
 
 ---
 
@@ -66,6 +66,16 @@
 
 **Presupposition.** What a sentence takes for granted rather than asserts, so that denying the sentence does not deny it. Definite descriptions ("the X") presuppose that X exists; "fake X" presupposes a real X; "not alarming" presupposes an alarm.
 *Example.* "the idea that the global warming trend has slowed or even **paused**": the definite "the pause" (common in both sides' writing) presupposes there is one; the argument then becomes whether it is explained, rather than whether it exists.
+
+**Reification.** Turning a description into a thing by grammatical means — a capital letter, a definite article, a length, a record. Once a thing, it can only be removed by an act, so its disappearance from later data has to be someone's doing.
+*Example.* Monckton's "the Pause", which "lengthens" and "sets a new record"; when the RSS record was revised the Pause had been "airbrushed out" (case 02, Q1 and Q4).
+
+**Naming scale.** This project's instrument for a contested phenomenon: the names in play, ordered by what each presupposes about before and after and by the explanatory burden it imposes. Each name sets who owes an explanation of what.
+*Example.* STOPPED → NO WARMING AT ALL → THE PAUSE → HIATUS → SLOWDOWN → FLUCTUATION for the slower warming after 1998; "pause" and "hiatus" demand an explanation of a gap, "fluctuation" says none is needed (case 02, Q1).
+
+**Frame concession.** Adopting the other side's noun, and with it the noun's presupposition. Four ways it was handled in one episode: adopt and explain (the Met Office's "recent pause"), adopt and disarm in the title (Muller's "A Pause, Not an End"), adopt and redefine (the IPCC's "hiatus, defined as the reduction in trend"), refuse with scare quotes or "putative" (Rahmstorf; Lewandowsky et al.). Each has a cost a second look can name.
+
+**Meta-frame.** A frame about the other side's *process* rather than about the data — contamination ("seepage"), falsification ("airbrushed out", "hide the decline"), manufacture ("manufactured consensus"). Its appearance marks that the argument has left the series; the second look goes back to what is checkable.
 
 **Mode B.** This project's name for analysis with the tools in sections B–E: scripts, metaphors and their entailments, construal, metonymy, narrative cast. It does the inferential work; it is interpretive, so every attribution must be anchored in a quoted word ("did they say it?").
 

@@ -1,6 +1,6 @@
 # frames-metaphors
 
-**Status:** v0.1, 2026-10-05. A working analysis, meant to be revised. Written by Claude at Steve's request; everything here is a draft to be checked, not a source. The brief is `frames-metaphors-context` (kept as written).
+**Status:** v0.2, 2026-10-06. A working analysis, meant to be revised. Written by Claude at Steve's request; everything here is a draft to be checked, not a source. The brief is `frames-metaphors-context` (kept as written).
 
 ## Purpose
 
@@ -28,9 +28,10 @@ The concrete use case: Steve, in conversation with a climate-sceptical friend, w
 | `glossary.md` | The vocabulary used here, grouped by level of analysis, with one climate example per term. |
 | `references.md` | Sources, each tagged by how it was verified (`[V]`, `[V-s]`, `[K]`). |
 | `method/unpack-protocol.md` | The in-conversation procedure (v0.1): fix the paraphrase; lexical scan; the frame carrying the argument; substance kept separate; the second look. |
-| `case-studies/01-ls11-fr11/` | Case 01: paired public communications about Loehle & Scafetta 2011 and Foster & Rahmstorf 2011. `corpus.md` (statements with provenance and pairing), `analysis.md` (pairs P1–P3 in both modes, substance notes, second looks, assessment of the modes), `README.md`. |
-| `framenet/framenet-frames-used.md` | Generated reference: full FrameNet 1.7 records (definition, frame elements with core types, relations, lexical units) for every frame used in annotations. |
-| `scripts/fn_lookup.py`, `scripts/fn_dump.py` | Look up lexical units for words; regenerate the frames reference. Require NLTK with the `framenet_v17` corpus (see below). |
+| `case-studies/01-ls11-fr11/` | Case 01: paired public communications about Loehle & Scafetta 2011 and Foster & Rahmstorf 2011. `corpus.md` (16 + 15 verbatim statements with provenance, five pairs), `analysis.md` (pairs P1–P5 in both modes, substance notes, second looks, assessment of the modes), `README.md`. |
+| `case-studies/02-pause-hiatus/` | Case 02: the "pause"/"hiatus"/slowdown, 2006–2018. `corpus.md` (9 + 13 statements with provenance classes; four pairs), `analysis.md` (Q1 the naming scale; Q2 the inference about the models; Q3 the scoreboard; Q4 the meta-pair; additions to the method), `README.md`. |
+| `framenet/framenet-frames-used.md` | Generated reference: full FrameNet 1.7 records (definition, frame elements with core types, relations, lexical units) for the 116 frames used in annotations. |
+| `scripts/fn_lookup.py`, `scripts/fn_dump.py`, `scripts/check_quotes.py` | Look up lexical units for words; regenerate the frames reference; verify quotations against the paper-behavior captures. The first two require NLTK with the `framenet_v17` corpus (see below). |
 
 ## The climate folders
 
@@ -50,14 +51,17 @@ FrameNet 1.7 is used offline through NLTK (`nltk.corpus.framenet`). The data fil
 
 ## Status and next steps
 
-**Done in v0.1.** Scaffolding; glossary; verified reference list; FrameNet 1.7 loaded and the frames reference generated; case 01 corpus (13 + 13 statements, five pairs defined); pairs P1–P3 analysed in both modes with substance notes and second looks; protocol v0.1.
+**Done in v0.1 (2026-10-05).** Scaffolding; glossary; verified reference list; FrameNet 1.7 loaded and the frames reference generated; case 01 corpus and pairs P1–P3 in both modes; protocol v0.1. Steve's decisions on the v0.1 open questions: the second-look register stays; substance notes stay in the case files; Mode A tables stay in full.
 
-**Findings so far** (from `case-studies/01-ls11-fr11/analysis.md`): both sides describe their method with the same subtraction script and the other side's with the same contamination register; both use the same three deception frames with identical role assignments and the lay reader as victim; both claim the word "skeptic" through the same frame; "pause" evokes a frame with an agent and a built-in resumption; the technical vocabulary that carries each side's claim about method is absent from FrameNet. Mode A is worth keeping as a quick, allegiance-blind first pass; Mode B does the inferential work.
+**Done in v0.2 (2026-10-06).** Case 01 completed (pairs P4 and P5; corpus extended to 16 + 15). Case 02 (the pause/hiatus) built from sources reachable from the cloud environment plus the case-01 captures: corpus with provenance classes, four pairs in both modes, additions to the method. Protocol v0.2 (reification marks, the "significant" translation, the naming scale, frame concession, meta-frames). Glossary v0.2. References v0.2.
 
-**Open with Steve.** The register and length of the second look; where substance notes should live; whether to keep full Mode A tables or summarize them.
+**Findings so far.** Case 01: both sides describe their method with the same subtraction script and the other side's with the same contamination register; both use the same three deception frames with identical role assignments and the lay reader as victim; both claim the word "skeptic" through the same frame; both reason inside a partition of warming into natural and human shares, which is lexically a partition into the genuine and the made (`Artificiality`); each side hedges where readers do not look. Case 02: the names for the slower warming after 1998 form a scale by explanatory burden (STOPPED → NO WARMING AT ALL → THE PAUSE → HIATUS → SLOWDOWN → FLUCTUATION); the mainstream's adoption of "pause"/"hiatus" was handled four ways (explain, disarm, redefine, refuse); capitalization, the definite article and a "record" reify a fitted trend into an object, which is why its revision later had to be an act ("airbrushed"); each side's account of the other's naming is a corruption frame (seepage vs. airbrushing); and FrameNet's lack of a statistical sense for "significant" is where the scoreboard works on lay readers in both directions. Across both cases: Mode A is a quick, allegiance-blind first pass; Mode B does the inferential work; the technical vocabulary is absent from FrameNet on both sides.
 
-**Queued.** Case 01 pairs P4 (the forecast contest and "pause") and P5 (nature and humans as causes); then the "pause/hiatus" case, the consensus / manufactured-consensus / settled cluster, and a single foundational metaphor ("greenhouse" or "fingerprint") traced from the technical literature into public use. A literature pass on climate-metaphor research (Nerlich, Koteyko, Deignan, Semino, Russill; Lakoff 2010 read as a primary statement) is listed in `references.md` and not yet read in full.
+**Open with Steve** (also at the end of `case-studies/02-pause-hiatus/analysis.md`): whether to capture the blocked primaries with the in-app browser; whether Lewandowsky et al. should be analysed symmetrically or read as literature; whether to add a small start-date-sensitivity figure to case 02.
+
+**Queued.** The consensus / manufactured-consensus / settled cluster (from `08`'s primary statements); a single foundational metaphor ("greenhouse" or "fingerprint") traced from the technical literature into public use; the literature pass on climate-metaphor research (Nerlich, Koteyko, Deignan, Semino, Russill; Lakoff 2010 read as a primary statement).
 
 ## Revision log
 
-- **v0.1 — 2026-10-05.** First pass, as above.
+- **v0.2 — 2026-10-06.** Case 01 pairs P4–P5; case 02 (four pairs); protocol, glossary and references to v0.2; frames reference regenerated (116 frames). Written unattended while Steve was offline; the commit author line is Steve's identity with Claude as co-author, as in v0.1.
+- **v0.1 — 2026-10-05.** First pass: scaffolding, glossary, references, protocol v0.1, case 01 pairs P1–P3.

@@ -1,6 +1,6 @@
 # FrameNet 1.7 frames used in frames-metaphors annotations
 
-Generated from the FrameNet 1.7 release as distributed with NLTK (`framenet_v17`), Berkeley FrameNet, ICSI. Frame and FE definitions are FrameNet's own text, lightly whitespace-normalized; FE definitions are truncated. Regenerate with `python3 scripts/fn_dump.py <Frame ...> > framenet/framenet-frames-used.md` (the frame list used is in the file name order below).
+Generated from the FrameNet 1.7 release as distributed with NLTK (`framenet_v17`), Berkeley FrameNet, ICSI. Frame and FE definitions are FrameNet's own text, lightly whitespace-normalized; FE definitions are truncated. Regenerate with `python3 scripts/fn_dump.py <Frame ...> > framenet/framenet-frames-used.md` (pass the frame names in the order they appear below).
 
 ## Artificiality  (frame id 1660)
 
@@ -246,6 +246,39 @@ This frame consists of words that indicate the change of an Item's position on a
 - Using: Change_position_on_a_scale → Remainder
 
 **Lexical units** (56): accelerated.a, advance.v, balloon.v, climb.v, contract.v, contraction.n, decline.n, decline.v, decrease.n, decrease.v, depressed.a, depression.n, diminish.v, dip.v, double.v, down.prep, drop.v, dwindle.v, edge.v, elevated.a, elevation.n, escalation.n, explode.v, explosion.n, fall.n, fall.v, fluctuate.v, fluctuation.n, gain.n, gain.v, grow.v, growing.a, growth.n, hike.n, increase.n, increase.v, increasingly.adv, jump.v, lower.v, move.v, mushroom.v, plummet.v, reach.v, rise.n, rise.v, rocket.v, shift.n, shift.v, skyrocket.v, slide.v, soar.v, swell.v, swing.v, triple.v, tumble.n, tumble.v
+
+## Cause_change_of_position_on_a_scale  (frame id 96)
+
+This frame consists of words that indicate that an Agent or a Cause affects the position of an Item on some scale (the Attribute) to change it from an initial value (Value_1) to an end value (Value_2). The direction of the change (Path) can be encoded as well as the magnitude of the change (Difference). The rate of change of the value (Speed) can optionally be indicated as well as a second scale (Co_Variable), which the values are correlated with. '' 'The company is raising the final dividend from 4.34p to 4.57p, to boost the total by 5.3 percent to 6.36p.' 'Similarly, a consumer boom will encourage the authorities to increase interest rates in order to keep money supply on target.' 'United Way of Central Indiana adds value to your investment.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The person who causes an entity (Item) to change its positon on a scale with respect to some property (Variable). |
+| Attribute | Core | The scale along which the Item ranges in value. 'They increased the price of oil.' |
+| Cause | Core | The force that causes the change. 'The rain increased the river's flow rate to an astonishing million gallons per second.' |
+| Item | Core | The entity whose position along a scale is being changed. 'Oil prices were raised yesterday.' |
+| Co-variable | Extra-Thematic | The Co-Variable is the scale that the (dependent ) Variable is measured against. 'We raise the temperature with the pressure' |
+| Difference | Peripheral | The distance between the orginial value (Value-1) and the final value (Value-2) of the entity on the scale (Variable). 'Coke raised the price of their soda by 2%.' |
+| Manner | Peripheral | Any description of the Agent changing the value of an Attribute which is not covered by more specific FEs, including secondary effects (quietly, loudly), and general descriptions comparing events (the same way). It may … |
+| Means | Peripheral | An act performed by the Agent that brings about the change in the position of the Item on the scale. 'They increase the price of diamonds by withholding a sizable portion of the supply.' |
+| Path | Peripheral | Any expression that says something about the movement of the entity (Item) along the scale between its initial (Value-1) and its final position (Value-2). 'They moved up the price of oil.' |
+| Place | Peripheral | The location where the Agent changes the value of an Attribute. 'As a result, they raised prices in Peoria.' |
+| Purpose | Extra-Thematic | The purpose for which an intentional act is performed. 'John flattered her to receive a raise.' |
+| Speed | Peripheral | The rate at which the entity's positon on the scale changes. 'Ford slowly raised the price of their best-selling model.' |
+| Time | Peripheral | When the event occurs. |
+| Value_1 | Peripheral | The initial value of the entity (Item) along the scale. |
+| Value_2 | Peripheral | The final position on the scale that the entity (Item) assumes. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_change_of_position_on_a_scale → Change_position_on_a_scale
+- Inheritance: Cause_change_of_position_on_a_scale → Cause_proliferation_in_number
+- Inheritance: Transitive_action → Cause_change_of_position_on_a_scale
+- ReFraming_Mapping: Cause_expansion → Cause_change_of_position_on_a_scale
+
+**Lexical units** (26): add.v, crank.v, curtail.v, cut.n, cut.v, decrease.v, development.n, diminish.v, double.v, drop.v, enhance.v, growth.n, increase.v, knock down.v, lift.v, lower.v, move.v, promote.v, push.n, push.v, raise.v, reduce.v, reduction.n, slash.v, step up.v, swell.v
 
 ## Objective_influence  (frame id 1084)
 
@@ -582,6 +615,33 @@ A Cognizer construes an Item as belonging to a certain Category. In this process
 - Using: Mental_activity → Categorization
 
 **Lexical units** (28): bracket.v, categorization.n, categorize.v, category.n, class.v, classification.n, classify.v, conceive.v, consider.v, construe.v, count.v, deem.v, define.v, identify.v, interpret.v, interpretation.n, peg.v, perceive.v, pigeonhole.v, read.v, regard.v, render.v, see.v, stereotype.v, translate.v, typecast.v, understand.v, view.v
+
+## Communicate_categorization  (frame id 796)
+
+A Speaker communicates a message stating an Item's membership in a Category, i.e., asserts that the Item has the defining characteristics of the Category. Alternatively, the message is conceived as communicated by a Medium. 'He depicted his involvement as merely peripheral.' 'The first half of the book portrays Bragg's mother as a beautiful and heartbroken woman'.
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Category | Core | The class of entities with characteristics that match those of the Item according to the portrayal of the Speaker. |
+| Item | Core | The entity that the Speaker portrays as belonging to a Category. |
+| Medium | Core | The piece of text in which a Speaker communicates their categorization of the Item. 'However, "A Brief History of Medicine" characterizes influenza as the most deadly plague, overall.' |
+| Speaker | Core | The individual that communicates the message concerning the Category of an Item. |
+| Circumstances | Extra-Thematic | The Circumstances under which the categorization is made. |
+| Criteria | Peripheral | The characteristics of an Item that fit the defining characteristics of a Category, and thus serve as the basis of the Speakers characterization of the Item . |
+| Duration | Extra-Thematic | Duration denotes the length of time from the beginning of a continuous situation (the one denoted by the target) to its end. In many cases, the continuous situation is a dynamic action which is ongoing, while in others … |
+| Manner | Peripheral | Any description of the event which is not covered by more specific FEs, including epistemic modification (probably, presumably, mysteriously), secondary effects (quietly, loudly), and general descriptions comparing … |
+| Means | Peripheral | An action taken by the Speaker through which they communicate that the Item fits into a particular Category. |
+| Place | Peripheral | The location at which the Speaker characterizes the Item |
+| Time | Peripheral | The point in time at which the Speaker makes a characterization of the Item. |
+
+**Frame relations** (super → sub)
+
+- ReFraming_Mapping: Categorization → Communicate_categorization
+- Using: Categorization → Communicate_categorization
+
+**Lexical units** (17): cast.v, characterization.n, characterize.v, define.v, definition.n, depict.v, depiction.n, describe.v, description.n, make out to be.v, paint.v, portray.v, redefine.v, redefinition.n, represent.v, representation.n, treat.v
 
 ## Removing  (frame id 63)
 
@@ -1006,6 +1066,112 @@ An Agent is performing the portion of an Activity in which there is dynamic stab
 
 **Lexical units** (6): carry on.v, continue.v, keep on.v, keep up.v, keep.v, maintenance.n
 
+## Activity_start  (frame id 146)
+
+An Agent initiates the beginning of an ongoing Activity in which he will be continuously involved. '' 'At the same time, city-states began to grow in influence on the southern Greek mainland.' 'Naturally, I started crying to get out of work.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Activity | Core | This FE identifies the Activity that an Agent starts. |
+| Agent | Core | This FE identifies the being that starts the intentional Activity. |
+| Circumstances | Extra-Thematic | Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. |
+| Co-timed_event | Extra-Thematic | This FE identifies the first Co-timed_event of the started Activity.'The peace march started with a prayer.' |
+| Communicative_force | Extra-Thematic | This FE indicates the Communicative_force or authority with which the target operates (often denoted by words such as "officially," "formally," "technically," etc.). |
+| Concessive | Extra-Thematic | This FE signifies that the state of affairs expressed by the main clause (containing the target) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in the … |
+| Containing_event | Extra-Thematic | This FE identifies an event during which the Agent starts the Activity. |
+| Depictive | Extra-Thematic | This FE identifies the Depictive phrase describing the actor or undergoer of an action. |
+| Event_description | Extra-Thematic | In general, this FE is used for phrases that describe the clause of the target as a whole. There are two somewhat distinct subgroups of sentence modifiers that cover this function. |
+| Explanation | Extra-Thematic | The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. I |
+| Manner | Peripheral | This FE identifies the Manner in which an Agent starts an Activity. |
+| Means | Peripheral | This FE identifies the Means by which an Agent starts an Activity. |
+| New_situation | Extra-Thematic | A consecutive event to the starting of the Activity of the Agent. |
+| Particular_iteration | Extra-Thematic | Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states. In addition, most … |
+| Place | Peripheral | This FE identifies the Place where the Agent starts an Activity. |
+| Purpose | Peripheral | This FE identifies the Purpose for which an Agent engages in a starting Activity. |
+| Time | Peripheral | This FE identifies the Time when the Agent starts an Activity. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Process_start → Activity_start
+- Precedes: Activity_ready_state → Activity_start
+- Precedes: Activity_start → Activity_ongoing
+- ReFraming_Mapping: Activity_start → Cause_to_start
+- ReFraming_Mapping: Traversing → Activity_start
+- Subframe: Activity → Activity_start
+- Using: Eventive_affecting → Activity_start
+
+**Lexical units** (14): begin.v, beginner.n, commence.v, enter.v, get started.v, initiate.v, launch (into).v, neophyte.n, open.v, set about.v, start.v, strike up.v, swing (into).v, take up.v
+
+## Process_start  (frame id 133)
+
+An Event begins at a certain Time and Place. Reason may also be indicated. NB: Refer to Event frame. 'The project began.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Depictive | Extra-Thematic | Depictive phrase describing the actor of an action. |
+| Duration | Extra-Thematic | The period of time for which the Process is ongoing after it has started. 'In three instances, violence erupted for brief periods.' |
+| Event | Core-Unexpressed | Name of the Event which occurs. ' The crying began after sunset.' |
+| Explanation | Extra-Thematic | The Explanation for which an Event occurs. |
+| Frequency | Extra-Thematic | The number of times that the specified type of Event begins. 'Clashes broke out twice because Kenneth had been arrested.' |
+| Initial_subevent | Extra-Thematic | The Initial_subevent of the Event.'The service began with a prayer.' |
+| Manner | Peripheral | Manner in which an action is performed. |
+| Place | Peripheral | Where the Event takes place. |
+| Result | Extra-Thematic | Result of the Event. |
+| Time | Peripheral | When the Event occurs. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_to_start → Process_start
+- Inchoative_of: Process_start → Process_continue
+- Inheritance: Event → Process_start
+- Inheritance: Process_start → Activity_start
+- Inheritance: Process_start → Come_into_effect
+- Precedes: Process_initial_state → Process_start
+- Precedes: Process_start → Process_continue
+- See_also: Transition_to_a_situation → Process_start
+- Subframe: Process → Process_start
+
+**Lexical units** (10): begin.v, break out.v, commence.v, commencement.n, erupt.v, eruption.n, incipient.a, nascent.a, onset.n, start.v
+
+## Process_continue  (frame id 145)
+
+An Event continues at a certain Place through Time. (Note that often when 'continue.v' occurs with definite time points, it denotes Resumption, which is out of frame here.) NB: Refer to Process frame. '' 'Pyongyang agreed to suspend its withdrawal while talks continued with Washington.' 'Missions and different plans proceed according to Islamic law provision.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Circumstances | Extra-Thematic | Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. |
+| Concessive | Extra-Thematic | This FE signifies that the state of affairs expressed by the main clause (containing the target) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in the … |
+| Depictive | Extra-Thematic | Depictive phrase about the state of a focal participant. 'The rain continued unabated.' |
+| Duration | Peripheral | This FE identifies the Duration of time over which the Event is ongoing. |
+| Event | Core-Unexpressed | Name of the Event which is continuing. |
+| Explanation | Extra-Thematic | The Explanation for which the Event occurs. |
+| Manner | Peripheral | Manner in which the Event is continuing. |
+| Next_subevent | Extra-Thematic | The Next_subevent of the overall Event.'The meeting continued with a discussion...' |
+| Place | Peripheral | Where the Event takes place. |
+| Time | Peripheral | When the Event occurs. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_to_continue → Process_continue
+- Inchoative_of: Process_start → Process_continue
+- Inheritance: Process_continue → Activity_ongoing
+- Inheritance: Process_continue → Sleep
+- Perspective_on: Delimited_state_scenario → Process_continue
+- Precedes: Process_continue → Process_end
+- Precedes: Process_continue → Process_pause
+- Precedes: Process_continue → Process_stop
+- Precedes: Process_resume → Process_continue
+- Precedes: Process_start → Process_continue
+- Subframe: Process → Process_continue
+
+**Lexical units** (9): continue.v, drag on.v, go on.v, on.adv, ongoing.a, persist.v, persistence.n, proceed.v, underway.a
+
 ## Process_stop  (frame id 144)
 
 A Process stops at a certain Time and Place. Reason may also be specified. A Duration may be included in order to indicate the length of the persistence of the Paused-state before action resumes. NB: Refer to Process frame. '' 'The strident, static-like hiss ceased abruptly.' 'The use of railway-owned vehicles on aggregates traffic ceased altogether in 1989.'
@@ -1036,6 +1202,33 @@ A Process stops at a certain Time and Place. Reason may also be specified. A Dur
 - Subframe: Process → Process_stop
 
 **Lexical units** (11): cease.v, cessation.n, desist.v, discontinuation.n, discontinue.v, halt.n, kill.v, quit.v, shut down.v, shutdown.n, stop.v
+
+## Cause_to_end  (frame id 1149)
+
+An Agent or Cause causes a Process or State to end. 'Bush may lift sanctions on his own, despite opposition.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The individual who causes the Process or State to end. |
+| Cause | Core | An event that causes the Process or State to end. 'That move ended her political career, she said in a 1994 Times Union interview.' |
+| Process | Core | A Process which is ended by the Agent or Cause. |
+| State | Core | A State which is ended by the Agent or Cause. 'We should end poverty.' |
+| Degree | Peripheral | The Degree to which the Process or State is brought to an end. |
+| Depictive | Extra-Thematic | Depictive phrase describing the actor of the event that causes the Process or State to end. |
+| Explanation | Extra-Thematic | The Explanation for why the Process or State is ended. |
+| Manner | Peripheral | The Manner of causing the Process or State to end. |
+| Means | Peripheral | An action of the Agent that causes the Process or State to end. |
+| Place | Peripheral | The location where the Process or State is caused to end. 'They ended their relationship in the same coffeehouse where it started.' |
+| Time | Peripheral | The Time when the Process or State is ended. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_to_end → Process_end
+- Inheritance: Transitive_action → Cause_to_end
+
+**Lexical units** (7): abort.v, arrest.v, do away with.v, end.v, lift.v, lifting.n, put an end to.v
 
 ## Stimulus_focus  (frame id 364)
 
@@ -1588,6 +1781,30 @@ This frame covers words that name Locations as defined politically, or administr
 
 **Lexical units** (42): barony.n, borough.n, city-state.n, city.n, commonwealth.n, country.n, county.n, diocese.n, district.n, duchy.n, empire.n, federal.a, fiefdom.n, global.a, international.a, internationally.adv, jurisdiction.n, kingdom.n, land.n, local.a, locality.n, megalopolis.n, metropolis.n, multinational.a, municipal.a, municipality.n, nation.n, national.a, parish.n, principality.n, province.n, provincial.a, realm.n, state [internal].n, state [sovereign].n, territorial.a, territory.n, town.n, township.n, village.n, viscountcy.n, world.n
 
+## Membership  (frame id 1026)
+
+A Member is semi-permanently part of a socially constructed Group. 'Victor is part of the Red Crescent'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Group | Core | A set of people standing in a semi-permanent relationship together. |
+| Member | Core | The person who belongs to a Group. 'Two members of the Red Cross were here about a donation ' |
+| Manner | Peripheral | Any description of the inclusion event which is not covered by more specific FEs, including secondary effects (quietly, loudly), and general descriptions comparing events (the same way). |
+| Place | Peripheral | The location where the membership relationship holds. |
+| Standing | Peripheral | An indication of the Member's status within the Group. 'Bill is a full member of the Elks.' |
+| Time | Peripheral | The time at which the Member is a member of the Group. |
+
+**Frame relations** (super → sub)
+
+- Inchoative_of: Becoming_a_member → Membership
+- Inheritance: Be_subset_of → Membership
+- Using: Membership → Exclude_member
+- Using: Membership → Member_of_military
+
+**Lexical units** (6): associated.a, belong.v, member.n, membership [status].n, membership.n, part.n
+
 ## Beat_opponent  (frame id 2074)
 
 A Winner has victory over an Loser. 'He always beats me at chess.'
@@ -1662,6 +1879,26 @@ This frame is concerned with the idea that people (Participant_1, Participant_2,
 
 **Lexical units** (9): challenge.n, compete.v, competition.n, competitive.a, competitor.n, play.v, player.n, rival.n, rivalry.n
 
+## Compatibility  (frame id 360)
+
+Item-1 and Item-2 are compatible with each other if they can exist or function together in some context without problems, conflict, or other undesirable situation. The set of Item-1 and Item-2 may be expressed jointly as Items. The Degree to which the Items are compatible may also be indicated, as may be a Parameter along whose lines the Items are compatible. ' Make sure your site is compatible with any browser.' 'Our software applications are compatible. '
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Item_1 | Core | The Frame Element Item_1 marks the grammatically more prominent of the two entities, i.e.the subject in active clauses, when they are expressed separately. 'That technology turned out not to be compatible with the … |
+| Item_2 | Core | The Frame Element Item_2 marks the grammatically less prominent of the Items when they are expressed separately. 'My computer is not compatible with my new printer. ' |
+| Items | Core | This FE is used when the Items are expressed jointly in a phrase, either a plural or a coordinated NP. 'Your socks don't match.' ' Creationism and Evolutionary Theory don't jibe.' |
+| Parameter | Core | This Frame Element is used for expressions that indicate a Parameter or respect in which the Items are said to be compatible, not in conflict. 'The two applications are compatible in their essential features.' |
+| Degree | Peripheral | This Frame Element is used for expressions that indicate the extent to which two Items are compatible. 'These devices are absolutely compatible.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Gradable_attributes → Compatibility
+
+**Lexical units** (26): accord.v, agree.v, at variance.a, biocompatible.a, clash.v, cohere.v, compatibility.n, compatible.a, comport.v, conflict.v, conflicting.a, congruent.a, congruous.a, consistent.a, consonant.a, dovetail.v, fly in the face of.v, go.v, harmonize.v, harmony.n, incompatibility.n, incompatible.a, jibe.v, match.v, rhyme.v, square.v
+
 ## Predicting  (frame id 425)
 
 A Speaker states or makes known a future Eventuality on the basis of some Evidence. Instead of (or in addition to) a Speaker, a Medium may also be mentioned. Likewise, a more general Topic may be stated instead of an Eventuality. ' The Weather Centre predicted that it would be warmer but wet for the weekend.' 'Another seer who forecast a Tory majority -- without compromising his impartiality -- was Sir Robin Day .' 'Based on current calculations, the European market is forecast to grow 18.1% by the end of next fiscal year.' 'The website claimed to prophesy what the world would be like in the near-future.'
@@ -1689,6 +1926,52 @@ A Speaker states or makes known a future Eventuality on the basis of some Eviden
 - Using: Expectation → Predicting
 
 **Lexical units** (10): claim.v, forecast.v, foretell.v, predict.v, prediction.n, prognosticate.v, prophecy.n, prophesy.v, soothsay.v, vaticinate.v
+
+## Likelihood  (frame id 114)
+
+This frame is concerned with the likelihood of a Hypothetical_event occurring. The Hypothetical_event is its only core frame element. 'It is likely that he'll arrive late.' Notice that in the case where a noun phrase is the subject of the Support Verb, that NP is also tagged as Hypothetical_event. 'He is likely to arrive late.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Hypothetical_event | Core | The state of affairs or occurrence whose likelihood is assessed. 'Rain is fairly unlikely today, I think.' |
+| Circumstances | Extra-Thematic | The Circumstances under which the Hypothetical_event is likely. 'A positive placebo effect is more likely when both patient and physician believe that therapeutic benefit will result.' |
+| Degree | Peripheral | Degree to which event occurs 'There is a high probability that it will rain today.' |
+| Explanation | Extra-Thematic | This FE expresses a reason the speaker has for making judgment about the likelihood of an event. 'There is a high chance of rain because of the stormfront.' |
+| Place | Peripheral | Where the event takes place. 'There is a high chance of rain in Seattle.' |
+| Time | Peripheral | When the event occurs. 'There is a high chance of rain today.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Gradable_attributes → Likelihood
+- Inheritance: Likelihood → Run_risk
+- ReFraming_Mapping: Certainty → Likelihood
+- Using: Likelihood → Capability
+- Using: Likelihood → Luck
+
+**Lexical units** (31): assured.a, bound.a, can.v, certain.a, certainly.adv, certainty.n, chance.n, guaranteed.a, impossible.a, improbability.n, liable.a, likelihood.n, likely.a, likely.adv, long.a, may.v, might.v, must.v, possibility.n, possible.a, possibly.adv, probability.n, probable.a, probably.adv, prone.a, sure.a, surely.adv, tend.v, undoubtedly.adv, unlikely.a, would.v
+
+## Possibility  (frame id 2120)
+
+A Possible_event is deemed to have all pre-conditions satisfied; in other words, it has some probability of occurrence, if some (generally implicit) further Condition pertains. The Condition, whether overt or implicit, often concerns the decision of an agent to attempt to bring the Possible_event about. The primary implication is that certain other aspects of the situation that might have been expected to prevent the Possible_event, usually lack of capability or permission, do not pertain. 'You ca n't burn glass . INI' 'You can have two more if you want .' 'This sense of lack can never be satisfied .' 'We just ca n't stand it anymore . INI' This frame is confusable with the Capability frame, which specifically involves an Agent who is presented as needing only the decision to perform an Action in order to successfully perform the Action.
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Circumstances | Extra-Thematic | The Circumstances under which the preconditions of the Possible_event are met. 'In this weather, an experienced pilot can still manage to fly 500 miles.' |
+| Condition | Core-Unexpressed | The state-of-affairs that does not hold, but if it did, the Possible_event would occur. 'If he wants , he can have all the fishsticks .' |
+| Explanation | Extra-Thematic | An entity, event, or state that brings about the possibility of the Possible_event. |
+| Possible_event | Core-Unexpressed | The Possible_event has met its preconditions, and will occur if some further Condition holds. |
+| Time | Peripheral | The time at which the Possible_event can occur. 'You can come in now.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Possibility → Capability
+- See_also: Possibility → Capability
+
+**Lexical units** (4): can.v, could.v, may.v, might.v
 
 ## Becoming_aware  (frame id 20)
 
@@ -1791,4 +2074,1362 @@ This Frame is concerned with evaluating an Evaluee as being suitable for a Purpo
 - Inheritance: Gradable_attributes → Suitability
 
 **Lexical units** (17): appropriate.a, become.v, correct.a, fit.a, fit.v, fitting.a, inappropriate.a, proper.a, right.a, suit.v, suitability.n, suitable.a, suitableness.n, suited.a, unsuitability.n, unsuitable.a, unsuitableness.n
+
+## Usefulness  (frame id 726)
+
+An Entity aids in the successful completion of a Purpose. Its Degree of utility may also be expressed. Some of the lexical units in this frame (e.g. great, good) can only express permanent, generic states of the Entity. 'A box is an ideal storage device.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Entity | Core | The item which is useful for some purpose. |
+| Purpose | Core | The kind of task which is promoted by the use or presence of the Entity. |
+| Degree | Peripheral | The amount that the presence of the Entity aids in the completion of the (desirable) Purpose. |
+| Domain | Extra-Thematic | This Frame Element marks expressions of a Domain or parameter with respect to which the Entity is useful. |
+| Time | Peripheral | When the Entity is useful for a Purpose. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Gradable_attributes → Usefulness
+- ReFraming_Mapping: Desirability → Usefulness
+- Using: Capability → Usefulness
+- Using: Using → Usefulness
+
+**Lexical units** (23): effective.a, excellent.a, fantastic.a, fine.a, good.a, great.a, ideal.a, ineffective.a, marvellous.a, outstanding.a, perfect.a, splendid.a, strong.a, super.a, superb.a, terrific.a, tremendous.a, useful.a, utility.n, valuable.a, value.n, wonderful.a, work.v
+
+## Undergo_change  (frame id 1172)
+
+An Entity changes, either in its category membership, its situation, or in terms of the quality of an Attribute. In the first case, where category membership is changing, an Initial_category and a Final_category may be expressed. In the second case, where a situation as a whole is changing, an Initial_situation and a Final_situation can be present. And in the last case, where some characterization of the Entity is changing, an Initial_quality and a Final_quality can be specified. 'As soon as Tiffany kissed the frog, Tiffany turned into a frog. ' 'He chanted and the rock changed shape, becoming a great double bitted axe.' 'The College has changed markedly over the century since it first opened its doors.' 'If I'm understanding you correctly, you want the switchbar color to change whenever the bot says something?' 'My life instantly changed from an empty life, to a life full of joy and purpose.' 'As you can see, the word WALK changed from red to green rather than have a separate lens for each colour.' 'My feet turned to stone.' 'The promise will turn to ashes if progress is not made.' 'The price changed from $1.26 to $1.27 per pint. DNI' 'At least one relative instruction has changed in size from short to long.' In some cases, the types of perspective are mixed, so that, e.g., an Initial_quality is mixed with a Final_situation; this is usually considered poor style. 'She went from confused to acting completely confident .' This frame is often the target domain of motion metaphors, in which the moving Theme corresponds to the changing Entity, the Source of motion corresponds to the Initial_category, Initial_quality, or Initial_situation and the Goal of motion corresponds to the Final_category, Final_quality, or Final_situation of the Entity. By correspondence with the complex domain of motion, this metaphor introduces several FEs to the target domain of change, such as an Intermediate_state (etc.) from Path, and Tendency_of_change from Direction. 'The nation was crawling towards oblivion.' 'We were walking past almost reasonable and heading right for what-the-bleep.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Entity | Core | The concrete or abstract entity that undergoes a change. 'How pleasing to see that Martha has changed now.' |
+| Final_category | Core | The type of Entity that results from the change. |
+| Initial_category | Core | The category that the Entity belongs to before it undergoes the change. 'The viccar changed from a professional clergyman into an anti-ecclesiastical activist.' |
+| Attribute | Core-Unexpressed | A characteristic of the Entity for which a quality can be assigned or determined by calculation, measurement, or observation. 'Test to check if the color changes when you place your mouse over the JavaScript image' |
+| Cause | Peripheral | An event or state that causes the change to take place. 'Doctors' practices have changed due to concerns over medical litigation.' |
+| Circumstances | Extra-Thematic | The physical or abstract Circumstances under which the change takes place. 'Information may change whenever the US Department of Education issues additional guidance or regulations.' |
+| Degree | Peripheral | The extent to which the initial and final categories, situations, or qualities differ from each other. 'Industrial economics has changed a lot during the last two decades' |
+| Final_quality | Core-Unexpressed | The quality of the Attribute that results from the change. 'Its color changed from red to blue.' |
+| Final_situation | Core-Unexpressed | The Entity's situation that results from the change. 'Tests went from taking three hours to needing less than one .' |
+| Frequency | Extra-Thematic | This frame element is defined as the number of times an event occurs per some unit of time. |
+| Initial_quality | Core-Unexpressed | The value of the Attribute before the change takes place. 'At that time, my asthma changed from very mild to severe.' |
+| Initial_situation | Core-Unexpressed | The situation that the Entity began in. 'She slowly shifted from giving him makework to actually finding he had some skills .' |
+| Intermediate_value | Extra-Thematic | A value that the Attribute assumes before the Final_value obtains. 'The slurry was stirred until the color of the suspension changed from red via orange to yellow over a period of two hours.' |
+| Manner | Peripheral | Any description of the Change event which is not covered by more specific FEs, including epistemic modification (probably, presumably, mysteriously), secondary effects (quietly, loudly), and general descriptions … |
+| Period_of_iterations | Extra-Thematic | The length of time from when the event denoted by the target began to be repeated to when it stopped. |
+| Place | Peripheral | The location that the change takes place. |
+| Time | Peripheral | The time at which the Entity undergoes the transformation. 'Then she turned into a lizard.' |
+| Value_range | Core-Unexpressed | The Initial_value and Final_value taken together as the range through which the Entity changes. The main faith of the church has changed between Orthodox, Protestant and Greek Catholic several times. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_change → Undergo_change
+- Inheritance: Transition_to_state → Undergo_change
+- Inheritance: Undergo_change → Improvement_or_decline
+- Inheritance: Undergo_change → Nuclear_process
+- Inheritance: Undergo_change → Undergo_transformation
+- ReFraming_Mapping: Traversing → Undergo_change
+- ReFraming_Mapping: Undergo_change → Undergo_transformation
+- See_also: Transition_to_state → Undergo_change
+- Using: Undergo_change → Progression
+
+**Lexical units** (11): change.n, change.v, changeable.a, go.v, plummet.v, shift.n, shift.v, swing.v, transition.n, turn.v, veer.v
+
+## Rate_quantification  (frame id 2425)
+
+An Event occurs that can be characterized by a given Rate. The Rate is a ratio of how much a particular quantity changes over time. Degree compares the the given Rate with a standard or expected rate for a similar Event. The Agent is a participant in the event who is responsible for the Rate. '' 'We compared the evolutionary rates of the two different species of monkey.' 'Graduation rates have not gone up in the last decade.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Entity | Core | A participant in the Event who is responsible for the indicated Rate. 'The mating rate of cats has dropped dramatically.' |
+| Event | Core | The Event that occurs at a certain Rate. 'Production rates have risen in the last year.' |
+| Rate | Core | How much a particular salient quantity involved in an Event changes over time. 'His heart rate quickened.' |
+| Degree | Peripheral | Degree compares the given rate for the standard or familiar rate for a given Event. |
+| Descriptor | Peripheral | Any characterization of the Rate that is not covered by another more specific FE. 'This camera is capable of shooting at high speeds.' |
+| Type | Peripheral | A name of the Rate of or description of the particular category the Rate belongs to. 'His heart rate was unusually fast.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Relational_quantity → Rate_quantification
+
+**Lexical units** (1): rate.n
+
+## Importance  (frame id 407)
+
+A Factor affects the outcome of an Undertaking, which can be a goal-oriented activity or the maintenance of a desirable state, the work in a Field, or something portrayed as affecting an Interested_party. A Reason may be given for the importance of the Factor. The Degree of importance may also be specified. 'Temperature is the most critical factor in successful storage.' ' Timing will be critical.' 'Heathcliff is more important to me than myself . ' ' 1992 was of great importance to the business community. '
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Factor | Core | Factor is used for the concrete or abstract entity whose importance is assessed. ' Being sure they are buying fresh food is important to most people.' |
+| Field | Core | A Factor may be generally important to the people or the activities in a field of endeavour. ' A successful GATT round is important for the world economy. ' |
+| Interested_party | Core | Interested_party identifies the people who are affected by a particular Factor. ' Being sure they are buying fresh food is important to most people.' |
+| Undertaking | Core | The Undertaking is a process or state or field of activity in which the Interested_party has a stake. 'Temperature is the most critical factor in successful storage.' |
+| Degree | Peripheral | This FE marks expressions that indicate the Degree to which the Factor is important to the Undertaking. ' 1992 is of great importance to the business community. ' |
+| Explanation | Extra-Thematic | This FE identifies the Explanation for which the Factor is important to the Undertaking. 'It 's critical to get it right because there are situations where if you don't, they will withhold some commission..' |
+| Frequency | Extra-Thematic | This frame element is defined as the number of times an event occurs per some unit of time. A Frequency expression answers the question how often. |
+| Place | Extra-Thematic | The location at which the Factor is important. |
+| Time | Extra-Thematic | The Time at which the Factor is important to the Undertaking. |
+
+**Frame relations** (super → sub)
+
+- Using: Importance → Degree
+- Using: Importance → Emphasizing
+- Using: Importance → Historic_event
+- Using: Importance → Individual_history
+
+**Lexical units** (23): acute.a, considerable.a, count.v, critical.a, crucial.a, decisive.a, epic.a, fundamental.a, import.n, importance.n, important.a, instrumental.a, key.a, landmark.n, main.a, major.a, pivotal.a, priority.n, serious.a, seriously.adv, significance.n, significant.a, vital.a
+
+## Awareness  (frame id 19)
+
+A Cognizer has a piece of Content in their model of the world. The Content is not necessarily present due to immediate perception, but usually, rather, due to deduction from perceivables. In some cases, the deduction of the Content is implicitly based on confidence in sources of information (believe), in some cases based on logic (think), and in other cases the source of the deduction is deprofiled (know). 'Your boss is aware of your commitment.' '' Note that this frame is undergoing some degree of reconsideration. Many of the targets will be moved to the Opinion frame. That frame indicates that the Cognizer considers something as true, but the Opinion (compare to Content) is not presupposed to be true; rather it is something that is considered a potential point of difference, as in the following: 'I think that you are awesome.' In the uses that will remain in the Awareness frame, however, the Content is presupposed. '' This frame is also distinct from the Certainty frame, in that it does not profile the relationship of the Cognizer to the Content, but rather presupposes it. In Certainty, the Degree of confidence or certainty is expressible as a separate frame element, as in the following: 'She absolutely knew that he would be there .'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Cognizer | Core | The Cognizer is the person whose awareness of phenomena is at question. With a target verb or adjective the Cognizer is generally expressed as an External Argument with the Content expressed as an Object or Complement. … |
+| Content | Core | The Content is the object of the Cognizer's awareness. Content can be expressed as a direct object or in a PP Complement. 'Your boss is aware of your commitment.' 'The students do not know of your commitment.' 'The … |
+| Expressor | Core | Expressor is the body part that reveals the Cognizer's state to the observer. 'Bob's eyes were overly aware' |
+| Topic | Core | Some verbs in this frame allow a Topic to be expressed in about-PPs. 'Kim knows about first aid.' However, a number of nouns and adjectives in this frame which cannot take about-phrases allow Topic to be expressed as … |
+| Degree | Peripheral | This FE identifies the Degree to which an event occurs. |
+| Evidence | Peripheral | The source of awareness or knowledge which can be expressed in a PP Complement: 'The sailors knew from the look of the sky that a storm was coming.' 'I knew from experience that Jo would be late.' |
+| Explanation | Extra-Thematic | The reason why or how it came to be that the Cognizer has awareness of the Topic or Content. |
+| Manner | Peripheral | This FE identifies the Manner in which the Cognizer knows or thinks something. |
+| Paradigm | Extra-Thematic | This frame element identifies the Paradigm which serves as the basis for the Cognizer's awareness. 'The formation of black holes should be understood in astrophysic terms.' |
+| Role | Peripheral | Role is the category within which an element of the Content is considered. 'He understood her remark as an insult.' |
+| Time | Peripheral | The time interval during which the Cognizer is aware of the Content. 'Yet there is no evidence that Mr. Parrish was cognizant at the time of the signing of the notes that the clauses in issue were present.' |
+
+**Frame relations** (super → sub)
+
+- Inchoative_of: Coming_to_believe → Awareness
+- Inheritance: Awareness → Expectation
+- Inheritance: Awareness → Grasp
+- Inheritance: Mental_activity → Awareness
+- Perspective_on: Awareness_situation → Awareness
+- ReFraming_Mapping: Awareness → Attention
+- ReFraming_Mapping: Awareness → Categorization
+- ReFraming_Mapping: Awareness → Coming_up_with
+- ReFraming_Mapping: Awareness → Emotion_directed
+- ReFraming_Mapping: Awareness → Expertise
+- ReFraming_Mapping: Awareness → Opinion
+- ReFraming_Mapping: Categorization → Awareness
+- See_also: Awareness → Certainty
+- See_also: Awareness → Opinion
+- Using: Awareness → Certainty
+- Using: Awareness → Examination
+- Using: Awareness → Fame
+- Using: Awareness → Impression
+- Using: Awareness → Religious_belief
+- Using: Awareness → Remembering_information
+- Using: Awareness → Representing
+- Using: Awareness → Secrecy_status
+- Using: Information → Awareness
+
+**Lexical units** (28): aware.a, awareness.n, believe.v, cognizant.a, comprehend.v, comprehension.n, conceive.v, conception.n, conscious.a, consciousness.n, hunch.n, idea.n, ignorance.n, imagine.v, know.v, knowledge.n, knowledgeable.a, presume.v, presumption.n, reckon.v, supposition.n, suspect.v, suspicion.n, think.v, thought.n, understand.v, understanding.n, unknown.a
+
+## Experimentation  (frame id 2683)
+
+An Experimenter conducts an Experiment based on a Hypothesis. This Experiment contains a Control_group or Control_group_member which is compared with a Treatment_group or Treated_individual in order to determine the Result. '' 'Johann's experiment proved the new drug was effective in treating the disease.' 'Jacob placed the control group under a strong light for 20 hours each day.' 'Rolf tested his hypothesis in Vienna in 1973.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Control_group | Core | The group of entities in the Experiment which have not been treated and are compared to the Treatment_group or Treated_individual. '' 'The control in George's experiment consisted of 17 mice.' |
+| Control_group_member | Core | An individual entity of the Experiment which is left untreated and then compared with the Treatment_group or the Treated_individual. '' |
+| Experiment | Core | The test or Experiment conducted by the Experimenter using a Control_group and a Treatment_group. '' 'Jeff's experimentshowed the drug to be harmful to human health.' |
+| Experimenter | Core | The Experimenter is the individual conducting the Experiment. 'Justin's experiment turned out to be rather successful.' 'The professor performed an interesting experiment for the class. ' |
+| Hypothesis | Core | The Hypothesis is a conjecture as to the result of an Experiment. The Experiment takes place in order to prove the Hypothesis as correct or incorrect. 'Katrina tested her hypothesis yesterday afternoon. ' |
+| Subjects | Core | In this frame Control_group and Treatment_group can be combined and expressed as Subjects. This FE can also be used for a generic individual on whom the Experiment is being conducted (see second example). 'They were … |
+| Topic | Core | The Topic is the subject that the Experiment is studying. 'Jimmy conducted an experiment on tropical plants in non-tropical environments.' |
+| Treated_individual | Core | An individual subject that receives treatment and is then compared to the Control_group or Controlled_individual. 'One rat's treatment caused it to outlive the rats of the control group.' |
+| Treatment_group | Core | A group of subjects that receive Treatment and are compared to the Control_group or Controlled_individuals. '' 'The experiment's rats who received a dose of the drug every hour did not live to see the next day. DNI' |
+| Descriptor | Peripheral | A Descriptor identifies a characteristic or description of the Experiment or the Subjects not captured by any other frame element. 'Mica's clever study was conducted in 2011.' |
+| Duration | Peripheral | The amount of time the Experiment lasts. 'The six week long study was published in a prominent scientific journal.' |
+| Instrument | Peripheral | A tool used in conducting the Experiment. Usually expressed by a with-PP. 'Silke experimented with chemical insecticides. ' |
+| Phenomenon | Peripheral | A property that belongs to either the Control_group or the Treatment_group. Usually expressed by a PP. 'The control for the problem of imprecise sensing is currently being monitored. ' |
+| Place | Peripheral | The Place in which the Experiment is conducted. |
+| Result | Peripheral | The Result depicts the outcome of the Experiment. 'The experiment proves the new drug is effective treating the disease.' |
+| Time | Peripheral | The Time at which the Experimenter conducts the Experiment. |
+
+**Frame relations** (super → sub)
+
+- Using: Scrutiny → Experimentation
+
+**Lexical units** (9): control group.n, control.n, experiment.n, experiment.v, hypothesis.n, study.n, subject.n, test.v, treatment.n
+
+## Giving  (frame id 139)
+
+A Donor transfers a Theme from a Donor to a Recipient. This frame includes only actions that are initiated by the Donor (the one that starts out owning the Theme). Sentences (even metaphorical ones) must meet the following entailments: the Donor first has possession of the Theme. Following the transfer the Donor no longer has the Theme and the Recipient does. 'Barney gave the beer to Moe.' '$300 was endowed to the university to build a new performing arts building.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Donor | Core | The person that begins in possession of the Theme and causes it to be in the possession of the Recipient . |
+| Recipient | Core | The entity that ends up in possession of the Theme. |
+| Theme | Core | The object that changes ownership. |
+| Circumstances | Extra-Thematic | The Circumstances are the conditions under which the Theme is given. 'I give my services free of charge.' |
+| Depictive | Extra-Thematic | A description of the Donor, Recipient, or Theme given independently of the giving event per se. |
+| Explanation | Extra-Thematic | The Explanation for which the Donor gives the Theme to the Recipient. |
+| Imposed_purpose | Extra-Thematic | The Recipient's intended purpose for the Theme. 'Please give this list to the secretary for entry into the client database.' |
+| Manner | Peripheral | The Manner is the manner in which the Donor gives the Theme to the Recipient. |
+| Means | Peripheral | The Means by which the Donor gives the Theme to the Recipient. |
+| Period_of_iterations | Extra-Thematic | The length of time from when the event denoted by the target began to be repeated to when it stopped. |
+| Place | Peripheral | The Place where the Donor gives the Theme to the Recipient. |
+| Purpose | Peripheral | The Purpose for which the Donor gives the Theme to the Recipient. |
+| Time | Peripheral | The Time is when the Donor gives the Theme to the Recipient. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Giving → Commerce_pay
+- Inheritance: Giving → Commerce_sell
+- Inheritance: Giving → Lending
+- Inheritance: Giving → Submitting_documents
+- Inheritance: Giving → Supply
+- Inheritance: Giving → Surrendering_possession
+- Inheritance: Intentionally_act → Giving
+- Inheritance: Lose_possession → Giving
+- Perspective_on: Transfer → Giving
+- Precedes: Giving → Post_giving
+- Precedes: Pre_giving → Giving
+- Subframe: Giving_scenario → Giving
+- Using: Giving → Conferring_benefit
+- Using: Giving → Offering
+
+**Lexical units** (26): advance.v, bequeath.v, bequest.n, charity.n, confer (upon).v, contribute.v, contribution.n, donate.v, donation.n, donor.n, endow.v, fob off.v, foist.v, gift.n, gift.v, give out.v, give.v, hand in.v, hand out.v, hand over.v, hand.v, leave.v, pass out.v, treat.v, volunteer.v, will.v
+
+## Cause_to_start  (frame id 381)
+
+A Cause, animate or inanimate, causes a process, the Effect, to begin. 'The murder of Sergei Kirov set off a chain of events that culminated in the Great Terror of the 1930s.' 'Space email sparked astronaut jealousy.' 'A crime surge in a former coal town prompted a crackdown on illegal immigrants'.
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Cause | Core | An animate or inanimate entity, a force, or event that produces an effect. Volitionality is not a necessary characteristic of Causes. 'The programme sparked a public outcry.' |
+| Effect | Core | This Frame Element marks expressions that indicate the process that the Cause initiates. 'Few things spark the wrath of the British like food additives.' |
+| Circumstances | Extra-Thematic | The state of the world at the time when the Cause produces the Effect. |
+| Co-timed_event | Extra-Thematic | This FE identifies the first Co-timed_event of the started Effect. |
+| Communicative_force | Extra-Thematic | This FE indicates the Communicative_force or authority with which the target operates (often denoted by words such as "officially," "formally," "technically," etc.). |
+| Concessive | Extra-Thematic | This FE signifies that the state of affairs expressed by the main clause (containing the target) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in the … |
+| Containing_event | Extra-Thematic | This FE denotes an event that occurs or state of affairs that holds at a time that includes the time during which the event or state of affairs reported by the target occurs and of which it is taken to be a part. |
+| Depictive | Extra-Thematic | This FE identifies the Depictive phrase describing the actor or undergoer of an action. |
+| Event_description | Extra-Thematic | This FE applies to appraisals of the event, typically a judgment of its expectedness |
+| Explanation | Extra-Thematic | The reason why or the way in which the Cause causes the Effect. |
+| Manner | Peripheral | The way in which the Cause causes the Effect. |
+| Means | Peripheral | The Means is the way in which the Cause causes the process to begin. |
+| Medium | Peripheral | Medium is the physical or abstract setting in which the Cause results in the Effect. |
+| New_situation | Extra-Thematic | A consecutive event to the starting of the Effect. |
+| Particular_iteration | Extra-Thematic | Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states. In addition, most … |
+| Place | Peripheral | This FE identifies the Place where the Effect occurs. 'In Obscurania, the release of the movie sparked protests.' |
+| Purpose | Extra-Thematic | To what end the Cause caused the Effect. |
+| Time | Peripheral | This FE is for the Time when causing to start occurs |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_to_start → Process_start
+- Inheritance: Causation → Cause_to_start
+- ReFraming_Mapping: Activity_start → Cause_to_start
+- Using: Cause_to_start → Launch_process
+
+**Lexical units** (21): actuate.v, arouse.v, bring about.v, call forth.v, create.v, elicit.v, engender.v, excite.v, generate.v, incite.v, instigate.v, kindle.v, motivate.v, produce.v, prompt.v, provoke.v, set off.v, spark.v, stimulate.v, stir up.v, trigger.v
+
+## Intentionally_create  (frame id 280)
+
+The Creator creates a new entity, the Created_entity, possibly out of Components. 'The Libyans were generating arms for export.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Created_entity | Core | This FE identifies the entity that the Agent intentionally creates. 'They were generating grenades for export.' |
+| Creator | Core | The Creator creates a created entity. |
+| Co-participant | Extra-Thematic | A secondary agent with whom the Creator intentionally creates the Created_entity. 'Emily set up the business with the former president of Intersoft, Inc.' |
+| Components | Extra-Thematic | This FE identifies the Components that are attached together to form a Created_entity. 'He made a jungle gym out of iron bars.' |
+| Depictive | Extra-Thematic | This FE identifies a depictive phrase describing the actor or undergoer of an action. |
+| Instrument | Peripheral | This FE identifies the instrument with which an Agent intentionally creates a Created_entitiy. |
+| Manner | Peripheral | Any description of the creation event which is not covered by more specific FEs, including secondary effects (quietly, loudly), and general descriptions comparing events (the same way). In addition, it may indicate … |
+| Means | Peripheral | This FE identifies the Means by which a Creator intentionally creates a new entity. |
+| Place | Peripheral | This FE identifies the place ehere the Agent intentionally creates the new entity. |
+| Purpose | Peripheral | This FE identifies the purpose for which an Agent intentionally creates a new entity. |
+| Role | Extra-Thematic | The role of Created_entity. 'This particular book was created as an introductory text.' |
+| Time | Peripheral | This FE identifes the Time when an Agent intentionally creates a new entity. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Creating → Intentionally_create
+- Inheritance: Intentionally_act → Intentionally_create
+- Inheritance: Intentionally_create → Achieving_first
+- Inheritance: Intentionally_create → Building
+- Inheritance: Intentionally_create → Cooking_creation
+- Inheritance: Intentionally_create → Create_physical_artwork
+- Inheritance: Intentionally_create → Duplication
+- Inheritance: Intentionally_create → Knot_creation
+- Inheritance: Intentionally_create → Manufacturing
+- Inheritance: Intentionally_create → Text_creation
+- Inheritance: Intentionally_create → Translating
+- ReFraming_Mapping: Intentionally_create → Creating
+
+**Lexical units** (15): create.v, creation.n, develop.v, development.n, establish.v, establishment.n, found.v, generate.v, generation.n, make.v, produce.v, production.n, set up.v, synthesis.n, synthesise.v
+
+## Manufacturing  (frame id 408)
+
+A Producer produces a Product from a Resource for commercial purposes. ' They produced only half of the units after an injunction to follow the environmental policy.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Factory | Core | Factory identifies the particular plant where the Product is manufactured. 'Those machines were manufactured in the Miami plant.' |
+| Producer | Core | The person or company that produces the Product. 'General Electric manufactures electronic appliances.' |
+| Product | Core | The Product is produced by the Producer. 'The company manufactured T-shirts.' |
+| Circumstances | Extra-Thematic | This FE identifies the Circumstances under which the the product was produced. 'They produced only half of the units after an injunction to follow the environmental policy.' |
+| Consumer | Peripheral | The Producer produces the Product for the Consumer. 'The toys are made for children.' |
+| Depictive | Extra-Thematic | A phrase that describes the state of the Producer or the Product during the manufacturing process. 'They manufactured the goods naked.' |
+| Frequency | Extra-Thematic | The number of manufacturing events in a given time period. 'We produce 90 million units every month.' |
+| Instrument | Peripheral | This FE identifies the Instrument with which a Producer produces a Product. 'Those lamps were made by machines.' |
+| Locus | Extra-Thematic | The Locus is a description of the active zone of the Producer, where the manufacturing most saliently takes place. |
+| Manner | Peripheral | This FE identifies the Manner in which a Producer creates a Product. 'Fine furniture is usually made slowly.' |
+| Means | Peripheral | This FE identifies the Means by which a Producer creates a Product. 'Cars are manufactured by mass production.' |
+| Place | Peripheral | This FE identifies the Place where the Product is manufactured. 'Those leather shoes were made in Italy.' |
+| Purpose | Peripheral | This FE identifies the Purpose for which an Producer produces a Product. 'The company will produce more high-tech gadgets to meet the demand of the market.' |
+| Resource | Peripheral | Resource is the material that the product is made from. 'Copal varnishes are manufactured from fossilised resins.' |
+| Time | Peripheral | This Fe identifies the Time when the product was produced. 'Those cars were produced in 1997.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Intentionally_create → Manufacturing
+- Precedes: Product_development → Manufacturing
+- Subframe: Product_development_scenario → Manufacturing
+
+**Lexical units** (14): assembly line.n, fabricate.v, fabrication.n, industrial.a, make.v, maker.n, manufacture.n, manufacture.v, manufacturer.n, manufacturing.n, produce.v, producer.n, product.n, production.n
+
+## Adopt_selection  (frame id 1590)
+
+An Agent has an Attribute which can take different Values, and the Agent selects and then begins to use some Value for that Attribute. The Attribute includes both physical (shape, color) and abstract (belief, practice) types. For some LUs in this frame, it is common for only the Value to be expressed, with the Attribute implicit. (Often this implicit attribute can be given second-layer expression on the Value. Note that such second-layer annotation should be assumed in the first two examples below.) 'They scoff at their opponents and assume an air of superior knowledge' 'There are times when teachers should adopt a neutral stance in discussion of morally controversial issues.' 'A person does not have to make the statement "I adopt this as my position" to do so.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The Agent selects a Value for his/her Attribute and begins to use it. 'Some organizations, like the Sierra Club, have adopted a position of neutrality on US immigration policies.' |
+| Attribute | Core | The Attribute of the Agent can take on several Values, selected by the Agent . 'The Council of Constance (1414-18) adopted conciliarism as a stance, hoping that it would permit the election of a pope acceptable to both … |
+| Value | Core | The Value, chosen and made effective by the Agent, specifies the Attribute. 'He crammed his cap back again into his pocket and re-entered the office, assuming an air of absentmindedness.' |
+| Circumstances | Extra-Thematic | Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. |
+| Communicative_force | Extra-Thematic | This FE indicates the Communicative_force or authority with which the target operates (often denoted by words such as "officially," "formally," "technically," etc.). This may or may not reflect the actual reality of … |
+| Containing_event | Extra-Thematic | This FE denotes an event that occurs or state of affairs that holds at a time that includes the time during which the event or state of affairs reported by the target occurs and of which it is taken to be a part. |
+| Depictive | Extra-Thematic | This FE describes a participant of the state of affairs introduced by the target as being in some state during the action. |
+| Duration | Extra-Thematic | Duration denotes the length of time from the beginning of a continuous situation (the one denoted by the target) to its end. In many cases, the continuous situation is a dynamic action which is ongoing, while in others … |
+| Event_description | Extra-Thematic | In general, this FE is used for phrases that describe the clause of the target as a whole. |
+| Explanation | Extra-Thematic | The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. |
+| Frequency | Extra-Thematic | This frame element is defined as the number of times an event occurs per some unit of time. A Frequency expression answers the question how often. |
+| Instrument | Peripheral | The instument through which an Agent adopts a Value for an Attribute. |
+| Manner | Peripheral | A description of the adoption of a position which is not classified under more specific descriptions, including comparisons to other events (similarly), rates of adoption (slowly), and descriptions of the Agent which … |
+| Means | Peripheral | The Means by which an Agent adopts a Value for an Attribute. |
+| Particular_iteration | Extra-Thematic | Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states. |
+| Place | Peripheral | This FE identifies the Place where the Agent has the Attribute which can take different Value. |
+| Purpose | Peripheral | This FE identifies the Purpose for which an Agent adopts the Value of the Attribute. |
+| Re-encoding | Extra-Thematic | This FE presents the current frame as an integral part of a larger conceptualization expressed by another frame. |
+| Role | Extra-Thematic | This FE identifies the role filled by a particular participant of the clause headed by the target. In so doing, it relates the state of affairs evoked by the target to another background state of affairs by indicating … |
+| Time | Peripheral | The time period when the Agent selects and begins to put into effect the Value. 'On January 1, 2001, our nation will adopt the US dollar as our official currency.' |
+
+**Frame relations** (super → sub)
+
+- Using: Choosing → Adopt_selection
+
+**Lexical units** (3): adopt.v, assume.v, embrace.v
+
+## Thermodynamic_phase  (frame id 2550)
+
+This frame describes the attributes of a thermodynamic Phase of Matter. '' 'The molten stateof the lava.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Matter | Core | The Matter is the physical substance or entity being described in terms of a Phase. |
+| Phase | Core | The state of the Matter being described. |
+
+**Frame relations** (super → sub)
+
+- Using: Thermodynamic_phase → Substance_by_phase
+
+**Lexical units** (2): phase.n, state.n
+
+## Change_of_temperature  (frame id 797)
+
+In this frame, the temperature of an Item changes. An Initial_temperature, Final_temperature, or Temperature_change can also be indicated. 'The house had cooled off by a few more degrees by midnight, and we finally managed to eat a bite.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Item | Core | The entity whose temperature changes. |
+| Temperature | Core | The scalar property that the Item possesses. This FE is rarely expressed. 'The raw fish that is to be eaten as sushi has to be meticulously prepared and must first be chilled in temperature to exactly above freezing … |
+| Cause | Peripheral | An event or state-of-affairs that leads to the change in temperature of the Item. |
+| Circumstances | Extra-Thematic | This FE identifies the Circumstances under which the temperature change occurs |
+| Container | Peripheral | This FE identifies the Container that holds the Item whose temperature is being changed. |
+| Degree | Peripheral | The degree to which the change in temperature takes place. |
+| Depictive | Extra-Thematic | The state of the Item during the temperature change. |
+| Duration | Peripheral | The span of time in which the Item is changing temperature. |
+| Final_temperature | Peripheral | The temperature of the Item after the event. |
+| Hot_cold_source | Peripheral | The Hot_cold_source is the source of the heat or coolness |
+| Initial_temperature | Peripheral | The temperature that the Item has prior to the event. |
+| Manner | Peripheral | The manner in which the Item changes temperature. |
+| Particular_iteration | Extra-Thematic | Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states. |
+| Place | Peripheral | The location at which the Item changes temperature. |
+| Result | Peripheral | The state of the Item that results from the temperature change. |
+| Subregion | Extra-Thematic | A portion of the Item which is affected by the temperature change. |
+| Temperature_change | Peripheral | The amount of difference between the Initial_temperature and the Final_temperature of the Item. |
+| Time | Peripheral | The time at which the change in temperature occurs. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_temperature_change → Change_of_temperature
+- Inchoative_of: Change_of_temperature → Temperature
+- Inheritance: Change_position_on_a_scale → Change_of_temperature
+- ReFraming_Mapping: Cause_temperature_change → Change_of_temperature
+
+**Lexical units** (7): chill.v, cool off.v, cool.v, heat.v, refrigerate.v, reheat.v, warm.v
+
+## Cause_temperature_change  (frame id 334)
+
+In this frame, an Agent changes the temperature of an Item. A Temperature_goal can specify the desired temperature. A Temperature_change can also be indicated. The Temperature_start indicates the initial temperature. 'Margaret Anne chilled the salad to 30 degrees.' 'Heat the water 30 degrees.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The Agent performs the intentional act which changes the temperature of the Item. 'Ryan reheated the pasta in the microwave.' |
+| Cause | Core | An animate or inanimate entity, a force, or event that changes the temperature. Volitionality is not a necessary characteristic of Causes. 'The sun warmed the house.' |
+| Hot_Cold_source | Core | The Hot_Cold_source is the source of the heat or coolness. 'We chilled the drinks on ice.' |
+| Item | Core | The Item undergoes the temperature change. 'Ryan reheated the pasta in the microwave.' |
+| Circumstances | Extra-Thematic | This FE identifies the Circumstances at which the temperature change occurs. 'Bill cooled the jello at room temperature.' |
+| Container | Peripheral | This FE identifies the Container that holds the Item whose temperature is being changed. 'Heat the potatoes in a medium-sized pan.' |
+| Degree | Peripheral | The degree to which the Item approaches (an implicit) Temperature_goal, which is often construed to be the ambient temperature. 'You'll probably have to wait a while to warm your legs up completely.' |
+| Depictive | Extra-Thematic | This FE identifies the Depictive phrase describing the Agent or Item. |
+| Duration | Peripheral | The length of time for which the Agent changes the temperature of the Item. 'Refrigerate the cookie dough for an hour before baking.' |
+| Instrument | Peripheral | This FE identifies the Instrument with which the Agent changes the temperature of the Item. |
+| Manner | Peripheral | This FE identifies the Manner in which the Agent changes the temperature of the Item. |
+| Means | Peripheral | This FE identifies the Means by which the Agent changes the temperature of the Item. |
+| Place | Peripheral | This FE identifies the Place where the Agent changes the temperature of the Item. |
+| Purpose | Extra-Thematic | This FE identifies the Purpose for which the Agent changes the temperature of the Item and what the Agent hopes to accomplish. |
+| Result | Extra-Thematic | Result is the resultant state of the Agent changing the temperature of the Item. |
+| Subregion | Extra-Thematic | The Subregion describes which part of a larger whole is being affected. 'The mousse was chilled around the edges.' |
+| Temperature_change | Peripheral | The Temperature_change is the amount of difference between the intial and goal temperatures. |
+| Temperature_goal | Peripheral | The Temperature_goal is the temperature to which the Agent is heating or cooling the Item. 'Heat the syrup to 180 degrees.' |
+| Temperature_start | Peripheral | Temperature_start is the initial temperature of the Item. 'Heat the sugar water mixture from room temperature until it reaches 180 degrees.' |
+| Time | Peripheral | This FE identifies the Time when the Agent changes the temperature of the Item. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_temperature_change → Change_of_temperature
+- Inheritance: Transitive_action → Cause_temperature_change
+- ReFraming_Mapping: Cause_temperature_change → Change_of_temperature
+
+**Lexical units** (10): chill.v, cool down.v, cool.v, heat up.v, heat.v, overheat.v, refrigerate.v, reheat.v, warm up.v, warm.v
+
+## Size  (frame id 2282)
+
+The size of an Entity is assessed in terms of the Degree by which it deviates from the norm. The size generally refers to the amount of three-dimensional space that is occupied by the Entity, not primarily to its weight, density, or length, which is why it is peculiar to refer to a bullet as "large", even if it is heavy, unless it actually has larger dimensions than usual, or to a rope as "big", even if it is long, unless its other, cross-sectional dimensions are also significant. 'I own a very small home.' 'Where is my little notebook?' 'That dog is huge!' '' There are an enormous number of productive metaphors that involve this frame as the source domain; two of the most frequent metaphors come from the target domains of quantity/amount and importance. 'He gave me a small sum of money.' 'The novel was a substantial achievement.' '' Subcases of the quantity/amount and importance metaphors are also prominent. These involve cases describing the extent of an action's, event's, or person's effect ("his influence on her work was massive"), as well as those related to events ("big party"), similarity ("gigantic difference"), communication ("giant misunderstanding"), and emotions ("great joy", "little joys"). Other productive metaphors include those dealing with groups (in terms of their number of members, net worth, importance to the economy, i.e. "giant electronics company") and those describing sound volume ("in a tiny voice", "the enormous thundering of her heart"). '' The target domain of fame, by contrast, occurs in a non-productive metaphor, found especially with big.a and huge.a. Maturity and age also occur in non-productive metaphors ("big boy", "little baby").
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Entity | Core | The thing whose size is being considered. 'I had a big dinner.' |
+| Degree | Peripheral | The extent to which the size of the Entity deviates from the norm. 'I had a really big dinner.' |
+| Dimension | Core-Unexpressed | The feature of an (actual or possible) Entity that is measured. In literal examples, it essentially must be size, or a word equivalent to size such as bulk. 'The particles were smaller in size than expected .' 'Her … |
+| Standard | Peripheral | The size of the Entity may be compared to the size of a Standard. 'You 're tall for a Swede.' |
+| Subregion | Extra-Thematic | This FE denotes a specific subregion being sized. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Measurable_attributes → Size
+- ReFraming_Mapping: Dimension → Size
+
+**Lexical units** (36): Brobdingnagian.a, Lilliputian.a, ample.a, big.a, bitty.a, bulky.a, capacious.a, colossal.a, enormous.a, giant.a, gigantic.a, grand.a, great.a, huge.a, humongous.a, immeasurable.a, immense.a, infinitesimal.a, jumbo.a, large.a, little.a, massive.a, medium-sized.a, medium.a, mid-size.a, mini.a, miniature.a, miniscule.a, petite.a, puny.a, sizable.a, small.a, substantial.a, tiny.a, voluminous.a, wee.a
+
+## Precariousness  (frame id 2703)
+
+A Theme has the potential of falling from its current Location, which would likely result in damage. 'Now, balanced easily and firmly, he stood on the ledge outside in the slight, chill breeze.' 'A ball will sit there perfectly balanced on a jet of water (or air).' ' Joey teetered into him sometimes, losing his balance from extreme exhaustion. '
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Theme | Core | A valuable entity which might fall and be damaged. |
+| Dangerous_entity | Core-Unexpressed | An entity which may cause the Theme to fall. |
+| Degree | Peripheral | A modifier expressing the deviation of the actual level of precariousness from the expected value given the Theme and the state indicated by the target itself. |
+| Depictive | Extra-Thematic | This FE describes the Theme as being in some state during the action. |
+| Domain | Extra-Thematic | The Domain in which the Theme has a degree of precariousness. Usable only in metaphorical sentences. |
+| Duration | Extra-Thematic | Duration denotes the length of time from the beginning of a continuous situation (the one denoted by the target) to its end. In many cases, the continuous situation is a dynamic action which is ongoing, while in others … |
+| Explanation | Extra-Thematic | The Explanation denotes a proposition from which the state of precariousness of the Theme logically follows. |
+| Falling_event | Core-Unexpressed | The event of falling, incorporated in the LUs of this frame. |
+| Frequency | Extra-Thematic | This frame element is defined as the number of times an event occurs per some unit of time. A Frequency expression answers the question how often. |
+| Location | Peripheral | The location where the Theme is supported. |
+| Manner | Extra-Thematic | Any description of the holistic properties of the balancing situation. |
+| Place | Peripheral | A particular location in which the Theme is at risk of falling. Frequently, it is to be inferred that the characteristics of the location put the Theme in danger. |
+| Result | Extra-Thematic | An event or state that results from the instability of the Theme. |
+| Situation | Extra-Thematic | The Situation under which the Theme is safe or unsafe from falling. Most expressions of Time and Place also express the Situation and should be labeled as such on the 2nd FE layer. |
+| Time | Peripheral | The time period during which the Theme is in danger of falling. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Being_at_risk → Precariousness
+- Using: Motion_directional → Precariousness
+
+**Lexical units** (8): balanced.a, instability.n, stability.n, stable.a, steady.a, teeter.v, unstable.a, unsteady.a
+
+## State_continue  (frame id 1155)
+
+Despite some implication that a State would be interrupted, the Entity remains in the specified State. Note that State includes locative relations. 'Online security remains elusive.' ''
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Entity | Core | A concrete or abstract Entity. |
+| Circumstances | Extra-Thematic | The Circumstances under which the State continues. |
+| Depictive | Extra-Thematic | This FE describes a participant of the state of affairs introduced by the target as being in some state during the action. |
+| Duration | Extra-Thematic | The time period over which the State continues to hold of the Entity. 'Our commitment to high-quality, distinctively Canadian programming has remained constant for more than six decades.' |
+| Explanation | Extra-Thematic | The state of affairs that explains why the State persists. 'Simandle ruled that the contract remains in force because the GTMUA accepted $400,000 in connection fees from the trust.' |
+| Place | Peripheral | The location where the Entity is in the State. 'Martial law remains in effect in Absurdistan.' |
+| State | Core-Unexpressed | The State of an Entity. |
+| Time | Peripheral | The Time when the State is found to still persist. 'Financial recovery remains elusive in 2002.' |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_to_continue → State_continue
+- Using: State → State_continue
+- Using: State_continue → Continued_state_of_affairs
+
+**Lexical units** (3): remain.v, rest.v, stay.v
+
+## Natural_features  (frame id 191)
+
+The Locale is a geographical location as defined by shape. This frame includes natural geographic features, including land/ice forms and bodies of water. ' We climbed up the rock cliff.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Locale | Core | A stable bounded area. It is typically the designation of the nouns of Locale-derived frames. |
+| Constituent_parts | Peripheral | Salient parts of the Locale. 'We drove through a mossy dell.' |
+| Container_possessor | Extra-Thematic | The location that the Locale is a part of. 'John spent several years wandering the mountains of Romania.' |
+| Descriptor | Extra-Thematic | Any description, characteristic, or property of the Locale which is not covered by more specific FEs. 'That 's a long way down on such a steep cliff.' |
+| Formational_cause | Extra-Thematic | Indicates the action (or causer) which brings the features of the Locale about. ' There is a glacial valley near here.'' There is a impact valley near here.' |
+| Name | Extra-Thematic | This FE is used for the Names of Locales. 'Lake Constance' 'Pike's Peak' 'The Indonesian archipelago' |
+| Relative_location | Peripheral | A place that a Locale is located with respect to. 'All the mountains in America are small.' |
+| Type | Extra-Thematic | The Type is the subtype of natural feature. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Locale → Natural_features
+- Inheritance: Natural_features → Relational_natural_features
+
+**Lexical units** (115): archipelago.n, atoll.n, bar.n, bay.n, bayou.n, beach.n, beck.n, berg.n, brook.n, burn.n, butte.n, canyon.n, cascade.n, cataract.n, cave.n, cavern.n, cay.n, channel.n, cirque.n, cliff.n, clough.n, coastal.a, continent.n, continental.a, coombe.n, cordillera.n, corrie.n, cove.n, crag.n, crater.n, creek.n, crevasse.n, dale.n, declivity.n, defile.n, dell.n, depression.n, dingle.n, dune.n, eyot.n, falls.n, fell.n, fjord.n, floe.n, gap.n, glacier.n, glen.n, graben.n, gulch.n, gulf.n, gully.n, guyot.n, headland.n, height.n, hill.n, hillock.n, hollow.n, hummock.n, iceberg.n, inlet.n, island.n, isle.n, islet.n, isthmus.n, key.n, knoll.n, lagoon.n, lake.n, land.n, loch.n, massif.n, mesa.n, moraine.n, mount.n, mountain.n, ocean.n, outcrop.n, pass.n, peak.n, peninsula.n, plateau.n, pond.n, pool.n, range [grazing].n, range.n, rapids.n, ravine.n, reef.n, ridge.n, rill.n, river.n, rugged.a, sandbank.n, sandbar.n, sandspit.n, sea.n, seamount.n, shelf.n, shoal.n, skerry.n, slough.n, sound.n, spring.n, strait.n, strand.n, stream.n, tarn.n, tor.n, vale.n, valley.n, volcano.n, wash.n, water.n, waterfall.n, watershed.n
+
+## Records  (frame id 2680)
+
+A Record that contains a permanent account of Data. This Record may be maintained by a Recorder for a certain Entity. '' 'The bank's books were not accurate.' 'He made notes of the subject's responses in the journal by the desk.' 'She kept a record of how many times Steven had asked her for money.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Record | Core | The Record is the entity in which events or accounts are permanently recorded. 'She kept a record of how many times he asked to borrow money.' |
+| Data | Peripheral | The Data is the information which is recorded in the Record. It is often expressed as a prepositional phrase. 'Andy kept a log of the girls he had dated.' 'His assistant maintained the records of customer payments.' |
+| Descriptor | Peripheral | A characteristic of the Record. 'Moria's bank kept detailed books.' |
+| Entity | Peripheral | The Entity is the person or institution for which the Record is maintained. 'She keeps the books for the advertising firm.' 'The bank's records were not ready for the unexpected audit.' |
+| Material | Peripheral | What a Record is made of (if applicable). |
+| Medium | Peripheral | The Medium is the language in which a Record is composed, or the physical medium (radio, ink) in which it is distributed. |
+| Place | Peripheral | The region where the Record is sold, circulated, or otherwise popular |
+| Recorder | Peripheral | The Recorder is the person who records the Data in the Record. 'Shirley's log of her favorite eateries grew every day.' |
+| Time_of_creation | Peripheral | The Time at which the Record was created. |
+| Title | Peripheral | The Title of a Record. |
+| Topic | Peripheral | Topic is what the Record is about. |
+| Type | Extra-Thematic | The Type refers to the kind of Record being kept. 'Molly was in charge of the finacial records at the small law firm.' |
+| Use | Peripheral | The use for which the Record was produced; its purpose. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Text → Records
+
+**Lexical units** (5): book.n, journal.n, log.n, record.n, recording.n
+
+## Expansion  (frame id 725)
+
+An Item changes its physical size. The Size_change of an Item may be explicitly indicated or characterized in terms of Initial_size and/or Result_size. In the default case, expansion is along all dimensions, but sometimes the Dimension of expansion is incorporated or made explicit. '' This frame does not specify whether the Item gains mass or substance along with the change in size, and thus includes words that specify an increase in substance (grow.v) along with those that deny an increase in substance (stretch.v) and those that are unspecified (expand.v). 'The pile of leaves had shrunk by about half after the first haul.' 'The jeans stretched a little.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Item | Core | This FE identifies the Item whose size changes. 'Joan's new sweater shrank to a size that might fit a doll.' |
+| Co-variable | Peripheral | Co_variable is the quantity that varies commensurately with the size of the Item, usually construed to be causally linked to the size. 'The snake's belly expanded with each mouse it ate.' |
+| Degree | Peripheral | This FE identifies the Degree to which the expansion occurs. 'Joan's new sweater had shrunk completely.' |
+| Dimension | Peripheral | Change of size may be limited to or described in terms of a single Dimension. 'The wall grew in height.' 'The piglet had grown 6 inches in length.' |
+| Duration | Peripheral | This FE identifies the Duration of time that the expansion takes. 'The piglet had grown 6 inches over two months.' |
+| Goal | Peripheral | Where the Iteam ends up due to Expansion. |
+| Group | Peripheral | This FE identifies the Group in which an Item changes size. 'Tails lengthened 10% among rats more than 3 days old.' |
+| Initial_size | Peripheral | Initial_size is used for the size of the Item before any change occurs. It is rarely expressed without Result_size also being explicit. Initial_size generally occurs in a PP-from Complement. 'The glacier shrank from … |
+| Manner | Peripheral | This FE is used for any description of the Manner of the expansion including force (hard, softly), secondary effects (quietly, loudly), and general descriptions comparing events (the same way). |
+| Path | Peripheral | Path is used for any expression that gives information about points on the scale of size that the Item traverses between the starting and ending point of its movement. 'The muscle tissue contracts down to less than … |
+| Rate | Peripheral | This FE identifies the Rate of change of the value. 'The balloon inflates about 2 cubic cm a minute.' |
+| Result_size | Peripheral | Result_size is the size that the Item has after the event. It is typically expressed in a PP Complement headed by to. 'The trees grow to 25 feet.' |
+| Size_change | Peripheral | This FE identifies the Size_change of an Item. 'A 2-3cm expansion in width is required.' |
+| Time | Peripheral | This FE identifies the Time when the expansion occurs. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_expansion → Expansion
+- ReFraming_Mapping: Cause_expansion → Expansion
+- Using: Expansion → Dough_rising
+
+**Lexical units** (16): contract.v, contraction.n, dilate.v, enlarge.v, enlargement.n, expand.v, expansion.n, explosive.a, extension.n, grow.v, inflate.v, lengthen.v, shrink.v, spread.v, stretch.v, swell.v
+
+## Measure_duration  (frame id 224)
+
+This frame contains (transparent ) nouns that are Units of measurement for time. The frame elements are Count, Unit and Process. 'The final total was 606, scored in only 10 hours of excellent batsmanship.' In this frame, we will NOT annotate deictic, calendric uses of nouns like week, month, etc. as in "next week, this month, in the 21st century".
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Count | Core | The number of Units of the measured entity.'The ads had been absorbed into her brain during many hours of television watching.' |
+| Process | Core | The activity or state that takes place during the period of time under discussion.'He had to listen to almost two hours of complaints.' |
+| Unit | Core | The standardized quantity in terms of which other quantities are measured.'Seven hours of torrential rain reduced the pitch to a lake.' |
+| Agent | Extra-Thematic | The Agent either brings about or is the most involved in the Process. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Measures → Measure_duration
+- Perspective_on: Duration_scenario → Measure_duration
+
+**Lexical units** (14): a while.n, century.n, day.n, decade.n, fortnight.n, hour.n, millennium.n, minute.n, month.n, nanosecond.n, second.n, time.n, week.n, year.n
+
+## Calendric_unit  (frame id 229)
+
+Words in this frame name the different parts of the calendric cycle, both man-made and natural. The Unit (e.g. Tuesday) specifies some time period as part of a specific larger temporal Whole (Tuesday of next week), or may be resolved to an exact time span by a Relative_time (next Tuesday). 'Jo's mother will visit on this coming Tuesday.' '' Very frequently, the Whole or Relative_time are left out (i.e., DNI), and often should be interpreted as a time period overlapping with the communication, but more generally must be understood from context. So, for example, in the first sentence below, we can imagine that the Whole refers to a year (e.g., 1983) that was already mentioned or established in context. In the second example below, the most likely interpretation is the nearest April, whether in this year or the next, and this interpretation is best indicated by indicating the Relative_time is DNI. 'On April 2 , she finally found her mother . DNI. ' 'I 'll come back in April .DNI' '' Most members of this frame can be used with iterative events, either with a plural Unit (on Tuesdays), or marked with every (every April). 'On Tuesday and Thursday afternoons , we have tea .' In this use, when the Whole is omitted, the Whole should be marked INI. 'On Tuesdays , we have tea . INI ' '' Words of this frame often occur in a non-lexical construction that uses some Calendric_unit expressions to establish when an event occurred. To capture this information, we use the extra-thematic FEs Landmark_period and Trajector_event (see Temporal_collocation) on the second layer, as in the following: 'Last Tuesday she said I 'd have to come back .' 'Last Tuesday she said I 'd have to come back .' We do not use these FEs for cases where the temporal relationship is introduced by an overt word of the Temporal_collocation frame (like on, in, at, before, etc.). Most lexical units of this frame occur in this construction, with or without requiring a Relative_time, while some idiosyncratically do not, so information on the use with the extra-thematic FE Trajector_event is lexically specific. '' There are a number of non-lexical constructions that evoke this frame, including date constructions (the third, May 5), decade constructions (the oughts), year constructions (1975, 24 BCE, 10 AH, year 19, etc.), and time-of-day constructions. Although not annotated in this frame, examples such as the following show that the FEs Unit and Whole are quite appropriate: 'The 4th of April dawned clear and cold .' 'December 11 was when Alix finally left .' 'The 23rd will be snowy . DNI ' 'Nothing much happened in the 90s , did it ? DNI ' As described above for the lexical targets that evoke this frame, some non-lexical versions of the frame may also occur in a non-lexical Temporal_collocation construction: 'No-one has forgotten what happened the 5th of November !' 'No-one has forgotten what happened the 5th of November !' '' Words in this frame figure into a variety of temporal schemas, realized as constructions, primarily cases in which the Calendric_unit serves as a Landmark_period in the Temporal_collocation frame. There are families of constructions in which these words occur, including ones in which weekday names combine with day part names using particular prepositions (e.g. on Wednesday morning, cf. on Wednesday, but in the morning) and ones in which calendric terms fill the slots in multi-word expressions such as N-after-N (e.g. day after day), N-by-N (e.g. week by week), N-to-N (e.g. month to month), etc. More can be found on these in Fillmore (2002). Note, also, the connection between this frame and Frequency, specifically that many iterative adjectives and adverbs are based on calendric terms (e.g. daily, weekly, monthly, etc.).
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Relative_time | Core | Relative_time is used for the word or words that locate the time with respect to an identifiable reference point. 'Jo's mother will visit this coming Tuesday.' |
+| Unit | Core | The calendric unit that is denoted. LUs in this frame all denote the Unit. |
+| Whole | Core | Whole is used for the larger unit of which the target word names a part. 'Jo fled in the early morning of Sunday December 15.' |
+| Count | Peripheral | The number of intervals of the specified type. 'These last two weeks, I just keep getting myself into trouble .' |
+| Landmark_period | Extra-Thematic | The time-expression that is used to establish when the Trajector_event occurred. This FE, when present, always occurs on the second layer. 'Turn in your expense reports next April .' This FE is not to be used when the … |
+| Name | Peripheral | Name is used for the name of a day (month, etc.). Note that only the word (or words) that is the name is (are) tagged, not the target word. 'Labor Day is just around the corner.' 'January is Black History Month.' |
+| Salient_event | Extra-Thematic | An event saliently associated with a particular calendric unit. 'Today was my school's cut day.' 'Republicans have indicated they plan to make Kerry's positions an election year issue.' |
+| Trajector_event | Extra-Thematic | An event that is located by the Calendric_unit expression. 'Last November , they selected a new president .' This FE is not to be used when a target of the Temporal_collocation frame explicitly introduces the temporal … |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Location_in_time → Calendric_unit
+- See_also: Calendric_unit → Frequency
+- See_also: Calendric_unit → Temporal_collocation
+- Using: Calendric_unit → Change_event_time
+
+**Lexical units** (63): April.n, August.n, December.n, February.n, Friday.n, January.n, July.n, June.n, March.n, May.n, Monday.n, November.n, October.n, Saturday.n, September.n, Sunday.n, Thursday.n, Tuesday.n, Wednesday.n, afternoon.n, age.n, autumn.n, calendar year.n, century.n, dawn.n, day.n, daybreak.n, decade.n, dusk.n, era.n, eve.n, evening.n, fortnight.n, holiday.n, hour.n, leap year.n, midday.n, midnight.n, millennium.n, minute.n, month.n, morn.n, morning.n, night.n, noon.n, one day.n, quarter.n, rush hour.n, school year.n, second.n, spring.n, summer.n, today.n, tomorrow.n, tonight.n, twilight.n, week.n, weekday.n, weekend.n, weeknight.n, winter.n, year.n, yesterday.n
+
+## Part_whole  (frame id 140)
+
+This frame is concerned with nouns denoting a part or parts of a Whole entity . The Part is not defined relative to the Whole's orientation, center, or edge and is not ordered. We also annotate properties of the Part, e.g. relating to its size. 'Kim forgot a large part of the story.' 'Abby ate only the top half of the cake.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Part | Core | A Part of a larger Whole.'Sergey had half of the pizza for breakfast.' |
+| Whole | Core | An undivided entity having all its Parts. 'Sergey had half of the pizza for breakfast.' |
+| Name | Extra-Thematic | A label applied to a Part of a Whole in order to identify the Part within some System. |
+| Orientation | Extra-Thematic | This is a property of the Part that determines the portion of the Part. 'Abby ate only the top half of the cake . ' |
+| Part_prop | Extra-Thematic | A property relating to the Part of a Whole.'Sue painted a big section of the room.' |
+| System | Extra-Thematic | A system of organization of the Parts within the Whole, of which a Part is identified with a Name . |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Part_piece → Part_whole
+- Inheritance: Part_whole → Part_edge
+- Inheritance: Part_whole → Part_inner_outer
+- Inheritance: Part_whole → Part_ordered_segments
+- Inheritance: Part_whole → Part_orientational
+- Inheritance: Part_whole → Rest
+- Inheritance: Part_whole → Shaped_part
+- Inheritance: Part_whole → Temporary_group
+- Inheritance: Part_whole → Vehicle_subpart
+- Using: Part_whole → Completeness
+- Using: Part_whole → Inclusion
+
+**Lexical units** (13): development.n, eighth.n, fifth.n, fragment.n, half.n, hundredth.n, part.n, portion.n, quarter.n, section.n, segment.n, tenth.n, third.n
+
+## Duration_description  (frame id 79)
+
+An event or state (here termed an Eventuality) or time-Period is described in terms of the Degree to which its duration diverges from a standard. As is usual for gradable attributes, the standard of comparison is normally based on the expected duration for the type of Eventuality or Period. (In conjunction with the comparative construction, the standard may also be based upon an explicit value.) '' 'After a lengthy discussion with the Foreign Minister, Mr. Qian Qichen, they met the Prime Minister.' '' 'The lengthy period which most party leaders have already spent in Parliament before gaining office certainly gives them time to acquire suitable skills.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Eventuality | Core | A situation, action or event whose duration is being described. The Eventuality occurs as the External Argument if the adjective is used predicatively, or as the modified noun if the adjective is used attributively: … |
+| Period | Core | Sometimes these adjectives describe simply a period of time, rather than an event or state. The Period almost invariably occurs as the modified noun with an attributive adjective: We waited for only a short time. Use … |
+| Degree | Peripheral | Degree to which event occurs |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Measurable_attributes → Duration_description
+- Perspective_on: Duration_scenario → Duration_description
+- Using: Duration_description → Taking_time
+
+**Lexical units** (17): abiding.a, brief.a, chronic.a, enduring.a, ephemeral.a, eternal.a, extended.a, interim.a, lasting.a, lengthy.a, long.a, momentary.a, perpetual.a, persistent.a, rapid.a, short.a, sustained.a
+
+## Temporal_subregion  (frame id 1470)
+
+A Subpart of a Time_period is picked out. In some cases, the part (as opposed to the entire Time_period) may be described by a Subpart_property. The Time_period may be indicated by an event which takes place during the Time_period. 'I nearly kicked my TV this afternoon after watching the shambolic end of the Austrian Grand-Prix .' 'Jack Yan looks at how the branding profession will be affected in the early 2000s by globalization .' 'The late part of the afternoon is the worst time to get things done .'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Subpart | Core | The part of the Time_period which is profiled. 'The findings mark the beginning of a new age of planetary science, in which "extrasolar" planets can be directly measured and compared.' |
+| Time_period | Core | A temporal span conceived of as a whole. 'A zillion copies and clones have been made of this Russian game since it first was released in the mid 80's.' |
+| Degree | Extra-Thematic | This frame element selects some gradable attribute and modifies the expected value for it. |
+| Subpart_property | Extra-Thematic | Some description which pertains specifically to the Subpart (rather than the Time_period). 'Indeed, the sorry end of the HCI period, with Korea in recession and. in the throes of rampant political turmoil, has led some … |
+| Time | Peripheral | This FE indicates the Time that is being referred to. |
+
+**Frame relations** (super → sub)
+
+- Using: Part_orientational → Temporal_subregion
+
+**Lexical units** (13): beginning.n, dawning.n, earlier.a, early.a, end.n, late.a, later.a, mid.a, middle.a, middle.n, outset.n, start.n, turn.n
+
+## Give_impression  (frame id 67)
+
+In this class of perception words, a Phenomenon, typically expressed as External Argument, and its perceptual characteristics are given some description. This may be a Characterization describing purely perceptual properties, an Appraisal (i.e. positive or negative judgment) or an Inference about some non-perceptual property based on the Perceiver_passive's perception. '' 'There's a hamburger bar open, and it smells real good.' 'What we drank then tasted like sulphur and ox blood.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Appraisal | Core | Appraisal is the positive or negative judgement given to the Phenomenon.'Kim's hair feels nice.''That trumpet sounds dreadful.' |
+| Characterization | Core | Characterization is the subjective description (of the Perceiver_passive ) of the Phenomenon.'Kim's new furniture looks sort of bluish.''The violins sounded as if they were in pain.''The city smelled like rotting … |
+| Inference | Core | Inference expresses some property of the Phenomenon that is not a direct feature of the particular sensory modality (if any), but rather is based on perception within that modality.'Pat sounds devastated by the bad … |
+| Phenomenon | Core | The Phenomenon is typically the External Argument of the verbs in this frame.'The soup tasted very salty.' |
+| Body_part | Peripheral | Body_part expressions are not common in this frame, but may occur with the verb "feel" (the only verb in this frame that does not lexically encode the Body_part involved in perception) or occasionally (and redundantly) … |
+| Circumstances | Extra-Thematic | The physical or abstract Circumstances that determine the appearance of the Phenomenon. 'The people I work with seem to either hate their jobs, or like them, depending on my mood.' |
+| Degree | Peripheral | The extent to which a Phenomenon gives the impression that a certain Characterization or Inference holds. 'John looks like his father a bit.' |
+| Frequency | Extra-Thematic | How often the Phenomenon has the Appraisal, Characterization, or Phenomenon. |
+| Ground | Peripheral | Ground is the perceptual background against which the Phenomenon is experienced (or not experienced) by the Perceiver_passive.'The painting looks great against the new wallpaper.' |
+| Location_of_protagonist | Extra-Thematic | Location_of_protagonist identifies the position of the Perceiver_passive during the act of perception. Typically it is expressed in a PP-from.'The house looks deceptively small from the outside.' |
+| Path | Peripheral | This frame element, usually expressed in a PP, is used for all path-like expressions, except those indicating the Location_of_perceiver (see above), that describe how the Perceiver_passive's attention is directed … |
+| Perceiver_passive | Peripheral | The Perceiver_passive experiences some perception without necessarily intending to, but makes a judgment about the Phenomenon. The Perceiver_passive generally occurs in a PP Complement.'The milk smells bad to me.' |
+| State | Extra-Thematic | This FE identifies expressions that predicate something of the Phenomenon, providing some information about its State while the Perceiver_passive experiences it.'Pat looks great dressed in red.''The meat tastes … |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Perception → Give_impression
+- Using: Give_impression → Chemical-sense_description
+- Using: Give_impression → Want_suspect
+
+**Lexical units** (9): appear.v, feel.v, look.v, reek.v, seem.v, smell.v, sound.v, stink.v, taste.v
+
+## Possession  (frame id 118)
+
+An Owner has (or lacks) a Possession. '' 'The river's part of my manor, but of course it also belongs to the River Police.' 'It's a nuisance having to abandon my belongings, though.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Owner | Core | The entity that owns a posession. |
+| Possession | Core | The thing which is owned by the Owner. Ex.: I have twenty bucks. (This does not include bodyparts or medical conditions, but does include intellectual property, etc.) |
+| Depictive | Extra-Thematic | State of the Owner or Possession. |
+| Duration | Extra-Thematic | Duration denotes the length of time from the beginning of a continuous situation (the one denoted by the target) to its end. In many cases, the continuous situation is a dynamic action which is ongoing, while in others … |
+| Explanation | Extra-Thematic | The reason for which the Owner has the Possession. |
+| Manner | Peripheral | The way that the Owner possesses the Possession. |
+| Time | Peripheral | This FE indicates the Time interval during which the Owner has a possession. |
+
+**Frame relations** (super → sub)
+
+- Inchoative_of: Getting → Possession
+- Inheritance: Possession → Post_getting
+- Inheritance: Possession → Post_lose_possession
+- Inheritance: Possession → Post_transfer
+- Inheritance: Possession → Pre_getting
+- Inheritance: Possession → Pre_lose_possession
+- Inheritance: Possession → Pre_transfer
+- Inheritance: Possession → Retaining
+- Using: Possession → Capital_stock
+- Using: Possession → Change_of_quantity_of_possession
+- Using: Possession → Locale_by_ownership
+- Using: Possession → Prevent_or_allow_possession
+- Using: Possession → Sacrificing_for
+- Using: Possession → Wealthiness
+
+**Lexical units** (23): assets.n, belong.v, belongings.n, custody.n, effects.n, got.v, have got.v, have.v, lack.n, lack.v, lacking.a, own.v, owner.n, ownership.n, possess.v, possession [definite noun].n, possession [of goods].n, possession.n, possessor.n, property.n, want.n, want.v, wanting.a
+
+## Idiosyncrasy  (frame id 982)
+
+A certain Idiosyncrasy belongs to an Entity distinguishing it from other entities. 'If you have 32 totally idiosyncratic meanings for a term in a class, everyone will be very confused when they talk! DNI' 'The art of change-ringing is peculiar to the English'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Entity | Core | The Entity that has a certain distinguishing Idiosyncrasy. 'This bird is unique to England' |
+| Idiosyncrasy | Core | An entity or characteristic belonging to the Entity. 'Paul has an idiosyncratic tendency to go barefoot at all times.' |
+| Degree | Peripheral | The extent to which the Idiosyncrasy differs from the norm. 'Was this behavior completely idiosyncratic?' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Relation → Idiosyncrasy
+- See_also: Typicality → Idiosyncrasy
+
+**Lexical units** (10): certain.a, idiosyncrasy.n, idiosyncratic.a, oddity.n, particular.a, peculiar.a, peculiarity.n, uncanny.a, unique.a, weird.a
+
+## Typicality  (frame id 1134)
+
+A State_of_affairs is generally, or with regard to a particular Feature, representative of its class, which may be narrowed to a specific Comparison_set. 'The Elan truly is an unusual car; the first and only Lotus with a front engined/front wheel drive layout, and the first new Lotus to be introduced since 1975.' ' I need a plain, vanilla example that doesn't use PRINT! ' 'How smart is the average drug user/experimenter? ' 'It's not unusual to be loved by anyone, It's not unusual to have fun with anyone,' 'Is lying normal for a child this age, and how can I best handle this situation?'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Feature | Core | A property of the State_of_affairs wherein it differs or is similar to members of a Comparison_set. 'David Hasselhoff's daughters are normal in every way. ' |
+| State_of_affairs | Core | The state of affairs which is evaluated with regard to whether it exhibits the essential characteristics of a Comparison_set. ' However I have always loved having an unusual name and I think it's a beautiful name. .' |
+| Comparison_set | Peripheral | The set of indviduals, which are of similar kind to the Entity, and to which the Entity is compared. 'It's not unusual for interviewers to look beyond a resume and face-to-face meeting to find the unspoken clues about … |
+| Degree | Peripheral | The extent to which the Entity varies from other members of the Comparison_set. 'That is a very unusual bear.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Gradable_attributes → Typicality
+- Perspective_on: Instance → Typicality
+- See_also: Typicality → Idiosyncrasy
+- Using: Similarity → Typicality
+
+**Lexical units** (13): abnormal.a, average.a, common.a, commonplace.a, conventional.a, curious.a, irregularity.n, normal.a, odd.a, ordinary.a, typically.adv, unusual.a, vanilla.a
+
+## Difficulty  (frame id 375)
+
+An Experiencer has an easy or difficult time carrying out an Activity. The ease or difficulty associated with the Activity seems to often be associated with a prominent participant. However, we consider this impression to be due to the syntax and pragmatics of the relevant sentence constructions and employ no special FE for such participants. The Degree of ease or difficulty is often specified as well as a set of Circumstances. A Parameter may be mentioned that indicates in which respect the Activity is judged to be easy or difficult. '' Unmarked LUs of this frame indicate that something is easy, while LUs of this frame that mean the opposite of easy are marked with the semantic type "Negative", as in difficult.a, arduous.a, and a bitch.n. '(1) John is easy to please.' '(2) It is easy to get Alex annoyed.' '(3) Smithers is very tough for me to please.' '(4) VWs are easy to repair.' '(5) The dating of western sculpture is difficult.' '(6) In that kind of wind the course is physically very tricky.' '(7) The last question on the exam was hard. ' '(8) The last one was a hard question to answer. '
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Activity | Core | This Frame Element marks expressions indicating the Activity that the Experiencer finds difficult or easy. In many cases, the relevant Activity has to be inferred from the context. 'The climb was difficult.' 'That … |
+| Experiencer | Core | This Frame Element marks expressions that indicate which person judges carrying out the Activity to be easy or difficult. 'The geology question on the exam was hard for me.' |
+| Circumstances | Extra-Thematic | This Frame Element marks expressions that indicate a set of conditions in which the Activity is being experienced and which influence the Experiencer's perception of how easy or difficult the Activity is. 'In this … |
+| Degree | Peripheral | This Frame Element marks expressions that indicate the Degree of difficulty that the Experiencer has in carrying out the Activity. ' Charlie is very tough for Lulu to please.' |
+| Parameter | Peripheral | This FE marks expressions that indicate a respect in which the Activity is judged easy or difficult to carry out by the Experiencer. 'The problem involves a mathematically difficult Fourier transformation.' |
+| Standard | Peripheral | The experience of the Activity by the Experiencer may be compared to a Standard situation, which may be evoked either as an event or state, or by reference to a salient participant. 'Man, running on hilly bike paths of … |
+| Time | Peripheral | The time at which the Activity takes place. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Gradable_attributes → Difficulty
+- Using: Hindering → Difficulty
+
+**Lexical units** (26): a bastard.n, a bitch.n, a breeze.n, a cinch.n, a doddle.n, a pain in the neck.n, a pain.n, a piece of cake.n, a snap.n, a walk in the park.n, arduous.a, challenge.n, challenging.a, child's play.n, difficult.a, difficulty.n, ease.n, easy.a, hard.a, impossible.a, like taking candy from a baby.adv, near thing.a, no picnic.n, tough.a, tricky.a, trivial.a
+
+## Resolve_problem  (frame id 1523)
+
+An Agent resolves an outstanding Problem by finding its solution, explanation, answer, etc. Alternatively, some non-agentive Cause may resolve the Problem. The Means, Degree, Time and Place may also be expressed. 'As it turns out, putting all of my eggs in one basket completely solved all of my problems.' 'Students finally worked through all of the difficult problems by working together.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The Agent finds the solution or explanation to the outstanding mystery or Problem. 'If we have not been able to resolve a problem to your satisfaction, please email us.' |
+| Cause | Core | The Cause is the non-Agentive event or state of affairs that brings about the resolution of the Problem. 'First, the Tripartite Agreement of 1979 actually solved the only significant friction between the two countries.' |
+| Problem | Core | The Problem is the predicament or mystery that is resolved. 'Likewise, once the students worked through the problem and obtained their results, their next assignment would be to publish these to the web.' |
+| Beneficiary | Extra-Thematic | This FE applies to participants that derive a benefit from the resolution of a Problem . 'I wanted you to believe that I was as grateful as you that the baby had died and solved the problem for us of concealing the … |
+| Circumstances | Extra-Thematic | Some specification of the circumstances under which the Problem is resolved. 'Such issues can only be resolved at local level .' |
+| Co-participant | Extra-Thematic | A person who participates in resolving a Problem along with the Agent. |
+| Containing_event | Extra-Thematic | The Containing_event denotes an event or state of affairs that occurs or holds at a time that includes the time during which the resolution of the Problem occurs. 'There are tricky design and methodological issues … |
+| Degree | Peripheral | The Degree to which the Agent or Cause resolves the problem. 'Our plan, I believe, wil completely resolve all outstanding questions.' |
+| Duration | Peripheral | This FE identifies the length of time taken to resolve a Problem . The government resolved the beach ball crisis in just 22 hours. |
+| Frequency | Extra-Thematic | Frequency describes how often the Agent or Cause resolves this problem. 'Unfortunately , when such influences are considered as explanations of the results of free-running experiments , the following problems have … |
+| Instrument | Peripheral | The Instrument is an entity used for resolving the Problem . 'Using modern computers , many practical elastic and other problems may be solved by manipulation of this matrix .' |
+| Manner | Peripheral | Any description of the resolution, such as secondary effects ( quietly ) or comparisons of events ( the same way ). In agentive cases, Manner may also describe salient characteristics of the Agent which affect the … |
+| Means | Peripheral | The Means is an intermediate action taken by the Agent in order to resolve the Problem. 'I fixed the floorplate issue by shaving off the excess stock around the floorplate that was keeping it from closing' |
+| Medium | Peripheral | This FE identifies the physical or abstract setting in which the Problem is resolved. |
+| Outcome | Extra-Thematic | The Outcome is the failure or success of resolving a Problem . 'This issue must have been raised before and BSM would presumably be gratified to see the situation successfully resolved , once and for all .' |
+| Place | Peripheral | This FE indicates the location at which the Problem is resolved. 'A group of international scientists solved the fundamental particle hierarchy question at an underground accelerator.' |
+| Purpose | Peripheral | The state of affairs that the Agent is trying to bring about by solving the Problem in the specified way. |
+| Resultant_situation | Extra-Thematic | The Resultant_situation is any situation which arises as a result of resolving a Problem . 'The question was : could the situation be resolved by improving the integration of the thought and design processes , so that … |
+| Role | Extra-Thematic | Role is used for the capacity in which the Agent resolves a Problem or the role of the Problem in being resolved, and is expressed in as-PPs. |
+| Time | Peripheral | This FE indicates the Time at which the Problem is resolved. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Intentionally_act → Resolve_problem
+- Precedes: Confronting_problem → Resolve_problem
+- ReFraming_Mapping: Resolve_problem → Speak_on_topic
+
+**Lexical units** (13): address.v, answer.n, clear up.v, correct.v, deal.v, do something about.v, fix.v, get a handle.v, handle.v, resolve.v, result.n, solve.v, work through.v
+
+## Explaining_the_facts  (frame id 1462)
+
+A Question about the reason or cause of a known State_of_affairs is presented as being answered by the existence of a particular Fact. The exact chain of reasoning, including the answer itself, of which the Fact is a part is not specified. Contrast this frame with the Evidence frame which casts a Support (a fact) as providing Evidence for, or conclusively proving, the Proposition (another proposed fact). Thus, there is no open question in the Evidence frame. 'Ruby's orange vest marked with the words "service dog" accounts for why the 3-year-old goes along.' 'The nation's history explains why the current conflict succumbs to, and yet simultaneously transcends, the stereotype.' 'Then that I exist is explained by A and B having come together.' ' Lack of potential for improvement in the immediate future accounts for the low number of returnees into South Ossetia, even for the Ossetian ethnic group.' 'That explains it.' 'Somehow this explains why Apple is always the last man to get the technology.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Fact | Core | A Fact which can be connected by a chain of reasoning to the State_of_affairs. 'This fact alone explains the Sun/climate anomaly.' |
+| Question | Core | An open proposition concerning the cause of the State_of_affairs. 'The fact that this remained in Pandora's box explains why men have hope.' '' |
+| State_of_affairs | Core | A Fact whose cause is under consideration. 'Do increased proinsulin concentrations explain the excess risk of coronary heart disease in diabetic and prediabetic subjects?' |
+| Concessive | Extra-Thematic | The state of affairs expressed by the main clause (containing the target) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in the Concessive. |
+| Degree | Peripheral | This FE identifies how much of the State_of_affairs is explained by the Fact. 'This, in my opinion, partially accounts for why Anakin became a ghost.' |
+| Manner | Peripheral | This FE indicates salient characteristics of the Fact considered as an explanation. 'Current life-history theory would readily explain the small males in B if juvenile male mortality were higher than that of females , … |
+| Means | Peripheral | An intermediate logical step that justifies the relationship between the Fact and the State_of_affairs. 'This gives an explanation for the observation by identifying it as an instance of general pattern' |
+| Viewpoint | Extra-Thematic | The perspective of an individual who judges whether they consider the Fact an explanation for the State_of_affairs. 'To her, this explains things, and we therefore need not discuss it any longer. ' |
+
+**Frame relations** (super → sub)
+
+- Using: Evidence → Explaining_the_facts
+
+**Lexical units** (3): account.v, explain.v, explanation.n
+
+## Predicament  (frame id 300)
+
+An Experiencer is in an undesirable Situation, whose Explanation may also be expressed. 'The insurers ended up in the bind of having to pay 15 years' taxes.' 'He was in a bit of a pickle and make no mistake!' 'What a mess we 're in now!'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Experiencer | Core | The Experiencer is in an undesirable Situation. 'The insurers ended up in a bind.' |
+| Situation | Core | This FE identifies the undesirable Situation the Experiencer is in. 'They found themselves in a quite a fix.' 'The company was definitely in dire straits from the dollar's inflation.' |
+| Domain | Extra-Thematic | The Domain in which the Experiencer has the problem. |
+| Explanation | Extra-Thematic | This FE identifies the Explanation of the Situation. 'We 're in this mess from paying too little attention to quality control.' |
+| Place | Peripheral | The location where the Situation occurs. 'The trouble in America is only going to get worse.' |
+| Time | Peripheral | Thiis FE identifies the Time when the Situation is in effect. 'Yesterday's predicament was a little too exciting.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: State_of_entity → Predicament
+- Using: Emotions → Predicament
+
+**Lexical units** (12): bind.n, fix.n, jam.n, mess.n, misfortune.n, pickle.n, pinch.n, plight.n, predicament.n, problem.n, scrape.n, trouble.n
+
+## Level_of_force_exertion  (frame id 1563)
+
+An Exerter, Action, or Force is capable of exerting or does exert a physical force at a level specified by the target. That physical force may cause deformation or breakage of, or simply motion in the receiving entity. The receiving entity is conceptually present (even if remotely), but is usually not lexically explicit. This frame covers both individual-level/static uses ("a STRONG person") as well as stage-level/dynamic uses ("a STRONG push"). However, the durative, individual-level meaning appears more frequently in the data and seems more basic. 'Eugenie loved the sea and was a strong swimmer.' 'Spartacus dealt the Roman soldier a mighty blow.' 'A powerful force tore off the tree's branches.' Exerter, Action, and Force belong to a Core set. '' There are several productive metaphors covered by this frame. The first and most common is one in which social influence or control is conceptualized as the physical exertion of force. The social influence/control is more specifically a propensity to cause change in social realms such as the economic, political, militaristic, cultural, or intimate: 'There were theoretical limits to the power of the king.' 'Voters in the South have a strong incentive to keep such Democrats in office.' Another similar metaphor is one in which psychological influence or control is understood as the physical exertion of force. The psychological influence/control includes the emotional as well: 'Poetic words in a text can be given more emotive power by using melisma.' 'He was a forceful speaker.' A third metaphor involves the amount of an entity construed as the physical force exertion of said entity. Depending on context, amount could be volume, etc. (“STRONGEST critics”; “MIGHTY uproar”). '' Two related physical force dynamic frames are Level_of_force_resistance and Dynamism. This frame is distinguished from the Level_of_force_resistance frame in that it describes the level of force exertion instead of the level of resistance, and also in that there are three categories of Core FE available to the target (i.e Exerter, Action, or Force), whereas in Level_of_force_resistance there are only two Core FEs (i.e. Resisting_entity and Opposing_force). Of the latter frame's FEs, Opposing_force specifies the thing that the main entity resists to a level desginated by the target. Its parallel in Level_of_force_exertion is implied but backgrounded to the extent that it rarely appears as explicit lexical material; thus there is no corresponding Core FE. This frame differs from Dynamism with regard to individual-level cases; targets here express the FE's capability. In contrast, Dynamism targets express the FE's tendency. For example, "a STRONG person" is generally construed as a person who is capable of strength, while "an ENERGETIC person" (energetic.a from the Dynamism frame) is construed as a person who tends to be energetic. However, there is overlap between the two frames in stage-level cases - "a STRONG push" and "an ENERGETIC push" seem rather comparable.
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Action | Core | The Action that can or does exert a force of the level specified by the target. 'She gave him a playful, weak punch in the arm.' |
+| Exerter | Core | The Exerter that can or does exert a force of the level specified by the target. 'Salesmen touted the power of the engine's motor.' |
+| Force | Core | The Force that can or does exert a force of the level specified by the target. 'No one should underestimate the mighty strength of the dung beetle.' |
+| Circumstances | Extra-Thematic | The Circumstances under which the Exerter, Action, or Force can or does exert a force. 'The winds were strongest during the hurricane.' |
+| Degree | Peripheral | The Degree to which the Exerter, Action, or Force can or does exert a force. 'After being in space for six months, his muscles were extremely weak.' Where Degree is expressed by a comparative or superlative form of the … |
+| Descriptor | Peripheral | This FE describes the force exertion of the Exerter, Action, or Force. 'Henry's longstanding powerlessness against the school bully made him fearful and withdrawn.' |
+| Domain | Peripheral | The Domain is the field in which the Exerter, Action, or Force can or does exert its force. 'The U.S. possesses great military strength.' |
+| Place | Peripheral | The location where the Exerter, Action, or Force can or does exert its force. 'Muhammad Ali's force in the ring was indisputable.' |
+| Time | Peripheral | The Time during which the Exerter, Action, or Force can or does exert its force. 'My quads feel particularly weak after 100 squats.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Gradable_attributes → Level_of_force_exertion
+- ReFraming_Mapping: Dynamism → Level_of_force_exertion
+- ReFraming_Mapping: Level_of_force_exertion → Capability
+- See_also: Level_of_force_exertion → Dynamism
+- See_also: Level_of_force_exertion → Level_of_force_resistance
+- Using: Causation → Level_of_force_exertion
+
+**Lexical units** (11): force.n, forceful.a, might.n, mighty.a, power.n, powerful.a, powerless.a, strength.n, strong.a, weak.a, weakness.n
+
+## Taking_captive  (frame id 2663)
+
+An Agent begins preventing a Captive from moving despite a tendency or desire on the part of the Captive to do so. 'Authorities recently captured several suspects who were hiding in a remote mountain area.' 'High value target has been quietly and safely secured.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The Agent brings the Captive into custody. 'Authorities recently captured several suspects who were hiding in a remote mountain area.' |
+| Captive | Core | The entity which is captured. 'Police have captured three of the suspected bombers after a week-long search.' |
+| Cause | Core | The Cause is the non-sentient entity which is responsible for restricting the movement or location of the Captive. |
+| Containing_event | Extra-Thematic | The larger event which contains or during which occurs the event of taking the Captive captive. 'The suspects were secured in a large raid conducted by both nations' police forces.' |
+| Depictive | Extra-Thematic | The description of one of the participants in the capturing event. 'Make sure they're taken alive!' |
+| Explanation | Extra-Thematic | A state of affairs that the Agent is responding to in capturing the Captive. 'She was captured quickly beacuse she was on the department's high priority targets list.' |
+| Instrument | Extra-Thematic | The instrument with which the capturing is carried out. |
+| Manner | Peripheral | Any description of the event (or state) which is not covered by more specific FEs, including epistemic modification (probably, presumably, mysteriously), force (hard, softly), secondary effects (quietly, loudly), and … |
+| Means | Peripheral | An intentional action performed by the Agent that accomplishes the action indicated by the target. 'Troops secured the target by entering his compound in small numbers and under the cover of darkness.' |
+| Place | Peripheral | This FE identifies the Place where the event occurs. 'Authorities secured the target in a private residence.' |
+| Purpose | Peripheral | The purpose for which the Agent takes the Captive into custody. 'These targets were secured to ensure that they would pose no danger during the trial.' |
+| Reciprocation | Extra-Thematic | The reason for the confinement. 'He was captured for treason.' |
+| Time | Peripheral | When the event occurs. |
+
+**Frame relations** (super → sub)
+
+- Precedes: Taking_captive → Inhibit_movement
+- Subframe: Inhibit_motion_scenario → Taking_captive
+
+**Lexical units** (4): capture.n, capture.v, secure.v, take captive.v
+
+## Conquering  (frame id 2021)
+
+This frame describes a Theme losing its autonomy and perhaps sustaining material damage as the result of a successful invasion on the behalf of a Conqueror. 'The Spaniards conquered the Incas with both the Cross and the arquebus' 'He said that the aim had been the takeover of the Soviet government by "advocates of swift privatization"' 'The Romans fell to the Goths in 410 AD.' 'Bright Star campaign forces captured the garrison town of Kajo Kaji'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Conqueror | Core | The Conqueror is the entity that overtakes the Theme. 'The Achaemenid monarch Cambyses conquered Egypt in the year 525 BC' |
+| Theme | Core | The Theme is the land, government, and its people that is seized by the Conqueror. 'Britain had an opportunity to conquer Europe.' |
+| Degree | Peripheral | This FE describes the intensity and extent of the conquering event. 'Britain had been ` completely conquered and immediately thrown away '' |
+| Depictive | Extra-Thematic | This FE describes a participant of the state of affairs introduced by the target as being in some state during the action. |
+| Frequency | Extra-Thematic | Frequency is the number of times the Conquering event occurs per some unit of time. |
+| Instrument | Peripheral | The tool used by the Conqueror to seize the Theme. 'The army will conquer the far-away lands with the most sophisticated weapons ever made.' |
+| Manner | Peripheral | The manner in which the Conqueror takes over the Theme. 'He violently captured the castles of La Haye , Preuilly and Champigny' |
+| Means | Peripheral | The action by which the conquering event is made possible through the efforts of the Conqueror. 'They captured the haunted castle by bombarding it with low-energy x-rays.' |
+| Place | Peripheral | The location where the Conqueror takes over the Theme. 'On Planet Earth, humans prefer to conquer those lands whose acquistion offers some economic benefit or advantage.' |
+| Purpose | Extra-Thematic | The reason why the Conqueror seized the Theme. 'Rome initially conquered lands in order to enrich itself.' |
+| Time | Peripheral | The Time at which the Conqueror seizes the Theme. 'China 's 1997 takeover would push over 10 per cent of the population out of the colony'. |
+
+**Frame relations** (super → sub)
+
+- Precedes: Invading → Conquering
+- Subframe: Invasion_scenario → Conquering
+
+**Lexical units** (7): capture.v, conquer.v, fall.v, overcome.v, reduce.v, take.v, takeover.n
+
+## Duplication  (frame id 11)
+
+This frame involves a Creator making a duplicate, the Copy, of some Original entity. A Source, the location of the Original, and Goal, the location of the Copy, may be expressed. 'The teacher copied the problem onto the blackboard.' ' His handouts were poorly photocopied by his assistantfrom my originals .'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Copy | Core | The Copy produced by the Creator is frequently not expressed. However, when Copy does occur, it is usually expressed as the External Argument of verbs: 'The results replicate those of an earlier study.' |
+| Creator | Core | The Creator produces the Copy based on the Original. It is normally expressed as an External Argument. 'Pat photocopied the article.' |
+| Original | Core | The Original is the entity which is copied. With verbs it is frequently expressed as an NP Object:'Pat photocopied the article.' |
+| Characterization | Extra-Thematic | This FE designates the character of the medium in which a Copy is made. Usually, it is expressed as PP-in or AP. 'They sold a million copies in hardback.' 'Opposite is Pilinsky's wood-engraved copy.' 'The margins are … |
+| Co-participant | Extra-Thematic | An entity that participates in much the same way as another participant (Creator, Copy, or Original), although it is characterized as being less focal to the action. 'Copy my list along with yours .' |
+| Degree | Peripheral | Degree to which event occurs. |
+| Depictive | Extra-Thematic | This FE identifies any Depictive phrase that describes a primary participant, either the Creator or the Copy/ Original. 'Such leaflets have to be duplicated en masse.' 'She did the copying unaware of the fact that John … |
+| Duration | Extra-Thematic | The amount of time for which a state holds or a process is ongoing. |
+| Explanation | Extra-Thematic | The Explanation for which an intentional act is performed. |
+| Fidelity | Peripheral | The way in which the Copy matches or does not match the Original. 'I made a half-size copy.' |
+| Frequency | Extra-Thematic | The Frequency is the frequency with which the Original is copied. 'The scribes copied the scripture every 80 years.' |
+| Goal | Extra-Thematic | The Goal is the location to which material is copied. Unlike the FE Goal in other frames, there is no actual movement of any entity to this location. Goal is usually expressed as a PP Complement: 'Copy the file onto … |
+| Instrument | Peripheral | The Instrument with which an intentional act is performed. |
+| Iterations | Extra-Thematic | The Iterations is the number of times the Original is copied. 'Jim copied the book 300 times.' |
+| Manner | Peripheral | Manner of performing an action |
+| Means | Peripheral | An intentional action performed by the Creator that lets them bring about the duplication. |
+| Place | Peripheral | Where the event takes Place. |
+| Purpose | Peripheral | The Purpose for which an intentional act is performed. |
+| Result | Extra-Thematic | Result of an event |
+| Source | Peripheral | The Source is the location from which material is copied, i.e. the location of the Original. Unlike the FE Source in other domains and frames, there is no actual movement of either Copy or Original from this location. … |
+| Time | Peripheral | When the event occurs. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Duplication → Forging
+- Inheritance: Intentionally_create → Duplication
+
+**Lexical units** (14): clone.n, clone.v, copy.n, copy.v, duplicate.n, duplicate.v, duplication.n, photocopy.n, photocopy.v, reduplicate.v, replica.n, replicate.v, reproduce.v, run off.v
+
+## Fluidic_motion  (frame id 345)
+
+In this frame a Fluid moves from a Source to a Goal along a Path or within an Area. ' The blood spurted from the wound. ''The water gushed into the house . '
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Area | Core | Area is the setting in which the Fluid's movement takes place on an unspecified Path. 'The Thames River flows throughout England.' |
+| Fluid | Core | The Fluid is the entity that changes location and moves in a fluidic way. |
+| Goal | Core | Goal is the location the Fluid ends up. |
+| Path | Core | The Path is the trajectory along which the Fluid moves. |
+| Source | Core | The Source is the location the Fluid occupies initially. |
+| Configuration | Extra-Thematic | The Configuration encodes information about the amount, arrangement, and unitization of the flow. 'The water cascaded in torrents' . 'The water cascades in large volumes.' |
+| Depictive | Extra-Thematic | This FE identifies the Depictive phrase describing the Fluid throughout the action. |
+| Distance | Peripheral | This FE describes the phsyical extent of the motion of the Fluid. |
+| Duration | Peripheral | The amount of time for which the Fluid moves. |
+| Explanation | Extra-Thematic | The Explanation is the reason for the fluidic motion. 'It flowed from the sheer weight of water above it.' |
+| Manner | Peripheral | The Manner in which the Fluid flows. |
+| Place | Peripheral | The Place describes the location of the motion which has a specified Source, Path or Goal. 'At Oregon Caves, a stream runs through the dining room.' |
+| Result | Extra-Thematic | This FE identifies the result of the Fluid moving. |
+| Speed | Peripheral | This is the rate at which the Fluid flows. |
+| Time | Peripheral | The Time when the Fluid flows. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_fluidic_motion → Fluidic_motion
+- Inheritance: Motion → Fluidic_motion
+- ReFraming_Mapping: Make_noise → Fluidic_motion
+- Using: Fluidic_motion → Breathing
+
+**Lexical units** (28): bubble.v, cascade.v, course.v, dribble.v, drip.v, flow.v, gush.v, hiss.v, jet.v, leak.v, ooze.v, percolate.v, pump.v, purl.v, run.v, rush.v, seep.v, soak.v, spew.v, spill.v, splash.v, splatter.v, spout.v, spray.v, spurt.v, squirt.v, stream.v, trickle.v
+
+## Affirm_or_deny  (frame id 2974)
+
+A Speaker uses language to affirm or deny the truth of a Message to some Addressee. Instead of (or in addition to) a Speaker, a Medium may also be mentioned. Likewise, a Topic may be stated instead of a Message. 'She affirmed her loyalty to the cause.' 'He denied that he had ever believed in the existence of God.' 'BBC News confirmed the story about the refugees.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Medium | Core | The Medium is the physical entity or channel used by the Speaker to transmit the Message. |
+| Message | Core | The Message identifies the content whose truth the Speaker is affirming or denying. It can be expressed as a clause or as a noun phrase. 'They refute the criticisms that they are only interested in power and money.' … |
+| Speaker | Core | The Speaker is the sentient entity affirming or denying the truth of the Message (this can be spoken or written). It is normally expressed as the External Argument of the predicative uses of the target word, or as the … |
+| Topic | Core | The Topic is the subject matter to which the Message pertains. It is rarely mentioned in constructions with verbal targets, and is much more common with nominal targets, where it is usually expressed as a PP Complement … |
+| Addressee | Extra-Thematic | The Addressee is the person to whom the truth of the Message is affirmed or denied. |
+| Containing_event | Extra-Thematic | This FE identifies an event during which the Speaker affirms or denies the truth of the Message. |
+| Degree | Extra-Thematic | Degree selects some gradable attribute and modifies the expected value for it. |
+| Depictive | Extra-Thematic | The state of the Speaker while he/she affirms or denies the Message. |
+| Event_description | Extra-Thematic | In general, Event_description is used for phrases that describe the clause of the target as a whole - here, the Message event. |
+| Frequency | Extra-Thematic | Frequency is defined as the number of times an event occurs per some unit of time. |
+| Internal_cause | Peripheral | The emotional or physical state of the Speaker that leads to their affirmation or denial of the Message. |
+| Iterations | Extra-Thematic | Iterations is used for expressions that indicate the number of times an event or state (of the kind denoted by the target in its clause) has taken place or held. |
+| Manner | Peripheral | Manner describes the way in which the Speaker affirms or denies a Message. |
+| Means | Peripheral | Means expresses the act whereby the Speaker affirms or denies a Message. |
+| Place | Peripheral | Place specifies the location where the Message is affirmed or denied. |
+| Time | Peripheral | The Time at which the Message is affirmed or denied. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Statement → Affirm_or_deny
+- ReFraming_Mapping: Statement → Affirm_or_deny
+
+**Lexical units** (10): affirm.v, affirmation.n, attest.v, concede.v, confirm.v, confirmation.n, denial.n, deny.v, reaffirm.v, refute.v
+
+## Legal_rulings  (frame id 2076)
+
+An Authority with the power to make decisions hands down a Finding over a question presented in a formal or informal Case. 'The judge ruled yesterday that the revisions were not adequate. DNI' 'A high court in London ruled on the case that a vulture fund can extract more than $20 million from Zambia for a debt.' 'In the California case, a judge ruled Oct. 12 that Tendler must pay the bloggers' legal fees.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Authority | Core | The Authority (which may be the jury, judge, magistrate or court) decides on the Finding. 'The US International Trade Commission ruled that a 1987 anti-dumping tariff against frozen concentrated orange juice from … |
+| Case | Core | This FE describes the question on which the Authority gives a Finding. 'US Supreme Court ruled on flag salutes in public schools today.' |
+| Defendant | Core | The person about whom the Authority passes a judgment or Finding. 'They held judgment upon me as a convicted traitress.' |
+| Finding | Core | This FE identifies the outcome of the Authority's deliberation or consideration. 'Miss Mahmod's father ruled that she would never marry him.' |
+| Circumstances | Extra-Thematic | The Circumstances under which the ruling was reached. |
+| Communicative_force | Extra-Thematic | This FE indicates the Communicative_force or authority with which the ruling event operates (often denoted by words such as "officially," "formally," "technically," etc.). |
+| Duration | Extra-Thematic | The amount of time that a Finding holds. |
+| Explanation | Extra-Thematic | The Explanation for the Finding. |
+| Legal_basis | Peripheral | This FE indicates the basis in law of a Finding. |
+| Manner | Peripheral | This FE identifies the Manner in which the Authority acts. |
+| Means | Peripheral | This FE identifies an action that the Authority performs in order to return the verdict. |
+| Particular_iteration | Extra-Thematic | Expressions marked with this extra-thematic FE modify a non-iterative use of the target, and indicate that it is conceived as embedded within an iterated series of similar events or states. In addition, most … |
+| Place | Peripheral | Where the Finding takes place. |
+| Purpose | Peripheral | This FE identifies the purpose why the Authority returns a particular Finding. |
+| Re-encoding | Peripheral | This FE presents the current frame as an integral part of a larger conceptualization expressed by another frame. The frame expressed by the target typically corresponds to a Means action within the frame expressed by … |
+| Time | Peripheral | When the Authority gives his Finding. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Intentionally_act → Legal_rulings
+- Inheritance: Legal_rulings → Verdict
+- Using: Communication → Legal_rulings
+
+**Lexical units** (6): adjudicate.v, decree.v, deem.v, judge.v, judgment.n, rule.v
+
+## Dominate_situation  (frame id 1795)
+
+An Agent acts so as to be the strongest force, or most important causal factor in some Situation, to the exclusion of other competing actors. 'York dominated the game as they held the ball on offense almost the entire 70 minutes.' 'Is there a future for Unix in a market increasingly dominated by Microsoft?' 'Walz dominated the debate so completely it was almost embarrassing.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The Agent is the most forceful and pivotal factor in the situation. |
+| Situation | Core | The Situation is primarily affected by the Agent, in particular how it develops or concludes. |
+| Degree | Peripheral | The Degree to which the Agent dominates the Situation. |
+| Duration | Peripheral | The period of time over which the domination occurs. 'Dinosaurs were vertebrate animals that dominated the terrestrial ecosystem for over 160 million years.' |
+| Manner | Peripheral | A description of the event as a whole, or of any of the participants that does not fit any of the other more specific Frame Elements. 'Most predict that the top teams from last year to ruthlessly dominate the league.' |
+| Place | Peripheral | The location where the domination takes place. 'Indeed, in all Latin America, United States corporations dominated the key sectors of the economy.' |
+| Time | Peripheral | The Time when the Agent is dominant. 'As discussed above, Ford dominated the market in the 1920s, then left the business to create production capacity for the Model A.' |
+
+**Frame relations** (super → sub)
+
+- Perspective_on: Domination → Dominate_situation
+- Using: First_rank → Dominate_situation
+
+**Lexical units** (5): dominant.a, dominate.v, domination.n, predominate.v, rule.v
+
+## Dominate_competitor  (frame id 1796)
+
+An Agent, by virtue of strength or forcefulness, controls, rules, or strongly influences some Patient in some Situation. 'The fireballing righthander looked poised to dominate the Yankees yet again, striking out seven straight batters during one stretch'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The Agent controls the Patient by being forceful and possibly aggressive. |
+| Patient | Core | The Patient is trying to gain control of a situation, but ends up being subject to the control and influence of the Agent. |
+| Degree | Peripheral | The Degree to which the Agent dominates the Patient. |
+| Duration | Peripheral | The period of time over which the domination occurs. 'For England and France, domination over their colonies during the colonial period was mainly a cultural obligation.' |
+| Manner | Peripheral | A description of the event as a whole, or of any of the participants that does not fit any of the other more specific Frame Elements. 'He managed to be dominant over most of the rest of the staff, in a good way.' |
+| Place | Peripheral | The place where the domination occurs. 'Women tend to dominatemen at home and at Church.' |
+| Situation | Peripheral | The Situation within which the Agent is able to gain control over the Patient (thus excluding them from controlling the Situation). |
+| Time | Peripheral | The time when the domination takes place. 'Their role models might have dominated women in the past; they may not have understood the concept of equality.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Being_in_control → Dominate_competitor
+- Perspective_on: Domination → Dominate_competitor
+
+**Lexical units** (4): dominant.a, dominate.v, domination.n, strongman.n
+
+## Cause_change_of_strength  (frame id 1781)
+
+An Agent causes a Patient to be more strong, often resulting in something that is more secure and safe. 'Local Serbs are strengthening their grip on a narrow corridor along the Sava River between two large Serbian areas.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The Agent fortifies the Patient. |
+| Patient | Core | The Patient is the entity that is being made stronger. |
+| Cause | Core-Unexpressed | An event which causes the Patient to become stronger. |
+| Circumstances | Extra-Thematic | The Circumstances of the world at the time of the event (which do not bear directly on the event itself). |
+| Containing_event | Extra-Thematic | This FE denotes an event that occurs or state of affairs that holds at a time that includes the time during which the event or state of affairs reported by the target occurs and of which |
+| Degree | Extra-Thematic | This frame element selects some gradable attribute and modifies the expected value for it. |
+| Depictive | Extra-Thematic | Depictive phrase describing the actor of an action |
+| Frequency | Extra-Thematic | This frame element is defined as the number of times an event occurs per some unit of time. |
+| Manner | Peripheral | Any description of the intentional act which is not covered by more specific FEs, including secondary effects (quietly, loudly), and general descriptions comparing events (the same way). In addition, it may indicate … |
+| Means | Peripheral | An act performed by an Agent that enables them to act upon the Patient. |
+| Place | Peripheral | The location at which the Agent fortifies the Patient. |
+| Result | Extra-Thematic | The resultant state of the action. |
+| Time | Peripheral | The time at which the Agent makes the Patient stronger. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Cause_change_of_strength → Change_resistance
+- Inheritance: Transitive_action → Cause_change_of_strength
+- Using: Cause_change_of_strength → Supporting
+
+**Lexical units** (5): beef up.v, fortify.v, reinforce.v, strengthen.v, weaken.v
+
+## Event  (frame id 187)
+
+An Event takes place at a Place and Time. 'Big earthquakes only happen along plate boundaries. INI ' 'The party will take place on Sunday in the all-you-can-eat buffet.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Place | Core | Where the event takes place. |
+| Time | Core | When the event occurs. |
+| Duration | Extra-Thematic | How long the Event takes place. |
+| Event | Core-Unexpressed | Name of the event which occurs. |
+| Explanation | Extra-Thematic | The Explanation for which an event occurs. |
+| Frequency | Extra-Thematic | How often the Event occurs. 'Stuff like this happens every day at 3:00pm.' |
+| Manner | Peripheral | Any description of the event which is not covered by more specific FEs, including epistemic modification (probably, presumably, mysteriously), force (hard, softly), secondary effects (quietly, loudly), and general … |
+| Timespan | Extra-Thematic | The period within which an Event has occurred. 'It was the largest food fight to occur since the time Jimmy's mom packed him extra Sloppy Joes.' 'From 1992 to 2014, my amazing birthday celebration has happened 22 times.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Event → Birth_scenario
+- Inheritance: Event → Change_of_consistency
+- Inheritance: Event → Change_position_on_a_scale
+- Inheritance: Event → Coincidence
+- Inheritance: Event → Come_together
+- Inheritance: Event → Coming_to_be
+- Inheritance: Event → Coming_to_believe
+- Inheritance: Event → Emergency
+- Inheritance: Event → Eventive_affecting
+- Inheritance: Event → Experience_bodily_harm
+- Inheritance: Event → Getting
+- Inheritance: Event → Go_into_shape
+- Inheritance: Event → Intentionally_act
+- Inheritance: Event → Losing_someone
+- Inheritance: Event → Misdeed
+- Inheritance: Event → Motion
+- Inheritance: Event → Objective_influence
+- Inheritance: Event → Process_end
+- Inheritance: Event → Process_pause
+- Inheritance: Event → Process_resume
+- Inheritance: Event → Process_start
+- Inheritance: Event → Process_stop
+- Inheritance: Event → Rotting
+- Inheritance: Event → Transition_to_state
+- Inheritance: Event → Traversing
+- Inheritance: Event → Undergoing
+- Inheritance: Event → Waking_up
+- Precedes: Event → Event_endstate
+- Precedes: Event_initial_state → Event
+- Subframe: Dynamic_situation_scenario → Event
+- Using: Event → Frequency
+- Using: Event → Hindering
+- Using: Event → Locale_by_event
+- Using: Event → Manner
+- Using: Event → Participation
+- Using: Event → Preventing_or_letting
+- Using: Event → Temporal_pattern
+
+**Lexical units** (9): development.n, episode.n, event.n, go on.v, happen.v, incident.n, occur.v, take place.v, transpire.v
+
+## Health_response  (frame id 52)
+
+A Protagonist is sensitive to a Trigger, which has the potential to cause some kind of reaction in the Protagonist. '' 'Mr. Clinton and his wife Hillary are allergic to cats.' 'On top of this, he has allergies to oats and dust and is a finicky feeder.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Protagonist | Core | The Protagonist occurs as the External Argument of the targets in this frame. The Protagonist represents the one exhibiting the response to the Trigger. 'Pat's allergy to dairy products is severe.' 'Young children are … |
+| Trigger | Core | The Trigger most commonly occurs in a PP Complement headed by to. The Trigger is that substance or element which causes a health response in the Protagonist. 'Some people are very sensitive to chemicals in the … |
+| Body_part | Peripheral | The Body_part identifies the part of the body that is responding to the Trigger. 'Diabetics may have increased vascular sensitivity to angiotensin II' |
+| Degree | Peripheral | The Degree describes the extent to which the health response occurs. 'Jake is extremely allergic to codeine.' 'Grass and clover seeds need fairly warm conditions for germination and are more sensitive to drought or … |
+| Manner | Peripheral | Manner describes the way (or style) in which the Protagonist Health_response manifests itself. 'Different socio-economic groups , age-groups , ethnic groups , genders have different needs for medical services because … |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Inclination → Health_response
+- Using: Response → Health_response
+
+**Lexical units** (6): allergic.a, allergy.n, sensitive.a, sensitivity.n, susceptibility.n, susceptible.a
+
+## Cogitation  (frame id 22)
+
+A person, the Cognizer, thinks about a Topic over a period of time. What is thought about may be a course of action that the person might take, or something more general. 'The men were silently mulling over the proposition of committing an assassination'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Cognizer | Core | With a target verb, the Cognizer is usually expressed as an External Argument, with the Topic appearing as an Object NP, a gerundive verbal Complement, or a PP. 'Pat considered a career change.' 'The employees … |
+| Topic | Core | With a target verb, the Topic is usually expressed as an Object NP, a gerundive verbal complement, or a PP. 'Pat considered a career change.' 'The employees contemplated going on strike.' 'Everyone thought about the … |
+| Degree | Extra-Thematic | The FE Degree indicates the degree to which the cognizing occurs. |
+| Depictive | Extra-Thematic | Depictive phrase describing the actor of an action |
+| Manner | Peripheral | The FE Manner indicates the way in which the cognizing is being done. |
+| Means | Peripheral | An intentional action performed by the Cognizer that makes them able to cogitate. |
+| Medium | Extra-Thematic | The physical or abstract setting in which the Cognizer considers the Topic. 'Over the telephone, Frank pondered telling Maria about the fire.' |
+| Purpose | Peripheral | The state-of-affairs that the Cognizer is trying to bring about by thinking. |
+| Result | Extra-Thematic | Result of an event |
+| Time | Peripheral | The time at which the Cognizer considers the Topic. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Cogitation → Assessing
+- Inheritance: Cogitation → Emotion_active
+- Inheritance: Cogitation → Memorization
+- Using: Cogitation → Remembering_experience
+- Using: Cogitation → Research
+- Using: Mental_activity → Cogitation
+
+**Lexical units** (20): brood.v, consider.v, consideration.n, contemplate.v, contemplation.n, deliberate.v, deliberation.n, dwell.v, give thought.idio, meditate.v, meditation.n, mull over.v, muse.v, ponder.v, reflect.v, reflection.n, ruminate.v, think.v, thought.n, wonder.v
 

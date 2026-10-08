@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Check that every quoted passage in corpus.md / analysis.md appears verbatim — modulo quote-mark
 style, whitespace, and editorial marks — in the staged capture files or the translation packet.
-Second-look blockquotes (Claude's own text, introduced by an '*If ...' line) are skipped."""
+Second-look blockquotes (Claude's own text, introduced by an '*If ...' line) are skipped.
+Usage: check_quotes.py [--report] file.md ...   (--report: print misses but exit 0; use for case files whose
+quotations come partly from web or secondary sources that the captures cannot verify)."""
 import re, glob, sys, unicodedata
 
 import os
@@ -70,5 +72,10 @@ def check_file(path):
     print(f'{path}: {ok} segments verified, {bad} not found, {skipped} second-look blocks skipped')
     return bad
 
-bad = sum(check_file(f) for f in sys.argv[1:])
+args = [a for a in sys.argv[1:] if not a.startswith('--')]
+report_only = '--report' in sys.argv   # for files that mix capture-verified ([C]) quotations with web/secondary ones
+bad = sum(check_file(f) for f in args)
+if report_only:
+    print('(--report: misses above are expected for quotations not taken from the captures; exit 0)')
+    sys.exit(0)
 sys.exit(1 if bad else 0)
