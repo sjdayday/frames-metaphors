@@ -1,6 +1,6 @@
 # Glossary — the vocabulary this project uses, with one climate example each
 
-**Status:** v0.3, 2026-10-07 (frame substitution, the grain question, mirrored pairs and label recruitment added from case 03; reification, naming scale, frame concession and meta-frame from case 02). Terms are grouped by the level of analysis they belong to. Definitions are deliberately plain; the sources behind them are in `references.md`. Examples are drawn from `case-studies/01-ls11-fr11/` where possible, so that each term can be seen doing work on a real statement.
+**Status:** v0.4, 2026-10-08 (the trace, the denominator, share against control, the chosen word and the degree zero added from case 04 and the literature pass; frame substitution, the grain question, mirrored pairs and label recruitment from case 03; reification, naming scale, frame concession and meta-frame from case 02). Terms are grouped by the level of analysis they belong to. Definitions are deliberately plain; the sources behind them are in `references.md`. Examples are drawn from `case-studies/01-ls11-fr11/` where possible, so that each term can be seen doing work on a real statement.
 
 ---
 
@@ -84,6 +84,21 @@
 *Example.* Koonin 2014 calls the climate's changing and the human influence "a settled matter" and "no hoax", and "not settled" the sensitivity and the projections; the 97% studies measured the first two grains and are quoted as if they settled the third.
 
 **Mirrored pair.** The same picture used by each side for the other's process, with the roles swapped. Seepage / airbrushing; manufactured consensus / manufactured doubt; "overheat" / "chills"; "devotee" / "denier". When pressed, both sides retreat from the intentional version to a structural one ("alignment", "feedback", "seepage"), which is the version the record can support.
+
+**The trace.** A foundational metaphor's forms in order, each anchored in a quotation, with what each form presses and hides and who uses it now. Done before the argument is analysed, because the objections to a mechanism are often entailments of the picture the mechanism was given.
+*Example.* "Greenhouse": Fourier's two kinds of heat (1824) → Tyndall's gate, blanket and dam (1859–63) → Arrhenius's "glass of a hot-house" (1896) → Ekholm's "green-house" and "heat store" (1901) → Poynting's "greenhouse effect" in scare quotes (1907) → Wood's misnomer (1909) → "trap", "cozy blanket", "control knob", "Hothouse Earth". The saturation argument is the single-pane form's entailment.
+
+**The denominator.** The quantity a percentage or a "record" is taken against. A number true at one denominator is false at another, and the choice is usually silent.
+*Example.* "Only 1% to 2%" of the natural greenhouse effect (about 155 W m⁻²) is 1.5–3 W m⁻², the forcing of a doubling; "near record lows" of CO₂ are of the last few million years, not of the ten thousand in which farming happened.
+
+**Share against control.** Two questions that wear one sentence — how much of an effect a factor accounts for now, and what moves the effect when it changes — with different correct answers.
+*Example.* "Over 98 percent of the current greenhouse effect" is water vapour and clouds (Lindzen); remove the non-condensing gases and the effect "would collapse" (Lacis, NASA): the first is a share, the second a control.
+
+**The chosen word.** A term a side adopted on purpose for its effect, with the choosing on the record. The shortest second look is to show the record.
+*Example.* "Climate change" (Luntz 2002: "less frightening than 'global warming'"); "climate crisis" (the Guardian 2019: "climate change" "sounds rather passive and gentle"); "greenhouse" (the field, 1896–1908, for a mechanism described without it since 1824).
+
+**The degree zero.** A statement of the mechanism with no picture in it, to which a second look can return when every picture has been argued over.
+*Example.* The UNFCCC's definition of greenhouse gases: "those gaseous constituents of the atmosphere, both natural and anthropogenic, that absorb and re-emit infrared radiation."
 
 **Label recruitment.** What a label does at the table: "denier", "alarmist", "believer", "contrarian" each cast the listener in the speaker's story (villain, dupe, zealot) and end the conversation the second look is trying to keep open. The one pair in the corpora that attributes no vice and names the cause of the state is a survey's — "convinced by the evidence" / "unconvinced" — and the survey record gives the unconvinced a describable position (a lower human share) that no label names.
 

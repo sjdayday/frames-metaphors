@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Dump full FrameNet 1.7 frame records (definition, FEs with core types, relations, sample LUs)
 for the frames used in frames-metaphors annotations. With no arguments, the frames are collected from the
-analyses, the protocol and the glossary (backticked names that FrameNet 1.7 knows). Output: Markdown to stdout."""
+analyses, the protocol, the glossary and the literature file (backticked names that FrameNet 1.7 knows). Output: Markdown to stdout."""
 import sys, re, textwrap
 from nltk.corpus import framenet as fn
 
@@ -10,7 +10,8 @@ def frames_in_use():
     import glob, os
     here = os.path.dirname(os.path.abspath(__file__)); repo = os.path.join(here, '..')
     files = glob.glob(os.path.join(repo, 'case-studies', '*', 'analysis.md')) + \
-            [os.path.join(repo, 'method', 'unpack-protocol.md'), os.path.join(repo, 'glossary.md')]
+            [os.path.join(repo, 'method', 'unpack-protocol.md'), os.path.join(repo, 'glossary.md'),
+             os.path.join(repo, 'literature', 'climate-metaphor-research.md')]
     names = set()
     for fpath in files:
         if os.path.exists(fpath):

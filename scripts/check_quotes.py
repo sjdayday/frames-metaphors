@@ -33,14 +33,14 @@ def norm(s):
 corpus_text = norm(' '.join(open(f, encoding='utf-8').read() for f in SRC))
 
 def segments(q):
-    q = re.sub(r'\((?:LS|FR|S|M)-\d+[a-z]?(?:,[^)]*)?\)\s*$', '', q)   # trailing ID tags, e.g. (FR-8, publisher), (S-10, Carter 2006)
+    q = re.sub(r'\((?:LS|FR|S|M|T)-\d+[a-z]?(?:,[^)]*)?\)\s*$', '', q)   # trailing ID tags, e.g. (FR-8, publisher), (S-10, Carter 2006)
     q = re.sub(r'[.,;:!?]+\s*$', '', q)                                  # terminal punctuation (source may end a quote with a comma before "said")
     q = re.sub(r'\[sic[^\]]*\]', '|', q)
     q = re.sub(r'\[…\]|\[\.\.\.\]|…|\.\.\.', '|', q)
     q = re.sub(r'\[[^\]]*\]', '|', q)
     q = q.replace(' / ', '|').replace('*', '')
     parts = (re.sub(r'^\([^)]*\)\s*', '', norm(x)) for x in q.split('|'))   # leading speaker/role tags, e.g. (the remedy:), (SAR 1995:)
-    parts = (re.sub(r'\((?:LS|FR|S|M)-\d+[a-z]?(?:,[^)]*)?\)\s*$', '', x).strip() for x in parts)   # ID tags before a ' / ' join
+    parts = (re.sub(r'\((?:LS|FR|S|M|T)-\d+[a-z]?(?:,[^)]*)?\)\s*$', '', x).strip() for x in parts)   # ID tags before a ' / ' join
     return [re.sub(r'[.,;:!?]+$', '', p) for p in parts if len(p) >= 12]
 
 def check_file(path):

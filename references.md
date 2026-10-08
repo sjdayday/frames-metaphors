@@ -1,8 +1,8 @@
 # References
 
-**Status:** v0.3, 2026-10-07 (case 03 sources added).
+**Status:** v0.4, 2026-10-08 (case 04 sources and the literature pass added).
 
-**Verification tags.** `[V]` — the publisher's or an institutional repository's record for the item was found during a pass (2026-10-05 or 2026-10-06) and the title, authors, venue and year checked against it; volume, issue and page numbers marked `(m)` were supplied from memory and not seen on the record. `[V-s]` — confirmed only through a secondary listing (a citing site, a reference list, an author's page). `[K]` — a standard reference, not re-verified; check before relying on a detail. `[U]`, `[S]`, `[W]`, `[W-x]`, `[P-08]`, `[P-09]`, `[P-06]` — as defined in `case-studies/02-pause-hiatus/corpus.md` and `case-studies/03-consensus/corpus.md`. Items are listed once, by the section where they are most used.
+**Verification tags.** `[V]` — the publisher's or an institutional repository's record for the item was found during a pass (2026-10-05 or 2026-10-06) and the title, authors, venue and year checked against it; volume, issue and page numbers marked `(m)` were supplied from memory and not seen on the record. `[V-s]` — confirmed only through a secondary listing (a citing site, a reference list, an author's page). `[K]` — a standard reference, not re-verified; check before relying on a detail. `[U]`, `[S]`, `[W]`, `[W-x]`, `[P-01]`, `[P-06]`, `[P-08]`, `[P-09]`, `[P-12]` — as defined in the case corpora (`case-studies/02-pause-hiatus/corpus.md`, `03-consensus/corpus.md`, `04-greenhouse/corpus.md`). Items are listed once, by the section where they are most used.
 
 ## Cognitive linguistics — frames, metaphor, construal
 
@@ -124,6 +124,55 @@ Statements quoted through `climate-science-evolution/08-manufactured-consensus.m
 - Chamberlin, T. C. (1890). The method of multiple working hypotheses. *Science*, 15(366), 92–96 (reprinted 1965, *Science*, 148, 754–759). `[K]` — the source of "ruling theory" (R2).
 - United Nations (1992). *Framework Convention on Climate Change*, Article 2 ("dangerous anthropogenic interference with the climate system"). `[K]` — the source of the tweet's third predicate (R1).
 - Bray, D., & von Storch, H. (2007). *The perspectives of climate scientists on global climate change* (GKSS 2007/11); (2010). *CliSci2008: A survey of the perspectives of climate scientists concerning climate science and climate change* (GKSS 2010/9); (2014). *CliSci2013* (HZG Report 2014-4); (2016). *The Bray and von Storch 5th international survey of climate scientists 2015/2016* (HZG Report 2016-2). `[P]` — read from the reports by the evolution project; the tabulated series (`climate-science-evolution/data/bray-von-storch-series.json`) is snapshotted in `case-studies/03-consensus/figures/data/` and drawn in Figure R-1 by `scripts/fig_consensus_surveys.py`.
+
+## The greenhouse trace (case 04)
+
+Fetch record with URLs and dates: `case-studies/04-greenhouse/sources/fetch-log.md`. Items marked `[P-01]`, `[P-06]`, `[P-12]` are cited through the evolution project's problem files, which read them in the original.
+
+- Fourier, J. (1824). Remarques générales sur les températures du globe terrestre et des espaces planétaires. *Annales de Chimie et de Physique*, 27, 136–167. Tr. E. Burgess (1837), General remarks on the temperature of the earth and outer space, *American Journal of Science*, 32, 1–20. `[W]` (through the Cornell PALE essay that quotes the translation)
+- Tyndall, J. (1859, June 10). On the transmission of heat of different qualities through gases of different kinds. *Notices of the Proceedings of the Royal Institution*, 3, 155–158. `[S]` (the "admits of the entrance of the solar heat" sentence, traced there by a blog post; not checked)
+- Tyndall, J. (1861). On the absorption and radiation of heat by gases and vapours. *Philosophical Transactions*, 151, 1–36. `[P-01]`
+- Tyndall, J. (1863). On radiation through the Earth's atmosphere. *Philosophical Magazine*, ser. 4, 25, 200–206; and *Heat considered as a Mode of Motion* (2nd ed., 1865). `[S]` (the blanket sentences through a blogger's transcription; the dam through RealClimate)
+- Arrhenius, S. (1896). On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine*, ser. 5, 41, 237–276. `[W]` (scan on a Harvard course site; excerpts at Le Moyne)
+- Arrhenius, S. (1908). *Worlds in the Making: The Evolution of the Universe* (tr. H. Borns). Harper. `[W]` (Project Gutenberg text)
+- Ekholm, N. (1901). On the variations of the climate of the geological and historical past and their causes. *Quarterly Journal of the Royal Meteorological Society*, 27, 1–62. doi:10.1002/qj.49702711702 `[S]` (through Easterbrook 2015 and the EGU blog, 2021)
+- Poynting, J. H. (1907) and Very, F. W. (1908) — the first uses of "greenhouse effect" and "greenhouse theory", per Easterbrook 2015. `[S]`
+- Wood, R. W. (1909). Note on the theory of the greenhouse. *Philosophical Magazine*, 17, 319–320. `[W]` (through the Stoat transcription; a scan is on Zenodo)
+- Ångström, K. (1900). Über die Bedeutung des Wasserdampfes und der Kohlensäure bei der Absorption der Erdatmosphäre. *Annalen der Physik*. `[P-01]` (volume and pages as the evolution project's list gives them)
+- Callendar, G. S. (1938); Plass, G. N. (1956); Manabe, S., & Wetherald, R. T. (1967); Myhre et al. (1998); Harries et al. (2001); Feldman et al. (2015) — as cited in `P01`. `[P-01]`
+- Ramanathan (1975); Wang et al. (1976); Ramanathan et al. (1985) — as cited in `P06`. `[P-06]`
+- Mercer, J. H. (1978). West Antarctic ice sheet and CO₂ greenhouse effect: a threat of disaster. *Nature*, 271, 321–325. `[P-12]`
+- Hansen, J. (1988, June 23). Statement to the Senate Committee on Energy and Natural Resources. `[W]` (Pulitzer Center transcript excerpt)
+- United Nations (1992). *Framework Convention on Climate Change*, Articles 1 and 2. `[W]`
+- Lindzen, R. S. (1992, spring). Global warming: The origin and nature of the alleged scientific consensus. *Regulation* (Cato Institute). `[W]`
+- Global Climate Coalition (1996, November 11). *Global Climate Coalition: An Overview.* `[P-08]`
+- Weart, S. R. *The Discovery of Global Warming* (AIP), "The Carbon Dioxide Greenhouse Effect." `[W]`
+- Weart, S., & Pierrehumbert, R. T. (2007, June 26). A saturated gassy argument. *RealClimate*. `[W]`
+- Gerlich, G., & Tscheuschner, R. D. (2009). Falsification of the atmospheric CO₂ greenhouse effects within the frame of physics. *International Journal of Modern Physics B*, 23(3), 275–364. `[W-x]` (arXiv abstract); answered by Halpern et al. (2010), 24(10), 1309–1332 `[P-01]`
+- Lacis, A. A., Schmidt, G. A., Rind, D., & Ruedy, R. A. (2010). Atmospheric CO₂: Principal control knob governing Earth's temperature. *Science*, 330, 356–359. `[W]` (through Lacis's NASA GISS research brief, October 2010)
+- Happer, W. (2011, June/July). The truth about greenhouse gases. *First Things*. `[W]`
+- NASA (2014/2024). What is the greenhouse effect? science.nasa.gov. `[W]`
+- CO2 Coalition (2015–). Home page and "Facts". `[W]`
+- Steffen, W., et al. (2018). Trajectories of the Earth System in the Anthropocene. *PNAS*, 115(33), 8252–8259. `[W]` (through the Stockholm Resilience Centre release of 6 August 2018)
+- van Wijngaarden, W. A., & Happer, W. (2020). Dependence of Earth's thermal radiation on five most abundant greenhouse gases. arXiv:2006.03098. `[W-x]`
+- U.S. EPA. Carbon pollution from transportation (page updated 2026-04-06). `[W]`
+- American Meteorological Society. *Glossary of Meteorology*, "greenhouse effect." `[W]`
+- Easterbrook, S. (2015). Who first coined the term "greenhouse effect"? (blog). `[S]`; EGU GeoLog (2021). 120 years of the greenhouse effect. `[S]`
+- Kiehl, J. T., & Trenberth, K. E. (1997). Earth's annual global mean energy budget. *Bulletin of the American Meteorological Society*, 78(2), 197–208. `[K]` — the ~155 W m⁻² total greenhouse effect used in G2; check.
+- Schmidt, G. A., Ruedy, R. A., Miller, R. L., & Lacis, A. A. (2010). Attribution of the present-day total greenhouse effect. *Journal of Geophysical Research*, 115, D20106. `[K]`
+- Zhu, Z., et al. (2016). Greening of the Earth and its drivers. *Nature Climate Change*, 6, 791–795. `[K]`
+- Peterson, T. C., Connolley, W. M., & Fleck, J. (2008). The myth of the 1970s global cooling scientific consensus. *Bulletin of the American Meteorological Society*, 89(9), 1325–1337. `[K]`
+- *Massachusetts v. EPA*, 549 U.S. 497 (2007). `[K]` — greenhouse gases as "air pollutants" under the Clean Air Act.
+
+## Climate-metaphor research and the framing documents (the literature pass)
+
+The annotated list, with what each item adds to the method, is `literature/climate-metaphor-research.md`. Records checked against CrossRef on 2026-10-08 (`[V]`): Nerlich, Koteyko & Brown 2010 (doi:10.1002/wcc.2); Romaine 1996 (10.1207/s15327868ms1103_1); Nerlich & Koteyko 2009 (10.1016/j.gloenvcha.2009.03.001); Koteyko, Thelwall & Nerlich 2010 (10.1177/1075547009340421); Nerlich & Jaspal 2012 (10.1080/10926488.2012.665795); Shaw & Nerlich 2015 (10.1016/j.ecolecon.2014.11.001); Russill 2008 (10.1080/17524030802141711); Russill & Nyssa 2009 (10.1016/j.gloenvcha.2009.04.001); Atanasova & Koteyko 2017 (10.1080/17524032.2015.1024705); Deignan, Semino & Paul 2019 (10.1093/applin/amx035). The rest of that list is `[K]` pending a CrossRef pass from a machine the API will answer.
+
+- Luntz Research Companies (2002). *The Environment: A Cleaner, Safer, Healthier America* (memo). `[S]` (through Burkeman, *The Guardian*, 4 March 2003, as reposted by CorpWatch; and Skeptical Science, "Climate Change: the Terminological Timeline")
+- Luntz, F. (2006, November 13). Interview, *Frontline*: "Hot Politics" (PBS; posted 2007-04-24). `[W]`
+- Lakoff, G. (2009, May). Why environmental understanding, or "framing," matters. *Huffington Post* / AlterNet. `[W]`; Ivakhiv, A. (2009, May 20). Lakoff's environmental frames vs. Connolly's resonance machines (blog). `[S]`
+- Lakoff, G. (2010). Why it matters how we frame the environment. *Environmental Communication*, 4(1), 70–81. doi:10.1080/17524030903529749 `[K]` (keywords seen in a preview, `[W-x]`)
+- Carrington, D. (2019, May 17). Why the Guardian is changing the language it uses about the environment. *The Guardian*; and the Guardian style guide's six changes. `[S]` (through eceee.org and iMediaEthics; theguardian.com is closed to the fetch tool)
 
 ## Primary statements used as examples
 
