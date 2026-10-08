@@ -1,6 +1,6 @@
 # Glossary — the vocabulary this project uses, with one climate example each
 
-**Status:** v0.2, 2026-10-06 (reification, naming scale, frame concession and meta-frame added from case 02). Terms are grouped by the level of analysis they belong to. Definitions are deliberately plain; the sources behind them are in `references.md`. Examples are drawn from `case-studies/01-ls11-fr11/` where possible, so that each term can be seen doing work on a real statement.
+**Status:** v0.3, 2026-10-07 (frame substitution, the grain question, mirrored pairs and label recruitment added from case 03; reification, naming scale, frame concession and meta-frame from case 02). Terms are grouped by the level of analysis they belong to. Definitions are deliberately plain; the sources behind them are in `references.md`. Examples are drawn from `case-studies/01-ls11-fr11/` where possible, so that each term can be seen doing work on a real statement.
 
 ---
 
@@ -76,6 +76,16 @@
 **Frame concession.** Adopting the other side's noun, and with it the noun's presupposition. Four ways it was handled in one episode: adopt and explain (the Met Office's "recent pause"), adopt and disarm in the title (Muller's "A Pause, Not an End"), adopt and redefine (the IPCC's "hiatus, defined as the reduction in trend"), refuse with scare quotes or "putative" (Rahmstorf; Lewandowsky et al.). Each has a cost a second look can name.
 
 **Meta-frame.** A frame about the other side's *process* rather than about the data — contamination ("seepage"), falsification ("airbrushed out", "hide the decline"), manufacture ("manufactured consensus"). Its appearance marks that the argument has left the series; the second look goes back to what is checkable.
+
+**Frame substitution.** Placing a claim that lives in one frame into a neighbouring frame that shares its word, and then judging it there. The move works because one word covers both.
+*Example.* "Consensus": Crichton's "If it's consensus, it isn't science" is true of agreement among parties about what to do (`Make_agreement_on_action`: a vote, a deal) and false of agreement among investigators about what the evidence shows (`Be_in_agreement_on_assessment`); the sentence moves science's agreement into the political frame and rejects it there. The measurement papers accepted the substitution by counting "endorsements" (`Taking_sides`).
+
+**The grain question.** Which proposition a claim about *the* consensus or *the* science is about — existence, sign and share, magnitude, or consequence. The definite article hides the grain; careful statements on both sides concede agreement at one grain and deny it at another.
+*Example.* Koonin 2014 calls the climate's changing and the human influence "a settled matter" and "no hoax", and "not settled" the sensitivity and the projections; the 97% studies measured the first two grains and are quoted as if they settled the third.
+
+**Mirrored pair.** The same picture used by each side for the other's process, with the roles swapped. Seepage / airbrushing; manufactured consensus / manufactured doubt; "overheat" / "chills"; "devotee" / "denier". When pressed, both sides retreat from the intentional version to a structural one ("alignment", "feedback", "seepage"), which is the version the record can support.
+
+**Label recruitment.** What a label does at the table: "denier", "alarmist", "believer", "contrarian" each cast the listener in the speaker's story (villain, dupe, zealot) and end the conversation the second look is trying to keep open. The one pair in the corpora that attributes no vice and names the cause of the state is a survey's — "convinced by the evidence" / "unconvinced" — and the survey record gives the unconvinced a describable position (a lower human share) that no label names.
 
 **Mode B.** This project's name for analysis with the tools in sections B–E: scripts, metaphors and their entailments, construal, metonymy, narrative cast. It does the inferential work; it is interpretive, so every attribution must be anchored in a quoted word ("did they say it?").
 

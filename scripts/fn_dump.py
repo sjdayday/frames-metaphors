@@ -1,18 +1,29 @@
 #!/usr/bin/env python3
 """Dump full FrameNet 1.7 frame records (definition, FEs with core types, relations, sample LUs)
-for the frames used in frames-metaphors annotations. Output: Markdown to stdout."""
+for the frames used in frames-metaphors annotations. With no arguments, the frames are collected from the
+analyses, the protocol and the glossary (backticked names that FrameNet 1.7 knows). Output: Markdown to stdout."""
 import sys, re, textwrap
 from nltk.corpus import framenet as fn
 
-FRAMES = sys.argv[1:] or [
-    'Artificiality', 'Intentional_deception', 'Prevarication', 'Manipulate_into_doing',
-    'Deception_success', 'Obviousness', 'Evidence', 'Certainty', 'Adjusting', 'Removing',
-    'Causation', 'Activity_pause', 'Activity_stop', 'Process_stop', 'Beat_opponent',
-    'Competition', 'Confronting_problem', 'Hostile_encounter', 'Stimulus_focus',
-    'Experiencer_obj', 'Predicting', 'Expectation', 'Eclipse', 'Hiding_objects',
-    'Becoming_aware', 'Reasoning', 'Statement', 'Success_or_failure', 'Endeavor_failure',
-    'Adopt_selection', 'Suitability', 'Shapes', 'Hindering', 'Change_event_duration',
-]
+def frames_in_use():
+    """Every backticked Capitalized_name in the analyses, protocol and glossary that FrameNet knows."""
+    import glob, os
+    here = os.path.dirname(os.path.abspath(__file__)); repo = os.path.join(here, '..')
+    files = glob.glob(os.path.join(repo, 'case-studies', '*', 'analysis.md')) + \
+            [os.path.join(repo, 'method', 'unpack-protocol.md'), os.path.join(repo, 'glossary.md')]
+    names = set()
+    for fpath in files:
+        if os.path.exists(fpath):
+            names.update(re.findall(r'`([A-Z][A-Za-z_]*)`', open(fpath, encoding='utf-8').read()))
+    out = []
+    for n in sorted(names):
+        try:
+            fn.frame(n); out.append(n)
+        except Exception:
+            pass
+    return out
+
+FRAMES = sys.argv[1:] or frames_in_use()
 
 def clean(s):
     s = re.sub(r'<[^>]+>', '', s or '')

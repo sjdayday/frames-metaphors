@@ -1,8 +1,8 @@
 # References
 
-**Status:** v0.2, 2026-10-06 (case 02 sources added).
+**Status:** v0.3, 2026-10-07 (case 03 sources added).
 
-**Verification tags.** `[V]` — the publisher's or an institutional repository's record for the item was found during a pass (2026-10-05 or 2026-10-06) and the title, authors, venue and year checked against it; volume, issue and page numbers marked `(m)` were supplied from memory and not seen on the record. `[V-s]` — confirmed only through a secondary listing (a citing site, a reference list, an author's page). `[K]` — a standard reference, not re-verified; check before relying on a detail. `[S]`, `[W-x]`, `[P-08]` — as defined in `case-studies/02-pause-hiatus/corpus.md`. Items are listed once, by the section where they are most used.
+**Verification tags.** `[V]` — the publisher's or an institutional repository's record for the item was found during a pass (2026-10-05 or 2026-10-06) and the title, authors, venue and year checked against it; volume, issue and page numbers marked `(m)` were supplied from memory and not seen on the record. `[V-s]` — confirmed only through a secondary listing (a citing site, a reference list, an author's page). `[K]` — a standard reference, not re-verified; check before relying on a detail. `[U]`, `[S]`, `[W]`, `[W-x]`, `[P-08]`, `[P-09]`, `[P-06]` — as defined in `case-studies/02-pause-hiatus/corpus.md` and `case-studies/03-consensus/corpus.md`. Items are listed once, by the section where they are most used.
 
 ## Cognitive linguistics — frames, metaphor, construal
 
@@ -97,9 +97,36 @@
 - NOAA NCEI. NOAAGlobalTemp annual global anomalies (source GCAG), as snapshotted in `climate-explain/loehle-scafetta-curve-fitting/data/annual.csv` (the `datasets/global-temp` mirror). `[K]` (Steve's own snapshot; refresh command in that repository's README)
 - Santer, B. D., et al. (2008). Consistency of modelled and observed temperature trends in the tropical troposphere. *International Journal of Climatology*, 28, 1703–1722. `[K]` (the AR(1) effective-sample-size adjustment used for the figure's intervals)
 
+## The consensus cluster (case 03)
+
+Statements quoted through `climate-science-evolution/08-manufactured-consensus.md` and `09-problem-typology.md` (`[P-08]`, `[P-09]`) were read in the original by that project; its reference list gives the editions and pages.
+
+- Crichton, M. (2003, January 17). Aliens cause global warming. Michelin Lecture, California Institute of Technology. `[W]` (PDF copy on a Stanford site, fetched 2026-10-07 in short segments; "There is no such thing as consensus science.")
+- Seitz, F. (1996, June 12). A major deception on global warming. *Wall Street Journal* (op-ed). `[P-08]`
+- Global Climate Coalition (1996). *The IPCC: Institutionalized "Scientific Cleansing"?* (pamphlet, spring 1996); *Global Climate Coalition: An Overview* (November 11, 1996). `[P-08]`
+- Santer, B. D., et al. (1996, June 25). Letter to the editor. *Wall Street Journal*; Bolin, B., Houghton, J., & Meira Filho, L. G. (1996, July 23). Letter. *Wall Street Journal*; AMS and UCAR (1996, July 25). Open letter to Ben Santer. `[P-08]`
+- *Nature* (1996). Climate debate must not overheat (editorial). *Nature*, 381, 539. `[P-08]`
+- Wegman, E. J., Scott, D. W., & Said, Y. H. (2006, July 14). *Ad hoc committee report on the "hockey stick" global climate reconstruction*. U.S. House Committee on Energy and Commerce. `[P-08]`
+- Lindzen, R. S. (2008). Climate science: Is it currently designed to answer questions? arXiv:0809.3762. `[P-08]`
+- Singer, S. F. (Ed.) (2008). *Nature, not human activity, rules the climate: Summary for policymakers of the report of the Nongovernmental International Panel on Climate Change*. Heartland Institute. `[P-08]`
+- Curry, J. A. (2017, March 29). Written testimony, hearing on "Climate science: Assumptions, policy implications, and the scientific method," U.S. House Committee on Science, Space, and Technology. `[P-08]`
+- Koonin, S. E. (2021). *Unsettled: What climate science tells us, what it doesn't, and why it matters*. BenBella Books (2024 edition). `[P-08]`
+- Oreskes, N. (2004). The scientific consensus on climate change. *Science*, 306(5702), 1686 (erratum 2005, 307, 355). `[P-09]`
+- Doran, P. T., & Zimmerman, M. K. (2009). Examining the scientific consensus on climate change. *Eos*, 90(3), 22–23. `[P-09]`
+- Anderegg, W. R. L., Prall, J. W., Harold, J., & Schneider, S. H. (2010). Expert credibility in climate change. *PNAS*, 107(27), 12107–12109. `[P-09]`
+- Cook, J., et al. (2013). Quantifying the consensus on anthropogenic global warming in the scientific literature. *Environmental Research Letters*, 8, 024024. `[W-x]` (fragments fetched 2026-10-07) and `[P-09]`
+- Cook, J., et al. (2016). Consensus on consensus: a synthesis of consensus estimates on human-caused global warming. *Environmental Research Letters*, 11, 048002. `[W]` (through the University of Bristol press release of 14 April 2016, fetched 2026-10-07)
+- van der Linden, S. L., Leiserowitz, A. A., Feinberg, G. D., & Maibach, E. W. (2015). The scientific consensus on climate change as a gateway belief: Experimental evidence. *PLoS ONE*, 10(2), e0118489. `[W]` (title and a paraphrase only)
+- @BarackObama (2013, May 16). "Ninety-seven percent of scientists agree: #climate change is real, man-made and dangerous." Tweet (the account was run by Organizing for Action). `[S]` (via National Geographic, "Story of a tweet")
+- National Research Council (2010). *Advancing the science of climate change*. National Academies Press. `[K]` — the "settled facts" sentence is quoted from memory in `case-studies/03-consensus/corpus.md` (M-11) and has not been checked against the report.
+- Committee for Skeptical Inquiry (2014, December 5). Deniers are not skeptics (statement). `[K]` — title only.
+- Oreskes, N., & Conway, E. M. (2010). *Merchants of doubt: How a handful of scientists obscured the truth on issues from tobacco smoke to global warming*. Bloomsbury. `[K]` — title only.
+- Chamberlin, T. C. (1890). The method of multiple working hypotheses. *Science*, 15(366), 92–96 (reprinted 1965, *Science*, 148, 754–759). `[K]` — the source of "ruling theory" (R2).
+- United Nations (1992). *Framework Convention on Climate Change*, Article 2 ("dangerous anthropogenic interference with the climate system"). `[K]` — the source of the tweet's third predicate (R1).
+- Bray, D., & von Storch, H. (2007). *The perspectives of climate scientists on global climate change* (GKSS 2007/11); (2010). *CliSci2008: A survey of the perspectives of climate scientists concerning climate science and climate change* (GKSS 2010/9); (2014). *CliSci2013* (HZG Report 2014-4); (2016). *The Bray and von Storch 5th international survey of climate scientists 2015/2016* (HZG Report 2016-2). `[P]` — read from the reports by the evolution project; the tabulated series (`climate-science-evolution/data/bray-von-storch-series.json`) is snapshotted in `case-studies/03-consensus/figures/data/` and drawn in Figure R-1 by `scripts/fig_consensus_surveys.py`.
+
 ## Primary statements used as examples
 
-- Crichton, M. (2003, January 17). Aliens cause global warming. Michelin Lecture, California Institute of Technology. ("There is no such thing as consensus science.") `[K]`
 - The L&S11 and F&R11 public communications: see `case-studies/01-ls11-fr11/corpus.md` for the full provenance of each quoted statement (capture files in the read-only `climate-paper-behavior` repository, `pilot/communications/sources/`).
 - Foster, G., & Rahmstorf, S. (2011). Global temperature evolution 1979–2010. *Environmental Research Letters*, 6, 044022. `[K]` (as cited in the inventory)
 - Loehle, C., & Scafetta, N. (2011). Climate change attribution using empirical decomposition of climatic data. *Open Atmospheric Science Journal*, 5, 74–86. doi:10.2174/1874282301105010074 `[K]` (as cited in the inventory and in Scafetta's post)

@@ -1,6 +1,6 @@
 # Unpacking a claim in conversation — protocol v0.1
 
-**Status:** v0.2, 2026-10-06 — v0.1 drafted from the first three pairs of case 01; v0.2 adds the reification marks and the "significant" translation to Step 1 and the naming scale, frame concession and meta-frames to Step 2, from case 01 pairs 4–5 and case 02. To be revised as cases accumulate.
+**Status:** v0.3, 2026-10-07 — v0.1 drafted from the first three pairs of case 01; v0.2 adds the reification marks and the "significant" translation to Step 1 and the naming scale, frame concession and meta-frames to Step 2, from case 01 pairs 4–5 and case 02; v0.3 adds the agreement rows and the labels to Step 1 and the grain question and the mirrored pairs to Step 2, from case 03. To be revised as cases accumulate.
 
 ## The use case
 
@@ -34,8 +34,11 @@ Scan the paraphrase for the words FrameNet covers well — the social and episte
 | confront, attack, arsenal, beat, compete | `Confronting_problem` / `Hostile_encounter`, `Attack`, `Weapon`, `Beat_opponent`, `Competition` | sides, weapons, a scoreboard |
 | influence, affect, cause, drive | `Objective_influence`, `Causation` | who or what is acting on what |
 | calibrate, adjust, correct | `Adjusting`, `Correctness` | bringing a part into accord with a standard — which presupposes a standard |
+| consensus, agreement, agree, settled | *(consensus: gap)*; `Be_in_agreement_on_assessment` vs. `Make_agreement_on_action`; `Colonization` | two agreements: cognizers sharing an opinion on a question, or parties taking on obligations — the first is about evidence, the second is not; "settled" is lexically the second (a deal) or a closed frontier, never a finding |
+| endorse, support, believe, convinced, deny | `Taking_sides`; `Religious_belief` (one of believe's five frames); `Certainty`; `Affirm_or_deny` | endorse and support are *sides* frames; "believe" invites the creed reading; "convinced by the evidence" stays inside `Certainty` and names the cause; "deny" presupposes the thing denied |
+| denier, contrarian, alarmist, devotee, merchant, cabal | *(all gaps)* | the labels: each names a vice at the edge of a category whose centre both sides claim (doubt proportioned to evidence; concern proportioned to risk); a label at the table casts the friend in the speaker's story |
 
-The scan takes a minute and its value is that it is blind to allegiance: it catches the loaded word whichever side it comes from. Record gaps too (fit, filter, signal, noise, trend, cycle, model, urgency, hiatus, slowdown): those words are carrying a domain script that has to be stated by hand in Step 2.
+The scan takes a minute and its value is that it is blind to allegiance: it catches the loaded word whichever side it comes from. Record gaps too (fit, filter, signal, noise, trend, cycle, model, urgency, hiatus, slowdown; and the institutional vocabulary on both sides — consensus, orthodoxy, dogma, mantra, paradigm, cabal, corruption, cleansing, playbook, merchants): those words are carrying a domain script that has to be stated by hand in Step 2.
 
 Three things to flag in the scan that are not words (from case 02):
 
@@ -56,6 +59,10 @@ Pick the one or two frames or metaphors doing the inferential work, and for each
 Where the claim rests on a technical script (a decomposition, a comparison of two numbers, a test of a forecast), state the script's roles and the condition under which its inference is licensed (e.g., for subtraction: the "known" components must be known independently of the record).
 
 **The naming scale** (case 02). When the claim turns on what a phenomenon is called, list the names in play and order them by what each presupposes about *before* and *after* and by the explanatory burden each imposes. For the slower warming after 1998: STOPPED (ended; nothing to explain about a resumption) → NO WARMING AT ALL (a zero) → THE PAUSE (suspended; resumption built in; an agent invited) → HIATUS (a gap in a continuing sequence) → SLOWDOWN (continuing, slower) → FLUCTUATION (routine; nothing to explain). The second look then names which point on the scale the speaker chose and which the evidence supports, and notes any **frame concession** — the other side's noun adopted, with its presupposition — and how it was handled (adopted and explained; adopted and disarmed; adopted and redefined; refused with scare quotes).
+
+**The grain question** (case 03). When the claim is about *the* consensus or whether *the* science is settled, the definite article hides which proposition is meant. Separate the grains before anything else: existence (is it warming; is there a human influence), sign and share (is most of it human), magnitude (how sensitive; how much by when), and consequence (how bad). The sceptical side's careful statements concede agreement at the first two grains while denying it at the third, and the slogans on both sides ("if it's consensus it isn't science"; "97% agree it's real, man-made and dangerous") run the grains together. The second look names the proposition and gives the assessments' calibrated word for it rather than "settled".
+
+**Mirrored pairs** (a bank, from cases 01–03). Each side's name for the other's process is the same picture with the roles swapped, and the second look can show the pair: seepage / airbrushing; manufactured consensus / manufactured doubt; the Party Line / the playbook; "overheat" (the debate, 1996) / "chills" (the enterprise, 2014); "believer" and "devotee" / "denier" and "merchant"; "the proper skepticism" / "fake skeptics". When pressed, both sides retreat from the intentional version to a structural one — "alignment of interests", "self-reinforcing feedback", "seepage" — which is weaker as an accusation and the only version the record supports.
 
 **Meta-frames.** When the claim is about the other side's *process* rather than the data — "airbrushed", "seepage", "manufactured", "hide the decline" — the argument has left the series. Say so, and go back to the checkable thing: was the change published with its method; was it tested against independent records; what did the other datasets do.
 
