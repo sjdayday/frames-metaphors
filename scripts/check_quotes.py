@@ -17,6 +17,8 @@ BASE = next((c for c in _candidates if c and os.path.isdir(c)), None)
 if BASE is None:
     sys.exit('captures not found; set CAPTURES=/path/to/climate-paper-behavior/pilot/communications')
 SRC = glob.glob(os.path.join(BASE, 'sources', '*.txt')) + glob.glob(os.path.join(BASE, 'translation-review', '*.md'))
+# case-local captures (this repo): case-studies/*/sources/*.txt, with provenance headers
+SRC += glob.glob(os.path.join(_here, '..', 'case-studies', '*', 'sources', '*.txt'))
 if not SRC:
     sys.exit(f'no capture files under {BASE}')
 
@@ -63,6 +65,7 @@ def check_file(path):
     for p, skip in paras:
         if skip:
             skipped += 1; continue
+        p = re.sub(r'^\((?:[^)]*quoted[^)]*|Curry quotes the IPCC|Curry|Daily Caller|Monckton, quoted|Monbiot|Homewood\'s fragments)[^)]*:\)\s*', '', p)   # speaker tags inside quotes
         for seg in segments(p):
             if seg in corpus_text:
                 ok += 1

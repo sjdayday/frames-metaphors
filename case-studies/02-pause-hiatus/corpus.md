@@ -1,6 +1,6 @@
 # Case study 02 — corpus: the "pause", the "hiatus", the slowdown, 2006–2018
 
-**Status:** v0.1, 2026-10-06. Assembled unattended from sources reachable from the cloud environment plus the verified case-01 captures; items marked `[S]` were quoted through a secondary source because the primary was blocked, and should be checked against the primary before they are relied on for anything beyond the wording of the frame.
+**Status:** v0.2, 2026-10-07. v0.1 was assembled unattended from sources reachable from the cloud environment plus the verified case-01 captures. v0.2 replaces four secondary quotations with the primaries Steve supplied as printed PDFs (Koonin 2014; Carter 2006; Monckton 2017; Monbiot 2010 quoting Rose 2010) and adds the material they contain. Items still marked `[S]` (the AR5 SPM sentences, Rose's 2012 headline, Muller's op-ed) should be checked against their primaries before they are relied on for anything beyond the wording of the frame.
 
 ## What this corpus is
 
@@ -17,6 +17,8 @@ The scientific record is in `climate-science-evolution/02-problems/P08-observati
 | `[W-x]` | As `[W]`, but the fetch returned a summary with short quotations rather than the full text; only the quoted fragments are used, and the page should be captured properly before further use. |
 | `[S]` | Quoted through a named secondary source (a paper, a blog post, an encyclopaedia) because the primary (IPCC, WSJ, Telegraph, Daily Mail, Semantic Scholar) was unreachable from this environment. |
 | `[P-08]` | Quoted from `climate-science-evolution/08-manufactured-consensus.md`, which read the primary in full and marks its quotations [P]. |
+| `[U]` | Primary supplied by Steve as a browser-printed PDF of the page (2026-10-07), text extracted with `pdftotext` and quoted verbatim; interleaved advertisement text in the print is omitted. |
+| `[U-q]` | A quotation *inside* an `[U]` primary — e.g. Rose's 2010 sentences as quoted by Monbiot — so the words are the quoted author's, the selection is the quoting author's. |
 
 ## Sides
 
@@ -26,13 +28,37 @@ The scientific record is in `climate-science-evolution/02-problems/P08-observati
 
 ## S side
 
-**S-1** — Bob Carter, *The Telegraph*, 9 April 2006, headline. `[S]` via Wikipedia, "Global warming hiatus" (the Telegraph page is blocked from here).
+**S-1** — Bob Carter, "There IS a problem with global warming... it stopped in 1998," *The Telegraph*, 9 April 2006. `[U]` (Carter was a geologist at James Cook University; the piece is signed "Prof Bob Carter … engaged in paleoclimate research".)
 
 > There IS a problem with global warming... it stopped in 1998
+
+> For many years now, human-caused climate change has been viewed as a large and urgent problem. In truth, however, the biggest part of the problem is neither environmental nor scientific, but a self-created political fiasco. Consider the simple fact, drawn from the official temperature records of the Climate Research Unit at the University of East Anglia, that for the years 1998-2005 global average temperature did not increase (there was actually a slight decrease, though not at a rate that differs significantly from zero).
+
+> Yes, you did read that right. And also, yes, this eight-year period of temperature stasis did coincide with society's continued power station and SUV-inspired pumping of yet more carbon dioxide into the atmosphere.
+
+> In response to these facts, a global warming devotee will chuckle and say "how silly to judge climate change over such a short period". Yet in the next breath, the same person will assure you that the 28-year-long period of warming which occurred between 1970 and 1998 constitutes a dangerous (and man-made) warming. Tosh.
+
+> They have long appreciated - ever since the early 1990s, when the global warming bandwagon first started to roll behind the gravy train of the UN Inter-governmental Panel on Climate Change (IPCC) - that such short-term climate fluctuations are chiefly of natural origin.
+
+> Each such alarmist article is larded with words such as "if ", "might", "could", "probably", "perhaps", "expected", "projected" or "modelled" - and many involve such deep dreaming, or ignorance of scientific facts and principles, that they are akin to nonsense.
+
+> There are other reasons, too, why the public hears so little in detail from those scientists who approach climate change issues rationally, the so-called climate sceptics.
+
+> The second graph shows the average global temperature over the last eight years, which has proved to be a period of stasis.
+
+> Informal discussions have already begun about a new AP6 audit body, designed to vet rigorously the science advice that the Partnership receives, including from the IPCC.
 
 **S-2** — David Rose, *Daily Mail*, 13 October 2012, headline as encoded in the article's URL and as paraphrased in secondary accounts (Wikipedia: Rose "claimed that the latest global temperatures showed 15 years without warming"). `[S]` — the page is blocked from here; the headline is reconstructed from the URL slug `Global-warming-stopped-16-years-ago-reveals-Met-Office-report-quietly-released--chart-prove-it` and should be checked.
 
 > Global warming stopped 16 years ago, reveals Met Office report quietly released… and here is the chart to prove it
+
+**S-2b** — David Rose, *Mail on Sunday*, early December 2010, as quoted by George Monbiot in *The Guardian* (M-14), 8 December 2010. `[U-q]`
+
+> Actually, with the exception of 1998 – a 'blip' year when temperatures spiked because of a strong El Niño effect (the cyclical warming of the southern Pacific that affects weather around the world) – the data on the Met Office's and CRU's own websites show that global temperatures have been flat, not for 10, but for the past 15 years.
+
+> They go up a bit, then down a bit, but those small rises and falls amount to less than their measuring system's acknowledged margin of error. They have no statistical significance and reveal no evidence of any trend at all.
+
+> Above all, it means the trend stays flat.
 
 **S-3** — Paul Homewood, "Hide The Decline," WUWT guest post, 29 September 2013, commenting on the AR5 SPM. `[W-x]`
 
@@ -52,9 +78,15 @@ Homewood's own fragments as returned: "28 years of cooling – 1951-79"; "12 yea
 
 (Attribution of the two IPCC sentences to the SPM, Technical Summary or chapter 9 is not verified here; the fetch returned them as Curry's quotations of "the IPCC AR5".)
 
-**S-5** — Steven Koonin, "Climate Science Is Not Settled," *Wall Street Journal*, 19 September 2014. `[P-08]` (read in full by that project from the Wayback Machine; the quotation marks below are its; "the sixteen-year slowdown" is that file's paraphrase of the sentence's subject).
+**S-5** — Steven E. Koonin, "Climate Science Is Not Settled," *Wall Street Journal*, 19 September 2014. `[U]` (the second of six bulleted "examples" of the models' limitations, and the paragraph that follows it; also the essay's statement of the models' tuning).
 
-> (the sixteen-year slowdown) "demonstrates directly that natural influences and variability are powerful enough to counteract the present warming influence exerted by human activity. Yet the models famously fail to capture this slowing"
+> • Although the Earth's average surface temperature rose sharply by 0.9 degree Fahrenheit during the last quarter of the 20th century, it has increased much more slowly for the past 16 years, even as the human contribution to atmospheric carbon dioxide has risen by some 25%. This surprising fact demonstrates directly that natural influences and variability are powerful enough to counteract the present warming influence exerted by human activity.
+>
+> Yet the models famously fail to capture this slowing in the temperature rise. Several dozen different explanations for this failure have been offered, with ocean variability most likely playing a major role. But the whole episode continues to highlight the limits of our modeling.
+
+> In a given model, dozens of such assumptions must be adjusted ("tuned," in the jargon of modelers) to reproduce both current observations and imperfectly known historical records.
+
+> Nor is the crucial question whether humans are influencing the climate. That is no hoax: There is little doubt in the scientific community that continually growing amounts of greenhouse gases in the atmosphere, due largely to carbon-dioxide emissions from the conventional use of fossil fuels, are influencing the climate.
 
 **S-6** — Christopher Monckton of Brenchley, "The Pause lengthens yet again," WUWT guest post, 4 September 2015. `[W]`
 
@@ -70,11 +102,25 @@ Homewood's own fragments as returned: "28 years of cooling – 1951-79"; "12 yea
 
 > (Monckton, quoted:) The RSS satellite dataset shows no global warming at all for 220 months from December 1996 to March 2014 – more than half the 435-month satellite record
 
-**S-8** — Monckton, "How They airbrushed out the Inconvenient Pause," WUWT guest post, 7 July 2017. `[W-x]` — the fetch returned a summary; only these fragments are used, and the page should be captured properly.
+**S-8** — Christopher Monckton of Brenchley, "How They airbrushed out the Inconvenient Pause," WUWT guest post, 7 July 2017. `[U]` (WUWT's category tags on the post: "ADJUSTMENTS/CORRECTIONS", "HIATUS IN GLOBAL WARMING". In the print, advertisement text is interleaved inside the first two quoted sentences; the checker therefore reports those two as unmatched, and they were verified in segments and against the rendered page.)
 
-> How They airbrushed out the Inconvenient Pause
+> In November 2015, just before the faithful gathered around their capering, gibbering witch-doctors and shamans in Paris for the New Superstition's annual festival of thanks and praise, hugs and back-slapping, the Inconvenient Pause lengthened to 18 years 9 months. One-third of Man's entire influence on climate since the Industrial Revolution had occurred since February 1997, yet on the then RSS dataset the 225 months since that month had shown no global warming at all (Fig. 1).
 
-Fragments as returned: "the Inconvenient Pause lengthened to 18 years 9 months"; on the RSS dataset "the 225 months since that month had shown no global warming at all"; of the RSS revision from version 3.3 to 4.0, "Version 3 was no longer Politically Correct. All hail Version 4". The extract also reports the phrase "statistical prestidigitation" for the revision; the surrounding sentence came back garbled and is not quoted.
+> Then came the naturally-occurring el Niño of 2015/2016, ending the Pause. But there stood the Pause, still on the record-books, a standing indictment of the profiteers of doom and their inept climate models' half-baked but overcooked predictions of rampant warming followed by a lurid catalogue of plagues of which the Psalmist at his most excitable would have been proud – except that they did not occur.
+
+> At the time I made a prediction of my own. I said that Dr Karl sMears [sic] of RSS, whose dataset had shown the Inconvenient Pause but who publicly derides those of us who ask questions about the Party Line as "denialists", would soon allow the Party to prevail upon him to announce that the Inconvenient Pause was a mistake and that he would thereafter airbrush it away by some a [sic] of statistical prestidigitation.
+
+> Sure enough, the very next month he announced that the RSS dataset was going to be revised. Version 3 was no longer Politically Correct. All hail Version 4, which has recently become available. To see the extent of the tampering – er, make that "revision to allow for the previously-unheard-of phenomenon of orbital decay in the satellites", Comrade – I plotted the 18 years and 9 months of temperature data from February 1997 to October 2015 using the new RSS data.
+
+> Hey presto! No more Inconvenient Pause! All gone! Vanished into thick air! Just like that! Amazing! Zowee! Look! A quarter of a degree of global warming where there was none before! It's worse than we thought!
+
+> Frankly, it's time for this unprincipled Humptidumptification of climate science to stop. The data are rewritten again and again until they mean whatever the Politburo want them to mean. Numerous climate datasets, now including the RSS dataset, have been tortured and contorted so often to force them into ever-less-plausible conformity with the Party Line that neither they nor the Party Line any longer possess any objective credibility whatsoever.
+
+> Looks pretty close to a Pause to me. Down the memory-hole with it, Comrades!
+
+> First, on most of the global-temperature datasets, much of the warming of recent decades was not evident in the raw data and has been created by ex-post-facto manipulation of the data – whether for good reasons or bad.
+
+> Secondly, no Inconvenient Pause will ever again be allowed to show in most datasets, even if there is one. Some parameter or another will be Karlamelized after the event, and numbly acquiescent pal-reviewers will check it not for scientific merit but simply for conformity to the Party Line, whereupon they will wave the paper through.
 
 **S-9** — From case 01 (`[C]`): Loehle, 2011-07-25 — "Cooling/flat temperatures till 2030 are likely (as also predicted by others)" (LS-7); Scafetta, 2012-03-11 — "the temperature trending since 2000 has been almost steady as the figure in the widget clearly shows" and "the IPCC projection is always worst, and statistically diverges from the temperature since 2006" (LS-15 and the baseline section).
 
@@ -158,17 +204,33 @@ Fragments as returned: "the Inconvenient Pause lengthened to 18 years 9 months";
 
 > Those who deny the scientific evidence of human-caused global warming turned the slowdown into a slogan: 'Global warming stopped in 1998.' In scientific journals and assessment reports, climate experts described the episode as a 'pause' or 'hiatus' in the previous decades' rapid warming: they knew it wouldn't last.
 
+**M-14** — George Monbiot, "David Rose's climate science writing shows he has not learned from previous mistakes," *The Guardian* (blog), 8 December 2010, with the scientists he quotes. `[U]`
+
+> Since the Iraq debacle, Rose has latterly been writing articles attacking climate science for the Daily Mail. He has distinguished himself by the same uncritical reliance on dodgy sources that caused his catastrophic mistakes about Iraq.
+
+> But now he has published his longest list of errors yet, in an article in the Mail on Sunday. Every one of them would have been easy to check and disprove, had he been inclined to do so. But the Mail pays well for this crap, and checking, under these circumstances, is likely to be an expensive pastime.
+
+> (Kevin Trenberth, quoted:) One should not be misled by seizing on an individual value or year and citing trends for that, because natural variability such as from El Niño creates ups and downs all the time.
+
+> Does Rose expect warming to proceed along a straight line?
+
+> (Phil Jones, quoted:) The error of estimate of global averages or the forecasts for subsequent years is completely unrelated to the trend of warming. This is comparing apples with oranges.
+
+> Perhaps Rose could explain how he has obtained the data from October to the end of the year. Is he employing Mystic Meg as his researcher?
+
+> (Andrew Dessler, quoted:) Scientists, however, view uncertainty like a starving wolf views red meat, and so the problem was thoroughly attacked over the next 15 years. […] However, just like the monster in a horror movie, this argument just won't die.
+
 ---
 
 ## Pairs
 
 | Pair | Job the statements do | S statements | M statements | Status |
 |---|---|---|---|---|
-| **Q1** | **Name the thing**: stopped / no warming at all / the Pause — pause / hiatus / slowdown / fluctuation / reduction in trend | S-1, S-2, S-3, S-6, S-9 | M-1, M-2, M-3, M-4, M-5, M-6, M-7, M-8, M-11, M-12, M-13 | analysed in `analysis.md` |
-| **Q2** | **Draw the inference about the models**: natural variability counteracts the human influence; the models failed — vs. the slowdown is explained, within the models' range | S-4, S-5, S-9 | M-4, M-5, M-8, M-10, M-12 | analysed |
-| **Q3** | **Keep score**: N years N months of no warming on dataset D from month X — vs. short windows are not diagnostic; significant warming since 2000 | S-3, S-6, S-7 | M-1, M-4, M-11, M-13 | analysed |
-| **Q4** | **Argue about the word itself**: who adopted whose framing; "airbrushed out" vs. "seepage" and "mislabeling" | S-8 | M-9, M-11, M-13 | analysed (shorter: the meta-pair) |
+| **Q1** | **Name the thing**: stopped / no warming at all / the Pause — pause / hiatus / slowdown / fluctuation / reduction in trend | S-1, S-2, S-2b, S-3, S-5, S-6, S-8, S-9 | M-1, M-2, M-3, M-4, M-5, M-6, M-7, M-8, M-11, M-12, M-13 | analysed in `analysis.md` |
+| **Q2** | **Draw the inference about the models**: natural variability counteracts the human influence; the models failed — vs. the slowdown is explained, within the models' range | S-4, S-5, S-9 | M-4, M-5, M-8, M-10, M-12, M-14 | analysed |
+| **Q3** | **Keep score**: N years N months of no warming on dataset D from month X — vs. short windows are not diagnostic; significant warming since 2000 | S-1, S-2b, S-3, S-6, S-7 | M-1, M-4, M-11, M-13, M-14 | analysed |
+| **Q4** | **Argue about the word itself and the other side's process**: "airbrushed out", the Party, the New Superstition — vs. "seepage", "mislabeling", "dodgy sources" | S-1, S-8 | M-9, M-11, M-13, M-14 | analysed |
 
 ## What is deliberately not here
 
-The scientific papers of the 2013–17 explanation (Kosaka & Xie, England, Schmidt et al., Cowtan & Way, Karl et al., Hausfather et al.) beyond their titles; the US congressional uses of the pause (Cruz hearing, December 2015); the GWPF's reports; the Met Office's January 2012 and 2013 exchanges with David Rose. All could be added; the primaries for several are blocked from this environment and would need Steve's browser.
+The scientific papers of the 2013–17 explanation (Kosaka & Xie, England, Schmidt et al., Cowtan & Way, Karl et al., Hausfather et al.) beyond their titles; the US congressional uses of the pause (Cruz hearing, December 2015); the GWPF's reports; Rose's October 2012 Daily Mail article itself (only its headline is here) and the Met Office's replies to him; the comment thread under Monckton 2017 (pages 13–49 of the print). All could be added; several primaries are blocked from the cloud environment and would need Steve's browser, as the four `[U]` items did.

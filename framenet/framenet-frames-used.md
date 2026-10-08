@@ -1203,6 +1203,37 @@ A Process stops at a certain Time and Place. Reason may also be specified. A Dur
 
 **Lexical units** (11): cease.v, cessation.n, desist.v, discontinuation.n, discontinue.v, halt.n, kill.v, quit.v, shut down.v, shutdown.n, stop.v
 
+## Process_end  (frame id 232)
+
+A Process comes to an end. 'The project came to a close.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Process | Core | Name of the event which occurs.'Let the carnage end.' |
+| Degree | Peripheral | Degree to which the event occurs. |
+| Depictive | Extra-Thematic | Depictive phrase describing the actor of the event. |
+| Duration | Extra-Thematic | The amount of time it takes for the Process to end. |
+| Explanation | Extra-Thematic | The Explanation for which the event ends. |
+| Final_subevent | Extra-Thematic | The Final_subevent of an event.'The peace march ended with a prayer.' |
+| Frequency | Extra-Thematic | The number of times that the event is repeated. 'Twice the peace march ended with a prayer.' |
+| Manner | Peripheral | Manner of performing the event. |
+| Place | Peripheral | Where the event takes place. |
+| Result | Extra-Thematic | Result for the event. |
+| Time | Peripheral | When the event ends. |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_to_end → Process_end
+- Inheritance: Event → Process_end
+- Inheritance: Process_end → Activity_finish
+- Precedes: Process_continue → Process_end
+- Precedes: Process_end → Process_completed_state
+- Subframe: Process → Process_end
+
+**Lexical units** (12): come to a close.v, come to a end.v, conclude.v, draw to a close.v, draw to a end.v, end [cessation].n, end [final-subevent].n, end.n, end.v, final.a, finale.n, pass.v
+
 ## Cause_to_end  (frame id 1149)
 
 An Agent or Cause causes a Process or State to end. 'Bush may lift sanctions on his own, despite opposition.'
@@ -3432,4 +3463,603 @@ A person, the Cognizer, thinks about a Topic over a period of time. What is thou
 - Using: Mental_activity → Cogitation
 
 **Lexical units** (20): brood.v, consider.v, consideration.n, contemplate.v, contemplation.n, deliberate.v, deliberation.n, dwell.v, give thought.idio, meditate.v, meditation.n, mull over.v, muse.v, ponder.v, reflect.v, reflection.n, ruminate.v, think.v, thought.n, wonder.v
+
+## Taking_time  (frame id 967)
+
+An Activity takes some Time_length to complete. If an Agent is involved they may stand in metonymically for the Activity. For some LUs (e.g., fast, speedy) the Degree to which the Activity is conceived of as taking less time than usual can be expressed. 'How long will this take?' 'The ride was speedy and often bumpy.' 'Under high-pressure situations, police officers are very fast at reacting to danger.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Activity | Core | The event which requires some Time_length for completion. 'Mona had a speedy recovery.' |
+| Agent | Core | The individual who performs the Activity. |
+| Degree | Core | A modifier expressing the deviation of the Time_length from the norm. |
+| Time_length | Core | The amount of time required for the Activity. 'It'll only take 20 seconds.' |
+| Attribute | Peripheral | The durational feature of the Activity. 'In actual experiential time, sorting the beads takes an extremely long time.' |
+| Circumstances | Extra-Thematic | Some specification of the Circumstances under which the Activity takes a particular amount of time. 'In the rain, biking to work takes me a lot longer' |
+| Duration | Extra-Thematic | Duration is the length of time from the beginning of the Activity to its end. |
+| Time | Peripheral | The Time at which the Activity takes place. 'That took an hour last week.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Gradable_attributes → Taking_time
+- Using: Being_necessary → Taking_time
+- Using: Duration_description → Taking_time
+
+**Lexical units** (11): fast.a, gradually.adv, in.prep, quick.a, quickly.adv, rapid.a, slow.a, slowly.adv, speedy.a, swift.a, take.v
+
+## Offering  (frame id 2239)
+
+An Offerer indicates that he or she is able and willing to give a Theme to a Potential_recipient. In the absence of further qualifications, it is often understood that the Potential_recipient accepts the Theme. 'The host graciously offered us food and drink.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Offerer | Core | The person that begins in possession of the Theme and offers it to the Potential_recipient . |
+| Potential_recipient | Core | The entity that ends up in possession of the Theme. |
+| Theme | Core | The object which is offered for transfer. |
+| Circumstances | Extra-Thematic | The Circumstances are the conditions under which the Theme is offered. 'I offer my services free of charge.' |
+| Depictive | Extra-Thematic | A description of the Offerer, Potential_recipient, or Theme given independently of the giving event per se. |
+| Explanation | Extra-Thematic | The Explanation for which the Offerer offers the Theme to the Potential_recipient. |
+| Imposed_purpose | Extra-Thematic | The Potential_recipient's intended purpose for the Theme. 'Plesae offer a list of people for potential promotion.' |
+| Manner | Peripheral | The Manner is the manner in which the Offerer offers the Theme to the Potential_recipient. |
+| Means | Peripheral | The Means by which the Offerer offers the Theme to the Potential_recipient. |
+| Period_of_iterations | Extra-Thematic | The length of time from when the offer began to be repeated to when it stopped. |
+| Place | Peripheral | The Place where the Offerer offers the Theme to the Potential_recipient. |
+| Purpose | Peripheral | The Purpose for which the Offerer offers the Theme to the Potential_recipient. |
+| Time | Peripheral | The Time is when the Offerer offers the Theme to the Potential_recipient. |
+
+**Frame relations** (super → sub)
+
+- Using: Giving → Offering
+
+**Lexical units** (4): extend.v, offer.v, proffer.v, serve.v
+
+## Limitation  (frame id 2715)
+
+An Entity that would be expected to have a characteristic to a certain degree (typically based on comparison to other entities of the same type) instead has a more limited degree of that characteristic. 'The limitations on the theory's applicability made it unpopular in its time.' 'Are there any undocumented limitations on the use of this machine?'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Entity | Core | The Entity would normally be expected to have a set of possibilites, but instead exhibits only certain possibilites, or exhibits them on fewer situations than expected. 'Our technology has limits we didn't expect.' |
+| Degree | Peripheral | The Degree to which the Entity is limited. 'There are strong limits on its usefulness.' |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Limiting → Limitation
+- Using: Limiting → Limitation
+
+**Lexical units** (2): limit.n, limitation.n
+
+## Risky_situation  (frame id 1762)
+
+A particular Situation is likely (or unlikely) to result in a harmful event befalling an Asset. The Situation may be a state, an activity, or some focal entity that must be inferred to be part of some larger Situation involving both it and the Asset. Although the idea of a harmful event is crucial to the understanding of this frame, it is not expressible as an argument of the LUs in this frame. 'Is climate change dangerous for mankind?' 'Customers can make complaints about unsafe products.' 'The primary risk is to our infrastructure.' See the Run_risk frame for discussion on differentiation regarding the noun risk.
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Asset | Core | Something judged to be desirable or valuable which might be lost or damaged. 'Honey is not safe for babies.' |
+| Dangerous_entity | Core | A concrete or abstract entity which may come to cause the loss of, or damage to the Asset. 'That man is a risk!' |
+| Situation | Core | The Situation which may lead to a harmful event. 'Most people agree, going over 100mph is unsafe.' |
+| Circumstances | Peripheral | The Circumstances in which an Asset is at risk. |
+| Degree | Peripheral | A modifier expressing the deviation of the actual level of security from the expected value given the Situation and the state indicated by the target itself. 'Rogue nations are our greatest threat.' |
+| Domain | Extra-Thematic | The Domain in which the Situation is safe. 'All of our websites are educationally safe.' |
+| Frequency | Extra-Thematic | How often the Asset encounters the Risky_situation. |
+| Place | Peripheral | A particular location for which the Situation is safe. Frequently, it is to be inferred that the characteristics of the location make various Situations safe or unsafe. |
+| Time | Peripheral | The time period during which the Situation has the specified level of safety. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Gradable_attributes → Risky_situation
+- Perspective_on: Risk_scenario → Risky_situation
+- ReFraming_Mapping: Run_risk → Risky_situation
+- See_also: Run_risk → Risky_situation
+
+**Lexical units** (10): danger.n, dangerous.a, risk.n, riskily.adv, risky.a, safe.a, safely.adv, threat.n, unsafe.a, warm.a
+
+## Telling  (frame id 750)
+
+A Speaker addresses an Addressee with a Message, which may be indirectly referred to as a Topic. Instead of (or in addition to) a Speaker, a Medium may also be mentioned. 'I told him about the party.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Addressee | Core | The Addressee receives the Message from the Speaker. |
+| Medium | Core | This FE is the Medium in which the Message is expressed. |
+| Message | Core | The Message is the communication produced by the Speaker. 'The authorities informed me that my brother had been arrested.' 'I told him a bedtime story.' |
+| Speaker | Core | The Speaker is the sentient entity that produces the Message. 'Bill told me that he would come to the party.' |
+| Topic | Core | The Topic is a general description of the content of the Message. 'Leroy told his mother about his arrest.' |
+| Communicative_force | Extra-Thematic | This FE indicates the Communicative_force or authority with which the Message is expressed. This FE is often denoted by words such as "officially," "formally," "technically," etc. 'She has yet to receive official … |
+| Descriptor | Extra-Thematic | This FE identifies a characteristic or description of the telling event. |
+| Iterations | Extra-Thematic | The FE Iterations is used for expressions that indicate the number of times an event or state (of the kind denoted by the target in its clause) has taken place or held. |
+| Manner | Peripheral | The Manner describes the way in which the Speaker delivers the Message. |
+| Means | Peripheral | The Means describes the way the Speaker accomplishes the task of giving the Addressee the Message. |
+| Place | Peripheral | Place is the location in which the Speaker informs the Addressee of the Message. 'She looked at it for a few moments, thinking of Mark Smeaton and what he had told her on the steps of City Hall.' |
+| Time | Peripheral | The Time during which the Speaker informs the Addressee of the Message. 'Even when we had a size problem they informed me right away and everything worked out great.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Statement → Telling
+- Inheritance: Telling → Suasion
+- Inheritance: Telling → Warning
+- ReFraming_Mapping: Request → Telling
+- ReFraming_Mapping: Statement → Telling
+
+**Lexical units** (11): advise.v, apprise.v, assurance.n, assure.v, brief.v, confide.v, inform.v, let know.v, notification.n, notify.v, tell.v
+
+## Social_event  (frame id 125)
+
+A Social_event occurs at which Attendees are present to conduct a social function or joint activity. The Social_event is often a party or celebration, in which case it is possible to express someone who is being honored (the Honoree) or its function may be to celebrate an Occasion at which Attendees are present. Often, a specific Attendee, the Host, provides a venue for people to gather. 'Sue threw a party for Bob's birthday.' 'Who will host the Olympic games in eight years?'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Attendee | Core | Attendee is used for the people who come to the Social_event. 'The whole group attended the party.' |
+| Beneficiary | Extra-Thematic | The person for whom the Social_event is held. 'I threw a party for Josef.' |
+| Degree | Peripheral | This FE identifies the Degree to which the Social_event occurs. |
+| Descriptor | Extra-Thematic | A characteristic of the social_event. |
+| Duration | Peripheral | This FE identifies the Duration of time for which the Social_event is ongoing. |
+| Frequency | Extra-Thematic | This FE describes how often the Social_event occurs. |
+| Host | Extra-Thematic | The Host is the person or organization that hosts the Social_event. In cases where an individual stands in for an organization, the host may be marked twice. 'Ron threw a party.' 'President Reagan hosted a state … |
+| Manner | Peripheral | This FE identifies the Manner in which the Social_event occurs. |
+| Name | Extra-Thematic | The Name of the Social_event. |
+| Occasion | Extra-Thematic | The Occasion for which the Social_event is held. |
+| Period_of_iterations | Extra-Thematic | COD: The length of time from when the event denoted by the target began to be repeated to when it stopped. |
+| Place | Peripheral | This FE identifies the Place where the Social_event occurs. |
+| Purpose | Extra-Thematic | The reason the Social_event is being held. 'We threw a banquet to raise awareness to our cause.' |
+| Refreshment | Extra-Thematic | Refreshment is used for the meal, food or drinks that are served at the Social_event. 'I enjoy a tasteful dinner party.' 'I attended a cocktail party and drank myself silly.' 'First layer: I attended a banquet on … |
+| Social_event | Core-Unexpressed | This FE identifies the Social_event itself. 'The department picnic was lots of fun.' |
+| Style | Extra-Thematic | This FE identifies the Style of the Social_event and its level of formality, indicating appropriate dress for participants and/or the kind of activities in which they engage. 'Lee hosted a formal party.' 'Abby's garden … |
+| Time | Peripheral | This FE identifies the Time when the Social_event occurs. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Social_event → Social_event_collective
+- Inheritance: Social_event → Social_event_individuals
+- Using: Eventive_affecting → Social_event
+
+**Lexical units** (25): ball.n, banquet.n, barbecue.n, bash.n, benefit.n, celebration.n, dance.n, dinner-party.n, dinner.n, fair.n, feast.n, festival.n, fete.n, function.n, gala.n, get-together.n, jollification.n, meeting.n, party.n, picnic.n, rave.n, reception.n, shindig.n, social.n, soiree.n
+
+## Apply_heat  (frame id 236)
+
+A Cook applies heat to Food, where the Temperature_setting of the heat and Duration of application may be specified. A Heating_instrument, generally indicated by a locative phrase, may also be expressed. Some cooking methods involve the use of a Medium (e.g. milk or water) by which heat is transferred to the Food. A less semantically prominent Food or Cook is marked Co-participant. 'Sally fried an egg in butter.' 'Sally fried an egg in a teflon pan.' 'Ellen fried the eggs with chopped tomatoes and garlic.' This frame differs from Cooking_creation in focusing on the process of handling the ingredients, rather than the edible entity that results from the process.
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Container | Core | The Container holds the Food to which heat is applied.'Boil the potatoes in a medium-sized pan.'Things that apply the heat directly are Heating_Instruments, e.g. crock-pot, electric skillet. |
+| Cook | Core | The Cook applies heat to the Food.'Drew sauteed the garlic in butter.' |
+| Food | Core | Food is the entity to which heat is applied by the Cook.'Suzy usually steams the broccoli.'In instructional imperatives, this FE, which would be used for the (missing) object, is tagged CNI:'Cook on low heat for two … |
+| Heating_instrument | Core | This FE identifes the entity that directly supplies heat to the Food. 'Jim browned the roast in the oven.' This FE will take precedence over Container when both are expressed in the same constituent. For example: 'Kate … |
+| Temperature_setting | Core | This FE identifies the Temperature_setting of the Heating_instrument for the Food. 'He baked the cookies at 350 degrees for 11 minutes.' 'She microwaved the popcorn on high.' 'You can't cook popcorn on low heat!' |
+| Beneficiary | Extra-Thematic | THe person for whose benefit the food is cooked. |
+| Co-participant | Extra-Thematic | Co-participant is the gramatically less prominent of two foods to which heat is applied by the Cook.' Kate baked the apples with cinnamon.''Joe roasted potatoes with the chicken.' |
+| Degree | Peripheral | This FE identifies the Degree to which heat application occurs. |
+| Duration | Peripheral | Duration is the amount of Time heat is applied to the Food.'Jim boiled the egg for three minutes.' |
+| Manner | Peripheral | Any description of the cooking event which is not covered by more specific FEs, including secondary effects (quietly, loudly), and general descriptions comparing events (the same way). In addition, it may indicate … |
+| Means | Peripheral | This FE identifies the Means by which heat is applied to Food. 'Kate blanchedthe broccoli by throwing it into a pot of boiling water.' |
+| Medium | Extra-Thematic | Medium is the substance through which heat is applied to the Food. 'Bobby fried the potatoes in oil.' |
+| Place | Peripheral | This FE identifies the Place where the heat application occurs. 'We baked the cake in the kitchen.' |
+| Purpose | Peripheral | This FE identifies the Purpose for which an intentional act is performed.'John baked cookies to show Patti that he was sorry.' |
+| Time | Peripheral | This FE identifies the Time at which the heat application occurs. 'Jim roasted the chestnuts in the evening.' |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Apply_heat → Absorb_heat
+- Inheritance: Activity → Apply_heat
+- Inheritance: Intentionally_affect → Apply_heat
+- ReFraming_Mapping: Apply_heat → Soaking
+- ReFraming_Mapping: Soaking → Apply_heat
+- See_also: Apply_heat → Cooking_creation
+- Using: Apply_heat → Cooking_creation
+
+**Lexical units** (40): bake.v, baking.n, barbecue.v, blanch.v, boil.v, boiling.n, braise.v, broil.v, broiling.n, brown.v, char.v, coddle.v, cook.v, cooking.n, deep fry.v, fry.v, frying.n, grill.v, grilling.n, melt.v, melting.n, microwave.v, parboil.v, plank.v, poach.v, roast.v, roasting.n, saute.v, scald.v, scorch.v, sear.v, simmer.v, simmering.n, singe.v, steam.v, steaming.n, stew.v, stewing.n, toast.v, toasting.n
+
+## Linguistic_meaning  (frame id 406)
+
+A linguistic Form has a particular Meaning, possibly restricted to a particular Context. Some linguistic Forms, nouns and nominal expressions, also can refer to an object in the real or an imagined world, a Referent. '"Unicorn" denotes a mythological horse with a horn on its head.' 'In art, the word "oeuvre" means "the collected works of an artist."'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Form | Core | Form is the formal pole of a linguistic sign. |
+| Meaning | Core | Meaning is the sense of a linguistic Form. |
+| Referent | Core | Referent identifies an object in the real (or a hypothetical) world that a linguistic expression is used to talk about. |
+| Degree | Extra-Thematic | This frame element selects some gradable attribute of the Form and modifies the expected value for it. |
+| Textual_location | Extra-Thematic | The FE Textual_location is used for expressions that indicate under which semantic, collocational, pragmatic or other circumstances a Form has a particular Meaning. |
+
+**Frame relations** (super → sub)
+
+- Using: Linguistic_meaning → Word_relations
+- Using: Simple_name → Linguistic_meaning
+
+**Lexical units** (15): ambiguous.a, denotation.n, denote.v, designate.v, extension.n, intension.n, mean.v, meaning.n, monosemous.a, non-referential.a, polysemous.a, reading.n, referential.a, sense.n, vague.a
+
+## Cause_motion  (frame id 55)
+
+An Agent causes a Theme to move from a Source, along a Path, to a Goal. Different members of the frame emphasize the trajectory to different degrees, and a given instance of the frame will usually leave some of the Source, Path and/or Goal implicit. The completion of motion is not required (unlike the Placing frame, see below), although individual sentences annotated with this frame may emphasize the Goal. '' This frame is very broad and contains several different kinds of words that refer to causing motion. Some words in this frame do not emphasize the Manner/Means of causing the motion (transfer.v, move.v). For many of the others (cast.v, throw.v, chuck.v, etc.), the Agent has control of the Theme only at the Source of motion, and does not experience overall motion. For others (e.g. drag.v, push.v, shove.v, etc.) the Agent has control of the Theme throughout the motion; for these words, the Theme is resistant to motion due to some friction with the surface along which they move. 'She threw her shoes into the dryer .' 'The mechanic dragged the jack out from under the car .' 'We will move the sofa out of the room through the french doors, down the stairs, and onto the sidewalk .' '' '' This frame is used in a very large number of productive metaphors, not all of which can be outlined here. The most salient types include causing an entity, construed as a Theme, to change state from an initial state (Source) via an intermediate state (Path) to a final state (Goal): 'Hillary was catapulted to stardom and his life has never been the same since . CNI' 'She felt as though flung from health to illness and back by the day , by the hour .' 'Once our parents are dead , we are catapulted into becoming the older generation ourselves . CNI' 'Croquet was pushed out by tennis .' '' A particularly divergent subtype casts changing someone's intentions as changing their location: 'Democratsforced the Senate into a rare closed door session .' 'He nudged Mrs Thatcher towards acceptance of a unified Germany .' '' Another subtype is specifically about causing a change in quantity (the Theme) through some sequence of values (Source, Path, and Goal): 'Bonus payments would be handed out for pushing up voting levels CNI .' '' Another type, with many subtypes, involves causing an action or state (construed as a Theme) to have an effect on another person or location or conceptual domain. In such cases, theGoal is used for the final affected domain, and Source for initial affected domain, Path for an intermediate affected domain, and Distance for degree of difference between original application of the action and final: 'Jake had been hurling these same insults at her now for years' 'One can not press this argument too far .' 'She shoved the thought to the very back of her mind .' 'She flung him a savage little smile .' All of the foregoing metaphorical uses are annotated in this frame and marked "Metaphor", since they seem to be semantically motivated and not lexically idiosyncratic. '' '' This frame contrasts with the following frames which talk about an Agent changing a Theme's position with respect to a landmark (either Source or Goal): '' In Placing, the figure (Theme) is profiled as the object, and ends up on the ground (Goal). The focus is on the final stage of motion, in which the Theme ends up at the Goal, and usually stably remains there. 'Joyce placed the flowers onto the bed.' '' In Filling, the ground (Goal) is profiled as the object, and the figure (Theme) ends up on the ground (Goal). 'John filled the box with old toys.' '' In Removing, the figure (Theme) is profiled, and is removed from the ground (Source). 'Jennifer removed the flowers from the bed.' '' In Emptying, the ground (Source) is profiled and the figure (Theme) is removed from it. 'Jason emptied the box of the old toys .' '' Words of this frame also differ from the words of the Bringing frame in that they are more general: either the Agent has a momentary interaction with the Theme that causes its motion, unlike the continuous causation of Bringing, or the Agent continuously acts on the Theme, but there is no supporting object that helps with the motion like the Carrier of the Bringing frame.
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The Agent is the one whose action causes the motion of a Theme. The Agent is generally realized as the External Argument. 'Pat threw the china at the wall.' |
+| Area | Core | The FE Area is used for expressions which describe a general area in which motion takes place when the motion is understood to be irregular or not to consist of a single, linear path. Locative setting adjuncts may also … |
+| Cause | Core | Cause marks expressions that indicate some non-intentional, typically non-human, force that causes the Theme to be set in motion. 'The storm tossed the sailor from the boat' |
+| Goal | Core | The FE Goal is the point at which the Theme ends up as a result of the motion. 'Kim threw the cat into the garden.' |
+| Initial_state | Core | A previous state that the Theme was in before the beginning of its motion. 'Paul pulled Fran upright from her sitting position.' |
+| Path | Core | The FE Path is any description of a trajectory of motion which is neither a Source nor Goal. 'I pushed the trolley along the street.' |
+| Result | Core | A resultant state that the Theme is in at the end of its motion. 'The fireman dragged the injured driver clear' |
+| Source | Core | The FE Source is the starting point of motion. 'Pat dragged the box out of the cupboard.' |
+| Theme | Core | The FE Theme is generally an NP Object. 'Pat threw the china at the wall.' |
+| Degree | Extra-Thematic | Degree to which event occurs |
+| Depictive | Extra-Thematic | The state of a participant during the action 'We pushed the cart around, gleeful.' |
+| Distance | Peripheral | The FE Distance is any expression characterizing the extent of motion of the Theme. 'Pat threw the Javelin 50 meters.' |
+| Duration | Peripheral | The amount of time that the action requires. |
+| Explanation | Extra-Thematic | This FE denotes a proposition from which the main clause logically follows. |
+| Handle | Extra-Thematic | The Agent's manipulation of the Theme may be further specified as being localized to some part of the Theme, a Handle. The Handle is usually expressed as a PP |
+| Instrument | Peripheral | An entity saliently involved in the transmission of force from an Agent to a Theme. It may be the Agent's bodypart, or some kind of device. 'When passing a basketball, you should throw with bath hands.' |
+| Manner | Peripheral | The FE Manner is any expression which describes a property of the motion of the Theme which is not directly related to the trajectory of motion. Descriptions of steadiness, grace, and other things count as Manner … |
+| Means | Peripheral | The FE Means indicates the action that is taken that results in the motion of the Theme |
+| Place | Peripheral | The Place is the general area that provides a setting for a specific motion (with Source, Path, or Goal). |
+| Subregion | Extra-Thematic | Subregion identifies the part of the Theme that makes contact with the resulting location. When Subregion is expressed, there usually is no Goal expressed. 'The horse pitched the rider on his head' |
+| Time | Peripheral | The time at which the motion of the Theme occurs. 'We shoved half of the cargo overboard on the 29th.' |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Cause_motion → Motion
+- Inheritance: Cause_motion → Cause_fluidic_motion
+- Inheritance: Cause_motion → Passing
+- Inheritance: Cause_motion → Shoot_projectiles
+- Inheritance: Transitive_action → Cause_motion
+- Metaphor: Cause_motion → Manipulate_into_doing
+- ReFraming_Mapping: Cause_motion → Bringing
+- See_also: Cause_motion → Bringing
+- See_also: Cause_motion → Emptying
+- See_also: Cause_motion → Filling
+- See_also: Cause_motion → Placing
+- See_also: Cause_motion → Removing
+- See_also: Manipulation → Cause_motion
+- Subframe: Cause_motion → Placing
+- Subframe: Cause_motion → Removing
+- Using: Cause_motion → Bringing
+- Using: Cause_motion → Excreting
+- Using: Cause_motion → Gathering_up
+- Using: Cause_motion → Ingestion
+
+**Lexical units** (42): attract.v, cast.v, catapult.v, chuck.v, drag.v, draw.v, drive.v, drop.v, fling.v, force.v, haul.v, hit.v, hurl.v, impel.v, jerk.v, knock.v, launch.v, lift.v, move.v, nudge.v, pitch.v, press.v, propel.v, pull.v, punt.v, push.v, rake.v, roll.v, run.v, scoot.v, shove.v, slam.v, slide.v, stick.v, throw.v, thrust.v, toss.v, transfer.v, tug.v, wrench.v, wrest.v, yank.v
+
+## Reliance  (frame id 901)
+
+A Protagonist needs a Means action performed for their Benefit. The relevant Means action is often evoked only by reference to an Intermediary who performs it. Also, if the Protagonist performs the Means action themselves, the Instrument that they use may be referred to in place of the Means Note that when one of the three interrelated FEs Means, Instrument and Intermediary is realized overtly, the other two are blocked from overt realization as clause-level arguments of the target.'' When the Protagonist is a sentient being, it is implied that they put their trust in the Intermediary to help in the achievement of the Benefit. The extent to which the Protagonist is dependent on an Intermediary or Instrument can be indicated in a Degree phrase.'' A set of Circumstances in which the Protagonist's need for the Benefit arises, may also be specified. '' The difference between the Benefit that the Means action provides and the Purpose that the Protagonist has is very subtle. For our purposes we will assume that one can form a predication from Benefit and Means on the one hand, and Protagonist and Purpose on the other, but that they cannot be intermingled (cf. examples (7) and (8) below). With for-PPs such as in (6) it is not clear which FE they instantiate, Benefit or Purpose. We will arbitrarily call them Benefit'' '(1) I rely on you to see that my name is not sullied.' '(2) The system can rely entirely on coaxial cable or entirely on optical fibre, just as a tree and branch network can be based on either technology .' '(3) The Tories had got him into this and he relied on them to get him out.' '(4) I knew we could rely on you. DNI ' '(5) To get the economy moving he will rely on repairing the infrastructure of America' '(6) Later , when the Northern Ireland Office was established , it relied heavily on it for the information on which it based security and political activities.' '(7) She would have to rely on his help to get through the fight in one piece. -- She got through the fight in one piece/*His help got through the fight in one piece' '(8) I rely on his help to get me through a long season -- His help got me through a long season/*I got me through a long season ' '(9) We rely on your helping us ' ' (10) You can rely on him when the chips are down to inspire the troops'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Benefit | Core | An action or state that the Means action brings about and from which the Protagonist profits. 'He still relies on me to do the head work' |
+| Instrument | Core | An object that the Protagonist uses to realize a Benefit. 'I hate having to rely on my car to get where I want to go' |
+| Intermediary | Core | The person or thing that performs a Means action to the Benefit of the Protagonist. 'We rely on you for feedback and input' |
+| Means | Core | An action performed either by the Protagonist or an Intermediary that has a Benefit for the Protagonist attached to it. 'We rely on your response' |
+| Protagonist | Core | The person or thing whose needs are served by the Means action. ' I rely on this walking stick to get me around' |
+| Purpose | Core | An action or state that the Protagonist wants to bring about. It is more or less the Benefit viewed in relation to the Protagonist rather than the Means. 'The user will quickly begin to rely on the pills to cope with … |
+| Circumstances | Extra-Thematic | The conditions when the Protagonist needs to rely on an Instrument or Intermediary. 'We have to fully rely on him when times get a little rough' |
+| Degree | Peripheral | The extent to which the achievement of the Benefit depends on the Means action. ' He knows I rely entirely on him to point out all my blunders and spelling mistakes.' |
+
+**Frame relations** (super → sub)
+
+- Using: Contingency → Reliance
+- Using: Needing → Reliance
+
+**Lexical units** (6): count.v, depend.v, dependence.n, dependency.n, reliance.n, rely.v
+
+## Commerce_pay  (frame id 180)
+
+This frame involves Buyers paying Money for Goods. In this frame the Money is the direct object, and is mapped to the theme of the transfer. 'I paid her $50 for a video game.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Buyer | Core | The Buyer has the Money and wants the Goods. 'Gem paid fifty dollars for a shirt' |
+| Goods | Core | The FE Goods is anything (including labor or time, for example) which is exchanged for Money in a transaction. 'Kim paid fifty dollars for the shirt' |
+| Money | Core | Money is the thing given in exchange for Goods in a transaction. 'Pat paid 14 dollars for a movie ticket.' |
+| Rate | Core | In some cases, price or payment is described per unit of Goods. 'The manager pays the paper boys five dollars an hour. ' |
+| Seller | Core | The Seller has the Goods and wants the Money. 'The landlord is paid $700 a month by the tenants for the apartment. ' |
+| Circumstances | Extra-Thematic | Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the event itself and any of its participants. 'Worker 's compensation payments alone in cases … |
+| Explanation | Extra-Thematic | The Explanation for which an event occurs. |
+| Frequency | Extra-Thematic | This frame element is defined as the number of times an event occurs per some unit of time. 'A good tenant pays her rent regularly' |
+| Manner | Peripheral | Any description of the paying event which is not covered by more specific FEs, including secondary effects (quietly, loudly), and general descriptions comparing events (the same way). It may also indicate salient … |
+| Means | Peripheral | The Means by which a commercial transaction occurs. Abby bought the car with cash. Robin paid for the car by check. |
+| Place | Peripheral | Where the event takes place. |
+| Purpose | Peripheral | The Purpose for which an intentional act is performed. |
+| Time | Peripheral | When the event occurs. |
+| Unit | Peripheral | This FE is any unit in which goods or services can be measured. Generally, it occurs in a by-PP. 'Bob pays for peppers by the pound. ' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Giving → Commerce_pay
+- Perspective_on: Commerce_money-transfer → Commerce_pay
+- ReFraming_Mapping: Commerce_scenario → Commerce_pay
+- Using: Commerce_pay → Earnings_and_losses
+
+**Lexical units** (6): disburse.v, disbursement.n, pay.v, payer.n, payment.n, shell out.v
+
+## Death  (frame id 53)
+
+The words in this frame describe the death of a Protagonist. A Cause of death may also be expressed obliquely. '' 'The machine was not switched off, but Mr. Lavelle died of natural causes, police said.' 'To avenge the death of a son is not hasty work, if he is to be honored.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Protagonist | Core | The FE Protagonist is the being or entity that dies. With verbs in this frame, the Protagonist is the External Argument. 'The goldfish died.' |
+| Containing_event | Extra-Thematic | This FE identifies the larger event in which the Protagonist dies, i.e. changes from living to dead. 'The pilot died in the crash' |
+| Degree | Peripheral | Some measure of the event, generally frequency. 'You know, I wouldn't want to live in a Shakespearian play; people die in them a lot.' |
+| Depictive | Extra-Thematic | The FE Depictive denotes the state of the Protagonist as the death occurred. 'I think he died happy.' |
+| Explanation | Extra-Thematic | The FE Explanation expresses any object or eventuality that brings about the Protagonist's death. 'The cat died of old age.' 'The children perished from hunger.' |
+| Maleficiary | Extra-Thematic | An individual negatively affected by the death of the Protagonist. 'Aww man, my dog died on me.' |
+| Manner | Peripheral | Any description of the event which is not covered by more specific FEs, including force (hard, softly), secondary effects (quietly, loudly), and general descriptions comparing events (the same way). 'He died horribly; … |
+| Place | Peripheral | The FE Place indicates where the death takes place. 'Your father passed away in his hospital bed.' |
+| Result | Extra-Thematic | The FE Result indicates what occurs as the result of the death of the Protagonist. 'If we don't find something soon, we'll all starve to death.' |
+| Time | Peripheral | The FE Time denotes when the dying or killing occurs. 'Your father passed away about four minutes ago.' 'He sadly passed away in 1962 because of severe cerebrovascular disease.' |
+
+**Frame relations** (super → sub)
+
+- Causative_of: Killing → Death
+- Inchoative_of: Death → Dead_or_alive
+- Inheritance: Ceasing_to_be → Death
+- Precedes: Being_born → Death
+- Precedes: Dying → Death
+- Precedes: Giving_birth → Death
+- ReFraming_Mapping: Death → Cause_harm
+- ReFraming_Mapping: Death → Offenses
+- ReFraming_Mapping: Killing → Death
+- Subframe: Cycle_of_life_and_death → Death
+
+**Lexical units** (20): asphyxiate.v, croak it.v, croak.v, death.n, decease.v, demise.n, die.v, drown.v, end.n, expire.v, kick the bucket.v, mortal.a, mortality.n, pass away.v, perish.v, starvation.n, starve.v, suffocate.v, suffocation.n, terminator.n
+
+## Notification_of_charges  (frame id 129)
+
+The judge or other court officer (the Authority) informs the Accused of the Charges against him/her, i.e. the alleged actions and the relevant laws. '' 'The board has been accused by the federal court of making decisions based on narrow agendas and meddling where it shouldn't.' 'The police charged a young nurse with four murders.' Compare to: Citing.
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Accused | Core | The person being charged with an offense against the law. |
+| Arraign_authority | Core | The judge or other authority of the court in which the accused person is arraigned. |
+| Charges | Core | The crime with which the Accused is charged |
+| Containing_event | Extra-Thematic | The larger event which contains the Notification of Charges event. 'Seven people have been indicted in the seven-year investigation.' |
+| Place | Peripheral | Where the event takes place. |
+| Time | Peripheral | When the event occurs. |
+
+**Frame relations** (super → sub)
+
+- Precedes: Notification_of_charges → Entering_of_plea
+- See_also: Citing → Notification_of_charges
+- Subframe: Arraignment → Notification_of_charges
+- Using: Communication → Notification_of_charges
+
+**Lexical units** (5): accuse.v, charge.n, charge.v, indict.v, indictment.n
+
+## People_by_religion  (frame id 1021)
+
+This frame contains words for individuals, i.e. humans, with respect to their Religion. The Religion is generally incorporated, but with some lexical units it is specified separately. 'The bells call the faithful to evensong DNI' 'A 90-year-old Baptist claims to have seen God personally in his backyard.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Person | Core | The Person is the human being. |
+| Religion | Core | The religious belief system that the Person follows. |
+| Age | Peripheral | The Age is the length of time the Person has been alive. |
+| Descriptor | Peripheral | The Descriptor is a temporary condition of the Person. |
+| Ethnicity | Peripheral | The Ethnicity is the racial, national, socio-economic or cultural group to which the Person belongs. |
+| Origin | Peripheral | The Origin is the place where the Person was born or lived a salient part of her or his life. |
+| Persistent_characteristic | Peripheral | The Persistent_characteristic is a physiological characteristic or personality trait of the Person which is conceived of as persisting over time. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: People → People_by_religion
+- Using: Religious_belief → People_by_religion
+
+**Lexical units** (10): baptist.n, buddhist.n, christian.n, faithful.n, infidel.n, jew.n, mormon.n, muslim.n, pagan.n, zealot.n
+
+## Religious_belief  (frame id 1019)
+
+A Believer has faith in a piece of Content or an Element which fits into a religious belief system made up of many articles of faith. The Content is not necessarily tied to direct sensory experience. The system of beliefs may be enshrined by the members of a social group 'Do Muslims believe in the virgin birth of Jesus?' 'Muslims believe in only One God, the same God that Jews and Christians believe in, but some of the ideas about the nature of God are different' 'Muslims believe that the month of Ramadan is the holiest month of the year'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Believer | Core | The Believer is the person whose religious beliefs are in question. |
+| Content | Core | The Content is the object of the Believer's religious conviction. Content can be expressed as a finite clause or in a in-PP Complement. ' A Christian believes that Jesus of Nazareth was a prophet. ' |
+| Element | Core | A predefined, fixed idea to which reference is made throughout the belief system. 'I believe in Jesus' 'To Clark, who infinitely believes in angels and celebrating the holidays with loved ones, Christmas means kids and … |
+| Role | Core | Role is a function that an Element of the faith is believed to serve. 'If a person believes in Jesus as his Saviour, he can he baptized.' |
+| Degree | Peripheral | This FE identifies the Degree to which the Believer is convinced of the usefulness and validity of their religious beliefs . 'Christ the King Presbyterian Church therefore believes fervently in Christian civilization' |
+| Manner | Peripheral | This FE identifies the Manner in which the Believer knows or thinks something. 'All we have to do is believe in Jesus like a child and confess him' |
+
+**Frame relations** (super → sub)
+
+- Using: Awareness → Religious_belief
+- Using: Religious_belief → People_by_religion
+
+**Lexical units** (4): belief.n, believe.v, faith.n, faithful.n
+
+## Medical_professionals  (frame id 255)
+
+This frame includes words that name medical professionals and is closely related to the Medical_specialties frame. The FE Type characterizing a Professional's sub-specialty may also be expressed. 'Ralph is a paediatrician.' 'Paediatric oncologists treat children with leukemia.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Professional | Core | This FE identifies the medical Professional. 'Paediatric oncologists treat children with leukemia.' |
+| Affliction | Peripheral | The particular disorder that the medical Professional treats. Most words in the frame inherently indicate this information. 'Cardiac gerontologists can make more money in a year than I 'll see in my life !' |
+| Age | Peripheral | The length of time the Professional has been alive. |
+| Body_system | Peripheral | The part of the body that the medical Professional treats. This is usually indicated by the Lexical Unit itself. '' |
+| Compensation | Peripheral | The payment that the Professional recieves for working. |
+| Contract_basis | Peripheral | The Contract_basis describes the conditions of employment with respect to permanency, hours per time period, or payment basis. |
+| Employer | Peripheral | The Employer gives compensation to the Professional for working. |
+| Ethnicity | Peripheral | The Ethnicity is the religious, racial, national, socio-economic or cultural group to which the Professional belongs. |
+| Origin | Peripheral | The Origin is the place where the Professional was born or lived a salient part of her or his life. |
+| Place_of_employment | Peripheral | The place where the Professional works. |
+| Rank | Peripheral | Rank is the position in a hierarchy that the Professional occupies within an organization. |
+| Type | Peripheral | This FE identifies the Type of medical professional. 'Paediatric oncologists treat children with leukemia.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: People_by_vocation → Medical_professionals
+- Using: Medical_interaction_scenario → Medical_professionals
+
+**Lexical units** (37): allergist.n, anesthesiologist.n, cardiologist.n, chiropractor.n, dermatologist.n, doctor.n, endocrinologist.n, family practitioner.n, gastroenterologist.n, gerontologist.n, gynaecologist.n, homeopathist.n, immunologist.n, midwife.n, neonatologist.n, nephrologist.n, neurologist.n, nurse.n, obstetrician.n, oncologist.n, ophthalmologist.n, orthopaedist.n, pediatrician.n, physician.n, proctologist.n, psychiatrist.n, psychoanalyst.n, psychologist.n, psychotherapist.n, radiation oncologist.n, radiologist.n, rheumatologist.n, shaman.n, speech therapist.n, surgeon.n, therapist.n, urologist.n
+
+## Cause_harm  (frame id 112)
+
+The words in this frame describe situations in which an Agent or a Cause injures a Victim. The Body_part of the Victim which is most directly affected may also be mentioned in the place of the Victim. In such cases, the Victim is often indicated as a genitive modifier of the Body_part, in which case the Victim FE is indicated on a second FE layer. '' 'Rod saw his father beating his mother.' 'In the end Wormtongue is fed up with being beaten so he cuts Saruman's throat to free himself.' 'A mother stabbed to death by her husband made a secret will stating that he must never be allowed to care for their son.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | Agent is the person causing the Victim's injury. 'Jolosa, who broke a rival player 's jaw, was told to model his play on the England striker.' 'Someone bashed him on the back of the head with a heavy smooth object.' … |
+| Body_part | Core | The Body_part identifies the location on the body where the bodily injury takes place. 'Someone bashed him on the back of the head with a heavy smooth object.' 'Jolosa, who broke a rival player 's jaw , was told to … |
+| Cause | Core | The Cause marks expressions that indicate some non-intentional, typically non-human, force that inflicts harm on the Victim 'A falling rock crushed my ankle.' |
+| Victim | Core | The Victim is the being or entity that is injured. If the Victim is included in the phrase indicating Body_part, the Victim FE is tagged on a second FE layer (see 3rd example). 'Someone bashed him on the back of the … |
+| Circumstances | Extra-Thematic | Circumstances describe the state of the world (at a particular time and place) which is specifically independent of the Cause_harm event and any of its participants. |
+| Concessive | Extra-Thematic | This FE signifies that the state of affairs expressed by the main clause (containing the Cause_harm event) occurs or holds, and something other than that state of affairs would be expected given the state of affairs in … |
+| Containing_event | Extra-Thematic | This FE identifies the event in which the harm is caused. |
+| Degree | Peripheral | Degree is the degree to which the Agent causes harm to the Victim. 'She wanted to slap him hard for his change of mood.' 'Fox spun around and slapped him, harder than necessary.' |
+| Depictive | Extra-Thematic | Depictive identifies any Depictive phrase describing the actor of an action. 'Indeed, Henry V used to burn them alive.' |
+| Duration | Extra-Thematic | Duration denotes the length of time from the beginning of the Cause_harm event to its end. |
+| Explanation | Extra-Thematic | A fact or action somehow related to the Victim that the Agent responds to by causing harm to the Victim. 'She wanted to slap him hard for his change of mood.' 'She could easily have slapped her for that remark.' |
+| Frequency | Extra-Thematic | How often the Cause_harm event occurs. |
+| Instrument | Peripheral | This FE is any object used to cause the injury. 'Someone bashed him on the back of the head with a heavy smooth object.' 'John butted her in the chest with his head.' |
+| Iterations | Extra-Thematic | Iterations refers to the number of times the Agent causes harm to the Victim. 'Kim hit Harold with the stick a dozen times.' 'he had slapped his wife across the face a number of times.' |
+| Manner | Peripheral | The Manner in which the Agent acts upon the Victim. 'He violently slapped his assailant.' |
+| Means | Peripheral | An intentional action performed by the Agent that accomplishes the action indicated by the target. 'Rachael injured her friend by closing the car door on his left hand.' |
+| Particular_iteration | Extra-Thematic | This FE indicates that the Cause_harm event is conceived as embedded within an iterated series of similar events or states. |
+| Period_of_iterations | Extra-Thematic | The length of time from when the Cause_harm event began to be repeated to when it stopped. |
+| Place | Peripheral | Place identifies the place where the harm causing event occurs. 'Boys are punched at school for payback ' |
+| Purpose | Extra-Thematic | Purpose identifies the purpose for which a harm-causing action is carried out. |
+| Re-encoding | Extra-Thematic | A description of the harm event which significantly displays a different aspect. 'Then she elbowed me -- a serious affront to my sensibilities !' |
+| Result | Extra-Thematic | Result identifies the result of the Agent's action. 'Riot police in Nairobi clubbed four women unconscious on March 3.' 'A battered wife who burned her brutal husband to death was freed from jail yesterday.' 'Claire … |
+| Subregion_bodypart | Extra-Thematic | The Subregion_bodypart defines the precise location on the Body_part which is harmed. 'Martha's legs were chopped off at the knees.' |
+| Time | Peripheral | Time identifies the time when the harm-causing event occurs. 'Riot police in Nairobi clubbed four women unconscious on March 3.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Cause_bodily_experience → Cause_harm
+- Inheritance: Cause_harm → Corporal_punishment
+- ReFraming_Mapping: Cause_harm → Cause_impact
+- ReFraming_Mapping: Cause_harm → Corporal_punishment
+- ReFraming_Mapping: Death → Cause_harm
+- Using: Cause_harm → Abusing
+- Using: Cause_harm → Terrorism
+- Using: Cause_harm → Toxic_substance
+- Using: Cause_harm → Violence
+- Using: Experience_bodily_harm → Cause_harm
+
+**Lexical units** (72): bash.v, batter.v, bayonet.v, beat up.v, beat.v, belt.v, biff.v, bludgeon.v, boil.v, break.v, bruise.v, buffet.v, burn.v, butt.v, cane.v, chop.v, claw.v, clout.v, club.v, crack.v, crush.v, cudgel.v, cuff.v, cut.v, drug.v, elbow.v, electrocute.v, electrocution.n, flagellate.v, flog.v, fracture.v, gash.v, hammer.v, hit.v, horsewhip.v, hurt.v, impale.v, injure.v, jab.v, kick.v, knee.v, knife.v, knock.v, lash.v, maim.v, maul.v, mutilate.v, pelt.v, poison.v, poisoning.n, pummel.v, punch.v, run through.v, slap.v, slice.v, smack.v, smash.v, spear.v, squash.v, stab.v, sting.v, stone.v, strike.n, strike.v, swipe.v, thwack.v, torture.v, transfix.v, twist.v, welt.v, whip.v, wound.v
+
+## Compliance  (frame id 117)
+
+This frame concerns Acts and State_of_Affairs for which Protagonists are responsible and which either follow or violate some set of rules or Norms. '' 'A lot of people suspect that blocking savers' access to their money violates the new constitution's explicit ban on compulsory loans to the government.' 'Not that by adhering to the subject-before-predicate principle, the translator of the above extract has had to ignore the principle of end-weight.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Act | Core | This FE identifies the Act that is judged to be in or out of compliance with the Norms. 'Jo's violation of the no trespassing law came as a surprise.' |
+| Norm | Core | This FE identifies the rules or Norms that ought to guide a person's behavior. 'John violated the law by not paying taxes.' |
+| Protagonist | Core | The Protagonist's behavior is in or out of compliance with norms. 'Jo violated the no trespassing law.' |
+| State_of_affairs | Core | A State_of_affairs may violate a law or rule. 'Their pricing policy violated inter-governmental agreements.' |
+| Degree | Peripheral | This FE identifies the Degree to which the compliance ocurrs. |
+| Depictive | Extra-Thematic | Depictive identifies any description of the Actor or Undergoer. |
+| Explanation | Extra-Thematic | The Explanation for complying with the Norm. 'He submitted to the will of the king because he had no other choice.' |
+| Judge | Peripheral | The individual whose point of view is taken in assigning the judgment denoted by the target. |
+| Manner | Peripheral | This FE identifies the Manner in which the compliance occurs. 'Jo complied with the law willingly.' |
+| Means | Peripheral | This FE identifies the Means by which the compliance is (or is not) accomplished. 'He complied with the decree by firing the employees.' |
+| Result | Extra-Thematic | This FE identifies the Result of compliance. |
+| Time | Peripheral | This FE identifies the Time when the act of compliance or non-compliance occurs. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Satisfying → Compliance
+- Inheritance: Social_behavior_evaluation → Compliance
+- ReFraming_Mapping: Compliance → Giving_in
+- Using: Compliance → Legality
+- Using: Compliance → Strictness
+- Using: Obligation_scenario → Compliance
+
+**Lexical units** (35): (in/out of) line.n, abide (by).v, adhere.v, adherence.n, breach.n, breach.v, break.v, by-pass.v, circumvent.v, compliance.n, compliant.a, comply.v, conform.v, conformity.n, contrary.a, contravene.v, contravention.n, disobey.v, flout.v, follow.v, honor.v, in accordance.a, keep.v, lawless.a, noncompliance.n, obedient.a, obey.v, observance.n, observant.a, observe.v, play by the rules.v, transgress.v, transgression.n, violate.v, violation.n
+
+## Taking  (frame id 410)
+
+An Agent removes a Theme from a Source so that the it is in the Agent's possession. 'Milton took the can of beer out of the refrigerator.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Agent | Core | The person who takes possession of the Theme. 'Milton took the can of beer out of the refrigerator.' |
+| Source | Core | The location of the Theme prior to the taking. 'Milton took the can of beer out of the refrigerator.' |
+| Theme | Core | The Agent takes possession of the Theme. 'Milton took the can of beer out of the refrigerator.' |
+| Containing_event | Extra-Thematic | The larger event which contains the Taking event. 'These weapons were seized in a police raid'. |
+| Explanation | Extra-Thematic | The Explanation for the taking. 'Milton took the champagne out of the ice because it was getting too cold.' |
+| Manner | Peripheral | The Manner of the taking. 'Milton stealthily took the can of beer out of the refrigerator.' |
+| Means | Peripheral | The intermediate action taken by the Agent to take the Theme. 'Milton took the can of beer from John by distracting him with a shiny nickel'. |
+| Place | Peripheral | Where the taking takes place. 'Police seized several tons of marijuana in Berkeley last weekend.' |
+| Purpose | Peripheral | The Purpose for the taking. 'Milton took the can of beer out of the refrigerator to make sure no one else took it.' |
+| Time | Peripheral | When the taking takes place. 'The government seizure of a suspected dissident's computer last November has increased the tension between citizens and law enforcement.' |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Getting → Taking
+- Inheritance: Intentionally_affect → Taking
+- Inheritance: Taking → Theft
+
+**Lexical units** (5): commandeer.v, grab.v, seize.v, seizure.n, take.v
+
+## Communication_noise  (frame id 39)
+
+This frame contains words for types of noise which can be used to characterize verbal communication. It inherits from Communication (possibly more specifically Communication_manner) and the Sound_emission frame (which simply characterizes basic sounds of whatever source, including those made by animals and inanimate objects). As such, it involves a Speaker who produces noise and thus communicates a Message to an Addressee. '' '"Don't treat me as a child!" she cried scornfully.' 'A writer in the Town Planning Review trumpeted that train-sheds were now obsolete.' 'You know he yelled at Aunt Lou yesterday, because he slipped on that mat in the hall.'
+
+**Frame elements**
+
+| FE | core type | definition |
+|---|---|---|
+| Message | Core | Message has a number of different realizations in this frame, including that-clauses, direct quotes, infinitival complements, for-to phrases, and NP Objects. 'Kim whined that it wasn't fair.' '"Get moving!" Jess … |
+| Speaker | Core | Speaker is the sentient entity that delivers the Message. 'Kim whined that it wasn't fair.' |
+| Topic | Core | Topic occurs in PP Complements, usually headed by about. 'Kim howled about the unfairness of it all.' |
+| Voice | Core | The Voice describes the Speaker's utterance or other message-encoded production. 'John's voice bellowed for her to be quiet.' |
+| Addressee | Peripheral | The Addressee refers to the one toward whom the Communication_noise is directed. Addressee generally occurs in to or at PPs. 'Kim whined to Jess that it wasn't fair.' 'Jess screamed at Kim to be quiet.' |
+| Back | Extra-Thematic | This FE indicates that the communication act denoted by the target is in response to an earlier communication act in which the roles of Speaker and Addressee were reversed. This is conceptually akin to the … |
+| Degree | Peripheral | Degree to which event occurs |
+| Depictive | Extra-Thematic | This FE identifies the state of the Speaker during the communication. '"Get outta here!" he barked unflinching.' |
+| Explanation | Extra-Thematic | The Explanation denotes a proposition from which the main clause (headed by the target) logically follows. This often means that the Explanation causes the target's proposition, but not in all cases. |
+| Internal_cause | Extra-Thematic | The Communication_noise may be prompted by either some outside phenomenon or occurrence, or by an Internal_cause, the Speaker's mental or emotional state. Internal_cause is expressed in a PP Complement. 'Kim growled at … |
+| Manner | Peripheral | Manner describes the manner or style in which the Communication_noise is delivered. '"Huh!" he grunted disbelievingly.' '`"Long , dark hair" he murmured thoughtfully.' |
+| Means | Peripheral | The Means by which the Speaker communicates. |
+| Medium | Peripheral | Medium is used for a physical entity or channel that transmits the Message. It is normally expressed as a PP Complement headed by on or in. 'Pat screamed something in Spanish.' |
+| Place | Peripheral | This FE identifies the Place where an event occurs. |
+| Time | Peripheral | This FE identifies the Time where the Communication noise event occurs. |
+
+**Frame relations** (super → sub)
+
+- Inheritance: Communication → Communication_noise
+- Using: Make_noise → Communication_noise
+
+**Lexical units** (59): babble.n, bark.v, bawl.v, bellow.v, bleat.v, bray.v, burble.v, cackle.v, chirp.v, chirrup.v, chuckle.v, cluck.v, coo.v, croak.v, croon.v, crow.v, cry.v, drone.v, gasp.v, grate.v, groan.v, growl.v, grunt.v, gurgle.v, hiss.v, hoot.v, howl.v, moan.v, murmur.v, purr.v, rap.v, rasp.v, rattle.v, roar.v, rumble.v, scream.v, screech.v, shriek.v, shrill.v, snarl.v, snort.v, splutter.v, sputter.v, squawk.v, squeak.v, squeal.v, thunder.v, titter.v, trill.v, trumpet.v, twitter.v, wail.v, warble.v, wheeze.v, whimper.v, whine.v, whoop.v, yell.v, yelp.v
 

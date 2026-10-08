@@ -1,0 +1,326 @@
+SOURCE: https://wattsupwiththat.com/2017/07/07/how-they-airbrushed-out-the-inconvenient-pause/ (the URL fetched earlier in this project; the print carries the page title)
+ITEM: Christopher Monckton of Brenchley, 'How They airbrushed out the Inconvenient Pause', Watts Up With That (guest post), 7 July 2017
+RETRIEVED: printed to PDF from the live page in Steve's browser on 2026-10-07 (PDF creation date in the file's metadata); supplied to the project as an upload; text extracted with pdftotext -layout on 2026-10-07. Pages 1-12 of the 49-page print (the post body; the remaining pages are the comment thread, not extracted).
+PDF SHA-256: 8d7cd10d4cdf96f1…
+NOTE: verbatim text layer of the print; page furniture, advertisements (interleaved mid-paragraph in the WUWT print) and 'more stories' lists are left as extracted. The quotations in corpus.md were checked against this text by scripts/check_quotes.py.
+========================================================================
+   Wednesday, October 7, 2026
+
+                            Watts        Up      With      That?
+                 The world's most viewed site on global warming and climate change
+                                                                                                
+
+
+
+
+    ADJUSTMENTS/CORRECTIONS HIATUS IN GLOBAL WARMING
+    How They airbrushed out the Inconvenient Pause
+       9 years ago  Guest Blogger
+    By Christopher Monckton of Brenchley
+    In November 2015, just before the faithful gathered around their capering, gibbering witch-
+    doctors and shamans in Paris for the New Superstition’s annual festival of thanks and praise,
+    hugs and back-slapping, the Inconvenient Pause lengthened to 18 years 9 months. One-third
+    of Man’s entire influence on climate since theTrending
+                                                     Industrial Revolution had occurred since
+    February 1997, yet on the then RSS dataset the 225 months since       thatYou
+                                                                       Before
+                                                                               month  had Dentures
+                                                                                  Choose
+                                                                                          shown no
+    global warming at all (Fig. 1).                                    Or Implants, Read About
+                                                                       Option 3
+       clip_image002                                               ORALUX
+Figure 1. The least-squares linear-regression trend on the RSS version 3.3 satellite monthly
+global mean surface temperature anomaly dataset showed no global warming for 18 years 9
+months since February 1997, though one-third of all anthropogenic forcings had occurred
+during the period of the Pause.
+
+
+
+
+                                                                         5 Cups Cocoa Daily:
+                                                                         Tribe With Clean
+                                                                         Arteries & Normal BP
+                                                                         Cacao Bliss
+
+
+
+
+                                                                         Before You Choose
+7 Times Stronger Than Viagra! "It Is Sold In Tehachapi                   Dentures Or Implants,
+Pharmacy!"                                                               Read About Option 3
+Tupi Tea                                                                 Oralux
+
+
+
+
+The accidental delegate from Burma had provoked shrieks of impotent fury from the
+congregation during the final benediction in Qatar in 2012, when he had said the Inconvenient
+Pause had endured for 16 years. Almost three years later, the Pause was almost three years
+longer. Senator Ted Cruz, chairing a Senate committee on global warming, waved Fig. 1 at the
+“Democrats” in the Chamber, to their discomfiture.
+Then came the naturally-occurring el Niño of 2015/2016, ending the Pause. But there stood
+the Pause, still on the record-books, a standing indictment of the profiteers of doom and their
+                                            Trending
+inept climate models’ half-baked but overcooked predictions ofBefore
+                                                                  rampant  warming followed by
+a lurid catalogue of plagues of which the Psalmist at his most excitable  would have been
+                                                                        You Choose Dentures
+                                                                 Or Implants, Read About
+proud – except that they did not occur.                          Option 3
+                                                                ORALUX
+At the time I made a prediction of my own. I said that Dr Karl sMears of RSS, whose dataset
+had shown the Inconvenient Pause but who publicly derides those of us who ask questions
+about the Party Line as “denialists”, would soon allow the Party to prevail upon him to
+announce that the Inconvenient Pause was a mistake and that he would thereafter airbrush it
+away by some a of statistical prestidigitation.
+Sure enough, the very next month he announced that the RSS dataset was going to be
+revised. Version 3 was no longer Politically Correct. All hail Version 4, which has recently
+become available. To see the extent of the tampering – er, make that “revision to allow for the
+previously-unheard-of phenomenon of orbital decay in the satellites”, Comrade – I plotted the
+18 years and 9 months of temperature data from February 1997 to October 2015 using the
+new RSS data. Fig. 2 is the result.
+   clip_image004
+Figure 2. Same period as Fig. 1, but this time using RSS v. 4.0 rather than v. 3.3.
+Hey presto! No more Inconvenient Pause! All gone! Vanished into thick air! Just like that!
+Amazing! Zowee! Look! A quarter of a degree of global warming where there was none before!
+It’s worse than we thought!
+Except that it isn’t. In 1990 the IPCC had predicted global warming from 1990 to 2025 at a
+rate equivalent to 2.8 K/century. But the RSS warming rate over the 18 years 9 months of the
+Airbrushed-Out Pause, according to the new and exciting data approved by the Politburo, is
+equivalent to less than half of IPCC’s originally predicted central rate.
+We Want More Orbital Decay, And We Want It NOW! A rate of warming equivalent to little more
+than 1 degree per century is not enough. The Party has published many books saying there
+will be 6 degrees of warming, and some papers predicting up to 13 degrees. The RSS dataset
+still does not conform to the Party Line.
+Now, one might think that RSS, an outfit whose sole task is to gather data from satellites,
+would know something about – er – as it were – satellites. These days, it’s not particularly
+difficult to adjust for orbital decay in real time using the GPS satellites, which by their nature
+must constantly correct themselves for it.
+                                                Trending
+But the RSS team would now like us to believe they made no adjustments for orbital decay
+until recently, so that the Pause was really – really and truly – cross
+                                                                   Beforemy  heart
+                                                                           You     and
+                                                                               Choose  hope  to die
+                                                                                        Dentures
+
+– trust me, I’m a climate scientist with a Party badge an’ all – anOption
+                                                                    artefact  of the slow decline in
+                                                                   Or Implants, Read About
+                                                                           3
+the altitude of satellites in orbit. As we say down the pub, “Pull the other one, squire – it’s got
+                                                                   ORALUX
+bells on.”
+One might also think that the journal that published the sMears paper radically revising one of
+the two satellite global-temperature datasets would have taken the trouble to get the
+controllers of the other satellite dataset – John Christy and Roy Spencer of UAH – to peer-
+review it.
+Roy Spencer had predicted the apparat would not do that. He was right. The apparat didn’t.
+John and Roy have dared to question the Party Line – politely, scientifically, and continuously.
+Therefore, they are Unpersons who do not – or, even if they do, should not – exist. Only one
+viewpoint is permissible – the Party Line. So they must not be consulted but insulted (and
+even shot at).
+The orbital-decay ploy is not even new. Some years ago, while a leading climate scientist was
+putting the finishing touches to a paper showing a low climate sensitivity, he sent me a copy
+of the draft and I noticed that, since he had begun work on it, a new series of the satellite data
+on which he had hoped to rely had been published, making large ex-post-facto adjustments
+for “orbital decay” – which, however, proved insufficient to undermine the draft.
+Frankly, it’s time for this unprincipled Humptidumptification of climate science to stop. The
+data are rewritten again and again until they mean whatever the Politburo want them to mean.
+Numerous climate datasets, now including the RSS dataset, have been tortured and contorted
+so often to force them into ever-less-plausible conformity with the Party Line that neither
+they nor the Party Line any longer possess any objective credibility whatsoever.
+Let us end by looking at what really happened to global temperature during the Inconvenient
+Pause. Fig. 3 shows the UAH curve for the same period as Figs 1, 2.
+    clip_image006
+Figure 3. The UAH record over the 18 years 9 months of the Inconvenient Pause
+Looks pretty close to a Pause to me. Down the memory-hole with it, Comrades!
+It is also worth looking at the entire run of satellite data for the 38 years 1979-2016. Fig. 4
+shows RSS, using the latest version of the dataset; fig. 5 shows UAH.
+    clip_image008
+                                               Trending
+Figure 4. The recently-revised RSS dataset from 1979-2016
+                                                                     Before You Choose Dentures
+    clip_image010                                                    Or Implants, Read About
+                                                                     Option 3
+Figure 5. The UAH dataset from 1979-2016                         ORALUX
+RSS now shows a warming almost 50% greater than the UAH warming.
+Where stands the truth? You pays your money and you makes your choice: but, after the
+numerous alterations to the tamperature datasets, three points are clear.
+First, on most of the global-temperature datasets, much of the warming of recent decades
+was not evident in the raw data and has been created by ex-post-facto manipulation of the
+data – whether for good reasons or bad. That raises the legitimate question whether our
+observational capacity is sufficiently reliable and sufficiently well resolved to provide useful
+illumination of the question whether our very small perturbation of a very large atmosphere
+will have a very small or a very large influence on future global temperature.
+Secondly, no Inconvenient Pause will ever again be allowed to show in most datasets, even if
+there is one. Some parameter or another will be Karlamelized after the event, and numbly
+acquiescent pal-reviewers will check it not for scientific merit but simply for conformity to the
+Party Line, whereupon they will wave the paper through.
+Thirdly, the rate of global warming, even after the ever-upward temperature tampering of
+almost all datasets (only UAH has gone the other way), is a lot less than predicted. RSS,
+having previously showed just 0.36 K global warming since 1990, now shows 0.52 K, near-
+coincident with IPCC’s least prediction made in 1990, but still well below its central prediction
+and a very long below its high-end prediction. In reality, even after the tampering, it’s a whole
+lot less bad than we thought.
+Table 4 Observed and predicted global warming (K), 1990-2016
+Source           Observations                   AR1
+                 over 27 years                  predictions
+                 1990-2016
+Dataset RSSNCEI                 Mean            HadC           UAH              Min.Mid
+Linear 0.52 clip_image0 clip_image0 clip_image0 clip_image0 0.53 clip_image0
+trend,           12             14              16             18                   20
+1990-
+2016
+Centennial1.91 clip_image0 clip_image0Trending    clip_image0 clip_image0 1.94 clip_image0
+equivalent 22                   24              26             28                   30
+trend                                                              Before You Choose Dentures
+
+As Fig. 6 shows, even after all the tampering, the mean warmingOr   rate among two terrestrial
+                                                                      Implants, Read About
+
+and two satellite datasets continues to be somewhat below IPCC’s least medium-term
+                                                                   Option 3
+                                                                 ORALUX
+prediction made in 1990. Yet IPCC, though in its Fifth Assessment Report it has near-halved
+those medium-term predictions, has unaccountably left its longer-term predictions unaltered:
+for otherwise it would be apparent to all that the real-world temperature data are turning the
+climate scare into a non-event.
+   clip_image032
+Figure 6. Mean of the NCEI, HadCRUT4, RSS and UAH datasets, 1990-2016,
+vs. IPCC medium-term warming predictions in 1990.
+Regular readers will notice that I have been largely absent from these pages in recent months.
+This is partly owing to illness, and partly because I have had my head down working on a
+paper that identifies the chief reason why the rate of warming shown by the untampered data
+is so much less than what IPCC had predicted with “substantial confidence” in 1990.
+The draft paper is now out for review. If the reviewers find sound reasons for rejecting it, I
+shall not trouble you with it further. But my team has gone to uncommon lengths to verify our
+conclusions, including consulting the world’s foremost expert on the application of the
+relevant physical formulism to the climate and getting our understanding of the theory
+confirmed empirically by experiments conducted at a government laboratory.
+If our paper is published, and if the wider scientific community finds little of substance to
+cavil at, it will mark the end of the global-warming scare.
+
+       The climate data they don't want you
+           to find — free, to your inbox.
+         Join readers who get 5–8 new articles daily — no algorithms, no shadow
+                                         bans.
+
+        Email Address
+
+                                        Get Free Updates
+                                             Trending
+
+                                                                   Before You Choose Dentures
+               By subscribing, you agree to our privacy policy and terms of service.
+                                                                   Or Implants, Read About
+                                                                   Option 3
+                                                                   ORALUX
+                                       5
+
+                                Article Rating
+
+
+
+
+Before You Choose Dentures Or Implants, Read About Option 3
+ORALUX
+
+
+
+
+                                  Trending
+
+                                                   Before You Choose Dentures
+7 Times Stronger Than Viagra! "It Is   A Teaspoon Or
+                                                   OnImplants,
+                                                        An Empty     Stomach
+                                                               Read About
+                                                   Option 3
+Sold In Tehachapi Pharmacy!"           Burns All Parasites Extremely Fast
+                                                    ORALUX
+TUPI TEA                               PARATOXIL
+The U.S. Fought To Keep This Retirement Loophole Alive—Will You Use It
+Before It's Gone?
+PRIORITY GOLD
+
+
+
+
+                                  Trending
+
+                                              Before You Choose Dentures
+                                              Or 5
+Cognitive Decline Begins When Seniors Say These  Implants,
+                                                   Phrases.Read(See
+                                                                About
+                                              Option 3
+Which Ones)
+                                                  ORALUX
+NEURO PRIME
+Man: This Odd Trick Will Give You   Spinal Stenosis Is Not From Tight
+An Erection At Any Age! Try It!     Muscles. Meet The Real Enemy Of
+MEN'S HEALTH                        Stenosis
+                                    REJUVACARE
+
+
+
+
+Poor Sleep Has Been Linked To A Common Mineral. Do You Take It?
+SPNUTRITION
+
+                                Trending
+
+                                               Before You Choose Dentures
+                                               Or Implants, Read About
+                                               Option 3
+                                               ORALUX
+A Teaspoon On An Empty Stomach Burns 11 Lbs Of Fat A Week Safely!
+SLIMMELT
+
+
+
+
+Doctors Share Key Signs For       Neurologist Begs People With
+Prompt HIV Testing                Neuropathy: Stop Doing This Now!
+FACTRIPPLE.COM                    NERVELIN
+
+
+
+                              Trending
+
+                                             Before You Choose Dentures
+                                             Or Implants, Read About
+                                             Option 3
+                                             ORALUX
+Lower Back Pain Won't Go Away? Top Neurosurgeon Exposes The
+Secret Culprit
+REJUVACARE
+
+
+
+
+                                   Trending
+
+                                                 Before You Choose Dentures
+                                                 Or Implants,
+5 Cups Cocoa Daily: Tribe With Clean Arteries & Normal    BPRead About
+                                                 Option 3
+CACAO BLISS
+                                                    ORALUX
+Timeshare Resorts Forced To                     Cardiologists: 2 Veggies Will Kill
+Refund Owners - Is Yours On The                 Your Belly & Arm Fat Overnight
+List?                                           BURNSLIM
+SILVERPENNY
+
+
+
+
+                                          Trending
+
+                                                            Before You Choose Dentures
+Tags: HadCRUT4, hiatus, NCEI, Pause, RSS, UAH               Or Implants, Read About
+                                                            Option 3
+                                                            ORALUX
+

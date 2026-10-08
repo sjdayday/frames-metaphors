@@ -1,0 +1,335 @@
+SOURCE: The Guardian, page title "David Rose's climate science writing shows he has not learned from previous mistakes | Climate crisis | The Guardian" (URL not in the print; the article is on theguardian.com under George Monbiot's blog, 8 December 2010)
+ITEM: George Monbiot, 'David Rose's climate science writing shows he has not learned from previous mistakes', The Guardian (George Monbiot's blog), 8 December 2010
+RETRIEVED: printed to PDF from the live page in Steve's browser on 2026-10-07 (PDF creation date in the file's metadata); supplied to the project as an upload; text extracted with pdftotext -layout on 2026-10-07. Full article; quotes David Rose's Mail on Sunday article of early December 2010.
+PDF SHA-256: 962abce519bace7b…
+NOTE: verbatim text layer of the print; page furniture, advertisements (interleaved mid-paragraph in the WUWT print) and 'more stories' lists are left as extracted. The quotations in corpus.md were checked against this text by scripts/check_quotes.py.
+========================================================================
+George Monbiot's blog Climate crisis
+
+ This article is more than 15 years old
+
+David Rose's climate science writing shows
+he has not learned from previous mistakes
+Articles in the Mail on Sunday show the same uncritical
+reliance on dodgy sources that caused David Rose's
+catastrophic mistakes about Iraq
+
+
+
+
+   A remote weather station measuring temperature changes. Rose says temperatures are not rising due to
+climate change. Photograph: Junos/Corbis
+
+
+George Monbiot
+Wed 8 Dec 2010 04.07 EST
+
+     Prefer the Guardian on Google
+
+
+You can divide people into two categories: those who learn from their
+mistakes and those who don't. There is no third category: we all mess up
+from time to time.
+Journalism is a mistake waiting to happen. With tight deadlines, big rewards
+for shock and awe and small rewards for methodical, less spectacular work,
+with an inverse relationship between volume and truth in public life,
+reporters tend to stumble from one accident to another.
+
+The only hope journalists have of retaining any kind of self-respect is to
+question themselves repeatedly, ask whether they are being manipulated
+and whether they are seeing the whole story. So where does this leave David
+Rose?
+
+I don't want to credit the media with more power than it has, but from time
+to time it is pivotal to public policy. One such moment was the build-up to
+the Iraq war. The UK might not have joined Bush's war if it didn't have broad
+support from the press, and particularly from sections of the liberal press.
+
+The Observer was more influential in the build-up to the war than any other
+outlet, as the position it took – strongly in favour – was so unexpected. Its
+editorial line caused huge ructions within the paper and plenty of conflict
+with journalists at its sister-paper the Guardian (I'm painfully aware of this,
+having had a shouting match with the Observer's then political editor, Kamal
+Ahmed, in the building's stairwell). It also emboldened some wavering
+Labour MPs and helped Tony Blair make his case.
+
+The Observer's position was strongly influenced by Rose's reporting. Though
+others warned that his sources should not be trusted, Rose's articles for the
+paper uncritically reported the claims made by Ahmed Chalabi and the Iraqi
+National Congress about Saddam Hussein's alleged weapons of mass
+destruction. Chalabi later admitted that they were incorrect.
+
+The chain of causality is a long one, and I don't want to pull on it too hard,
+but it is arguable that the Observer could not have sustained its position were
+it not for Rose's reporting; that Blair could not have contained the Labour
+revolt were it not for the Observer; and that Bush could not have gone to war
+were it not for Blair's support.
+
+In May 2004, over a year after the war began, Rose, to his credit, admitted
+that he'd got it wrong. By then, of course, it was far too late to undo the
+damage. He wrote a partial apology in an article titled: "Iraqi defectors
+tricked us with WMD lies, but we must not be fooled again".
+
+A vain hope. Admitting it, it seems, is one thing; learning from it quite
+another.
+Since the Iraq debacle, Rose has latterly been writing articles attacking
+climate science for the Daily Mail. He has distinguished himself by the same
+uncritical reliance on dodgy sources that caused his catastrophic mistakes
+about Iraq.
+
+But now he has published his longest list of errors yet, in an article in the
+Mail on Sunday. Every one of them would have been easy to check and
+disprove, had he been inclined to do so. But the Mail pays well for this crap,
+and checking, under these circumstances, is likely to be an expensive
+pastime.
+
+I don't have time to deal with every one of the mistakes his article contains –
+it takes 100 times as long to show why a claim is wrong as it does to make it –
+but here's a quick breakdown, beginning with the first sentence: (I've been
+able to pull this together with the help of the Climate Science Rapid
+Response Team, which put me in touch with the relevant scientists and
+pointed me to the primary datasets.)
+
+Rose:
+
+    "A year ago tomorrow, just before the opening of the UN Copenhagen world
+    climate summit, the British Meteorological Office issued a confident
+    prediction. The mean world temperature for 2010, it announced, 'is
+    expected to be 14.58C, the warmest on record' – a deeply worrying 0.58C
+    above the 1961-1990 average."
+
+"A year ago tomorrow" would have been 7 December. The Met Office issued
+its forecast (not a "prediction") on 10 December.
+
+And there was nothing "confident" about it. The press release said that a
+record warm year "is not a certainty, especially if the current El Niño was to
+unexpectedly decline rapidly near the start of 2010, or if there was a large
+volcanic eruption." As it happened, El Niño did decline rapidly, and was
+replaced by a very strong La Niña.
+
+Rose:
+
+    "Met Office officials openly boasted that they hoped by their statements to
+    persuade the Copenhagen gathering to impose new and stringent carbon
+    emission limits - an ambition that was not to be met."
+
+Rose provides no source for this claim (or for any of the claims here). The
+Met Office tells me it was not trying to influence policy, simply to report the
+facts.
+Rose:
+
+    "Climate science orthodoxy, as promulgated by bodies such as the UN
+    Intergovernmental Panel on Climate Change (IPCC) and the University of
+    East Anglia Climatic Research Unit (CRU), says that temperatures have
+    risen and will continue to rise in step with increasing CO2 in the
+    atmosphere"
+
+I challenge Rose to find a single occasion on which these bodies have said
+that temperatures will rise "in step" with CO2. As Professor Kevin Trenberth
+of the National Center for Atmospheric Research tells me: "One should not
+be misled by seizing on an individual value or year and citing trends for
+that, because natural variability such as from El Niño creates ups and downs
+all the time."
+
+Does Rose expect warming to proceed along a straight line?
+
+Rose:
+
+    "Last week at Cancún, in an attempt to influence richer countries to agree
+    to give £20bn immediately to poorer ones to offset the results of warming,
+    the US-based International Food Policy Research Institute warned that
+    global temperatures would be 6.5C higher by 2100, leading to rocketing
+    food prices and a decline in production."
+
+
+I can find no evidence at all for this. The Institute did release a report last
+week, but it doesn't even mention 6.5C, let alone predict that temperatures
+would climb to that point. In fact it makes no predictions whatever about
+global warming: it simply explains what is likely to happen to agriculture at
+different temperature scenarios, none of which extend as far as 6.5C. It is
+not easy to see how Rose could have got this so wrong.
+
+Rose:
+
+    "Actually, with the exception of 1998 – a 'blip' year when temperatures
+    spiked because of a strong El Niño effect (the cyclical warming of the
+    southern Pacific that affects weather around the world) – the data on the
+    Met Office's and CRU's own websites show that global temperatures have
+    been flat, not for 10, but for the past 15 years."
+
+All the datasets, including the Met Office/CRU figures show that the current
+decade is the warmest in the instrumental record.
+
+Rose:
+    "They go up a bit, then down a bit, but those small rises and falls amount to
+    less than their measuring system's acknowledged margin of error. They
+    have no statistical significance and reveal no evidence of any trend at all."
+
+Professor Phil Jones at the University of East Anglia (yes, the Phil Jones),
+tells me: "The error of estimate of global averages or the forecasts for
+subsequent years is completely unrelated to the trend of warming. This is
+comparing apples with oranges."
+
+Rose:
+
+    "Last year it predicted that the 2010 average would be 14.58C. Last week,
+    this had been reduced to 14.52C. That may not sound like much. But when
+    one considers that by the Met Office's own account, the total rise in world
+    temperatures since the 1850s has been less than 0.8C, it is quite a big deal.
+    Above all, it means the trend stays flat."
+
+In fact 14.52C (which means 0.52C above the long-term average) is equal to
+the record set in 1998. The Met Office figures show that – for January-
+October – 2010 is the equal warmest year on record. The National Oceanic
+and Atmospheric Administration (NOAA) and Nasa databases, which record
+anomalies of 0.54C and 0.58C respectively, suggest that so far it's the
+warmest year on record.
+
+Phil Jones tells me:
+
+"The forecast of 14.58 for 2010 was well within the error range if the final
+number was 14.52. The difference is 0.06 and the error range is +/- 0.10
+approx".
+
+Rose:
+
+    "Meanwhile, according to an analysis yesterday by David Whitehouse of
+    the Global Warming Policy Foundation, 2010 had only two unusually warm
+    months, March and April, when El Niño was at its peak."
+
+
+This, again, is utter nonsense, and goes to show what happens when you
+rely on untrustworthy sources. As you can see from all three global datasets
+(CRU, NOAA and Nasa) all the months this year for which the data has so far
+been collated (January-October) were anomalously warm.
+
+Phil Jones points out: "Looking at these, it is clear that they have used the
+land-only values!!!!!!"
+Amazing. I can't imagine what the fuss would have been like if climate
+scientists had made the same mistake as the Global Warming Policy
+Foundation has done.
+
+Rose:
+
+    "The data from October to the end of the year suggests that when the final
+    figure is computed, 2010 will not be the warmest year at all, but at most the
+    third warmest, behind both 1998 and 2005."
+
+Perhaps Rose could explain how he has obtained the data from October to
+the end of the year. Is he employing Mystic Meg as his researcher?
+
+Rose:
+
+    "Earlier this year, a paper by Michael Mann – for years a leading light in
+    the IPCC, and the author of the infamous 'hockey stick graph' showing flat
+    temperatures for 2,000 years until the recent dizzying increase - made an
+    extraordinary admission: that, as his critics had always claimed, there had
+    indeed been a ' medieval warm period' around 1,000AD, when the world
+    may well have been hotter than it is now."
+
+Rose, as usual, provides no reference for this paper, and none of the
+scientists I've contacted, including Mann, has any idea what he's talking
+about. But Mann points out that neither "we, nor any other researchers,
+have ever denied there was a period of relative warmth sometime during
+medieval for many regions. What we – and other competent researchers –
+have all found is that the warmth was far more regional than modern
+warmth, with some large regions, like the tropical Pacific, having been
+unusually *cold* at the time, and when you average over the globe, the
+warmth of the medieval warm period/medieval climate anomaly simply
+doesn't reach modern warmth. Every peer-reviewed scientific study of the
+matter comes to the same conclusions."
+
+Rose:
+
+    "Other research is beginning to show that cyclical changes in water vapour
+    – a much more powerful greenhouse gas than carbon dioxide – may account
+    for much of the 20th-century warming."
+
+Andrew Dessler of Texas A&M University says: "I have no idea what
+"research" they are talking about." Dessler recently analysed of all the data
+and showed that there is no evidence for such claims.
+Dessler continues: "This is really a classic "sceptic" argument. When it was
+originally brought up in the early 1990s, it was a legitimate uncertainty in
+our understanding. Scientists, however, view uncertainty like a starving
+wolf views red meat, and so the problem was thoroughly attacked over the
+next 15 years. In particular, about eight years ago, Nasa launched the
+atmospheric infrared sounder on board the Aqua satellite, which measures
+water vapour distribution with great accuracy. These data have really
+settled the question. However, just like the monster in a horror movie, this
+argument just won't die."
+
+Anthony del Genio of Nasa also tells me: "I know of no evidence for the
+statement that cyclical changes in water vapour are responsible for much of
+the 20th-century warming, unless there is a new paper of which I am not
+aware that makes such a claim."
+
+He continues: "The important thing is that the inter-annual changes of
+water vapour and everything else associated with El Niño are not systematic
+long-term variations, rather they go up and down every two to five years or
+so. So they don't cause a long-term trend. CO2 changes, however, do cause
+long-term changes in CO2. Because CO2 is itself a greenhouse gas, it warms
+the atmosphere and surface of the planet, which causes more water to
+evaporate from the oceans and build up in the atmosphere. The resulting
+warming due to the water vapour is in fact larger than the initial warming
+due to the CO2 that forced it to happen, and this is the point of the Lacis
+paper - yes, water vapour is a more important greenhouse gas than CO2, but
+water vapour doesn't change systematically with time UNLESS CO2 is
+changing and initiating a warming that sets into motion the surface and
+atmospheric processes that allow water vapour to systematically increase.
+So CO2 changes are the root cause of whatever water vapour feedback winds
+up occurring."
+
+Rose:
+
+    "Even Phil Jones, the CRU director at the centre of last year's 'Climategate'
+    leaked email scandal, was forced to admit in a little-noticed BBC online
+    interview that there has been 'no statistically significant warming' since
+    1995."
+
+Phil Jones replies: "The key statement here is 'not statistically significant'. It
+wasn't for these years at the 95% level, but it would have been at the 90%
+level. If you add the value of 0.52 in for 2010 and look at 1995 to 2010 then
+the warming is statistically significant at the 95% level." [What this means is
+that the warming trend for the past few years previously met a lower test of
+statistical significance. With addition of the results so far for 2010, it now
+means the higher test.]
+
+Rose:
+
+    "One of those leaked emails, dated October 2009, was from Kevin
+    Trenberth, head of climate analysis at the US government's National
+    Centre for Atmospheric Research and the IPCC's lead author on climate
+    change science in its monumental 2002 and 2007 reports. He wrote: 'The
+    fact is that we can't account for the lack of warming at the moment, and it
+    is a travesty that we can't.'"
+
+
+Here's what Trenberth says on his website:
+
+"It is amazing to see this particular quote lambasted so often. It stems from
+a paper I published this year bemoaning our inability to effectively monitor
+the energy flows associated with short- term climate variability. It is quite
+clear from the paper that I was not questioning the link between
+anthropogenic greenhouse gas emissions and warming, or even suggesting
+that recent temperatures are unusual in the context of short-term natural
+variability."
+
+It is hard to believe that Rose was unaware of this explanation.
+
+Rose:
+
+    "The question now emerging for climate scientists and policymakers alike is
+    very simple. Just how long does a pause have to be before the thesis that the
+    world is getting hotter because of human activity starts to collapse?"
+
+The question now emerging for Rose is very simple. Just how many mistakes
+does he have to make before the thesis that these are innocent errors starts to
+collapse?
+
+www.monbiot.com
+
+ On 8 December we amended this article to take out links to third party
+content. We incorrectly referred to Rose's article running in the Daily Mail.
+This has been corrected.
+Most viewed
+

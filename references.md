@@ -76,19 +76,26 @@
 
 ## Primary statements used in the cases
 
-- Carter, R. M. (2006, April 9). There IS a problem with global warming… it stopped in 1998. *The Telegraph*. `[S]` (headline via Wikipedia; page blocked)
+- Carter, R. M. (2006, April 9). There IS a problem with global warming… it stopped in 1998. *The Telegraph*. `[U]` (printed PDF supplied by Steve 2026-10-07; capture in `case-studies/02-pause-hiatus/sources/`)
 - Curry, J. (2013, September 30). IPCC's pause 'logic'. *Climate Etc.* `[V]` (PDF copy fetched 2026-10-06 from a Harvard course site)
 - Homewood, P. (2013, September 29). Hide the decline. *Watts Up With That* (guest post). `[W-x]` (fetched as fragments)
-- Koonin, S. E. (2014, September 19). Climate science is not settled. *Wall Street Journal*. `[P-08]` (read in full by the evolution project from the Wayback Machine; blocked from here)
+- Koonin, S. E. (2014, September 19). Climate science is not settled. *Wall Street Journal*. `[U]` (printed PDF supplied by Steve 2026-10-07; capture in `case-studies/02-pause-hiatus/sources/`; also read in full by the evolution project, `08` §4)
+- Monbiot, G. (2010, December 8). David Rose's climate science writing shows he has not learned from previous mistakes. *The Guardian* (blog). `[U]` (printed PDF supplied by Steve 2026-10-07; quotes Rose's Mail on Sunday article of December 2010 and Trenberth, Jones, Dessler and del Genio)
 - Lindsey, R. (2018, September 4). Did global warming stop in 1998? *NOAA Climate.gov*. `[V]` (fetched 2026-10-06)
 - Monckton of Brenchley, C. (2015, September 4). The Pause lengthens yet again. *Watts Up With That*. `[V]` (fetched 2026-10-06)
-- Monckton of Brenchley, C. (2017, July 7). How they airbrushed out the inconvenient Pause. *Watts Up With That*. `[W-x]` (fetched as fragments)
+- Monckton of Brenchley, C. (2017, July 7). How they airbrushed out the inconvenient Pause. *Watts Up With That*. `[U]` (printed PDF supplied by Steve 2026-10-07, post body pp. 1–12 captured)
 - Muller, R. A. (2013). A pause, not an end, to warming. *The New York Times* (op-ed), as quoted on Berkeley Earth, "Global Warming Pause?" `[S]`
 - Rahmstorf, S. (2013, December 17). The global temperature jigsaw. *RealClimate*. `[V]` (fetched 2026-10-06)
 - Rose, D. (2012, October 13). Global warming stopped 16 years ago, reveals Met Office report quietly released… *Daily Mail*. `[S]` (headline from the URL; page blocked)
 - Bastasch, M. (2015, April 24). Global warming 'pause' extends nearly 18 and a half years. *Daily Caller*. `[V]` (fetched 2026-10-06; quotes Monckton)
 - Buckle, S., & MacTavish, F. (2013, September). *The slowdown in global mean surface temperature rise* (Grantham Briefing Note 1). Imperial College London. `[V]` (PDF fetched 2026-10-06)
 - Pidcock, R. (2013, July 25). Taking Earth's temperature: three Met Office reports examine the warming pause… *Carbon Brief*. `[V]` (fetched 2026-10-06; quotes the Met Office reports)
+
+## Data and methods used for Figure Q3-1
+
+- Met Office Hadley Centre. HadCRUT.4.6.0.0 annual global mean temperature anomaly, ensemble median (`HadCRUT.4.6.0.0.annual_ns_avg.txt`), years 1950–2021. `[V]` (fetched 2026-10-07; copy with provenance in `case-studies/02-pause-hiatus/figures/data/`)
+- NOAA NCEI. NOAAGlobalTemp annual global anomalies (source GCAG), as snapshotted in `climate-explain/loehle-scafetta-curve-fitting/data/annual.csv` (the `datasets/global-temp` mirror). `[K]` (Steve's own snapshot; refresh command in that repository's README)
+- Santer, B. D., et al. (2008). Consistency of modelled and observed temperature trends in the tropical troposphere. *International Journal of Climatology*, 28, 1703–1722. `[K]` (the AR(1) effective-sample-size adjustment used for the figure's intervals)
 
 ## Primary statements used as examples
 

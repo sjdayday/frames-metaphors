@@ -1,6 +1,6 @@
 # frames-metaphors
 
-**Status:** v0.2, 2026-10-06. A working analysis, meant to be revised. Written by Claude at Steve's request; everything here is a draft to be checked, not a source. The brief is `frames-metaphors-context` (kept as written).
+**Status:** v0.3, 2026-10-07. A working analysis, meant to be revised. Written by Claude at Steve's request; everything here is a draft to be checked, not a source. The brief is `frames-metaphors-context` (kept as written).
 
 ## Purpose
 
@@ -29,9 +29,9 @@ The concrete use case: Steve, in conversation with a climate-sceptical friend, w
 | `references.md` | Sources, each tagged by how it was verified (`[V]`, `[V-s]`, `[K]`). |
 | `method/unpack-protocol.md` | The in-conversation procedure (v0.1): fix the paraphrase; lexical scan; the frame carrying the argument; substance kept separate; the second look. |
 | `case-studies/01-ls11-fr11/` | Case 01: paired public communications about Loehle & Scafetta 2011 and Foster & Rahmstorf 2011. `corpus.md` (16 + 15 verbatim statements with provenance, five pairs), `analysis.md` (pairs P1–P5 in both modes, substance notes, second looks, assessment of the modes), `README.md`. |
-| `case-studies/02-pause-hiatus/` | Case 02: the "pause"/"hiatus"/slowdown, 2006–2018. `corpus.md` (9 + 13 statements with provenance classes; four pairs), `analysis.md` (Q1 the naming scale; Q2 the inference about the models; Q3 the scoreboard; Q4 the meta-pair; additions to the method), `README.md`. |
+| `case-studies/02-pause-hiatus/` | Case 02: the "pause"/"hiatus"/slowdown, 2006–2018. `corpus.md` (10 + 14 statements with provenance classes; four pairs), `analysis.md` (Q1 the naming scale; Q2 the inference about the models; Q3 the scoreboard with Figure Q3-1; Q4 the meta-pair and the master frames; additions to the method), `sources/` (captures of four primaries Steve supplied), `figures/` (the start-date/dataset figure, its data and computed trends), `README.md`. |
 | `framenet/framenet-frames-used.md` | Generated reference: full FrameNet 1.7 records (definition, frame elements with core types, relations, lexical units) for the 116 frames used in annotations. |
-| `scripts/fn_lookup.py`, `scripts/fn_dump.py`, `scripts/check_quotes.py` | Look up lexical units for words; regenerate the frames reference; verify quotations against the paper-behavior captures. The first two require NLTK with the `framenet_v17` corpus (see below). |
+| `scripts/fn_lookup.py`, `scripts/fn_dump.py`, `scripts/check_quotes.py`, `scripts/fig_startdate_sensitivity.py` | Look up lexical units for words; regenerate the frames reference; verify quotations against the paper-behavior captures and the case-local captures; build Figure Q3-1 (needs numpy and matplotlib, and the climate-explain data snapshot or `$ANNUAL_CSV`). The first two require NLTK with the `framenet_v17` corpus (see below). |
 
 ## The climate folders
 
@@ -57,11 +57,16 @@ FrameNet 1.7 is used offline through NLTK (`nltk.corpus.framenet`). The data fil
 
 **Findings so far.** Case 01: both sides describe their method with the same subtraction script and the other side's with the same contamination register; both use the same three deception frames with identical role assignments and the lay reader as victim; both claim the word "skeptic" through the same frame; both reason inside a partition of warming into natural and human shares, which is lexically a partition into the genuine and the made (`Artificiality`); each side hedges where readers do not look. Case 02: the names for the slower warming after 1998 form a scale by explanatory burden (STOPPED → NO WARMING AT ALL → THE PAUSE → HIATUS → SLOWDOWN → FLUCTUATION); the mainstream's adoption of "pause"/"hiatus" was handled four ways (explain, disarm, redefine, refuse); capitalization, the definite article and a "record" reify a fitted trend into an object, which is why its revision later had to be an act ("airbrushed"); each side's account of the other's naming is a corruption frame (seepage vs. airbrushing); and FrameNet's lack of a statistical sense for "significant" is where the scoreboard works on lay readers in both directions. Across both cases: Mode A is a quick, allegiance-blind first pass; Mode B does the inferential work; the technical vocabulary is absent from FrameNet on both sides.
 
-**Open with Steve** (also at the end of `case-studies/02-pause-hiatus/analysis.md`): whether to capture the blocked primaries with the in-app browser; whether Lewandowsky et al. should be analysed symmetrically or read as literature; whether to add a small start-date-sensitivity figure to case 02.
+**Done in v0.3 (2026-10-07).** Case 02 reworked from four primaries Steve supplied (Carter 2006, Koonin 2014, Monbiot 2010 quoting Rose 2010, Monckton 2017), with captures in `sources/`; Figure Q3-1 (start-date and dataset sensitivity, HadCRUT4 and NOAA) and its script; frames reference regenerated (137 frames). Steve's decisions: Lewandowsky et al. stay analysed symmetrically; the figure was wanted.
+
+**Added by v0.3.** Koonin's own name for the episode is "this slowing in the temperature rise" — the mainstream end of the naming scale — while he draws the sceptical inference; Carter's 2006 body text is hedged ("not at a rate that differs significantly from zero") under the headline "it stopped in 1998", so the headline/body hedge asymmetry holds on the sceptical side too; Carter also made the "your window too" move in 2006, which means a second look cannot rest on symmetry and must state the criterion (window length relative to the variability, and the start point — Figure Q3-1); Monckton 2017 stacks eight master frames (religion, the Party, the conjuror, torture, cooking, commerce, law, Humpty Dumpty) and concedes in its own words that the El Niño ended the Pause; the mainstream mirrors of those frames are in Monbiot 2010 ("the Mail pays well for this crap", "Mystic Meg", the undying "monster"); and on the current NOAA series the 1998–2012 trend is +0.12 °C per decade against HadCRUT4's +0.06 — the dataset gap is the checkable content behind "airbrushed".
+
+**Open with Steve** (also at the end of `case-studies/02-pause-hiatus/analysis.md`): the AR5 sentences, Rose's 2012 headline, Homewood 2013 and Muller 2013 are still quoted through secondaries; a monthly-data version of Figure Q3-1 (RSS v3.3/v4.0, UAH) would reproduce the "N years N months" scoreboard exactly.
 
 **Queued.** The consensus / manufactured-consensus / settled cluster (from `08`'s primary statements); a single foundational metaphor ("greenhouse" or "fingerprint") traced from the technical literature into public use; the literature pass on climate-metaphor research (Nerlich, Koteyko, Deignan, Semino, Russill; Lakoff 2010 read as a primary statement).
 
 ## Revision log
 
+- **v0.3 — 2026-10-07.** Case 02 to v0.2 on primaries; Figure Q3-1; captures and manifest in `case-studies/02-pause-hiatus/sources/`; checker extended to case-local captures; references and frames reference updated.
 - **v0.2 — 2026-10-06.** Case 01 pairs P4–P5; case 02 (four pairs); protocol, glossary and references to v0.2; frames reference regenerated (116 frames). Written unattended while Steve was offline; the commit author line is Steve's identity with Claude as co-author, as in v0.1.
 - **v0.1 — 2026-10-05.** First pass: scaffolding, glossary, references, protocol v0.1, case 01 pairs P1–P3.

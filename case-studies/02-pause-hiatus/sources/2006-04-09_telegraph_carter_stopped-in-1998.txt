@@ -1,0 +1,318 @@
+SOURCE: The Telegraph, page title "There IS a problem with global warming... it stopped in 1998" (URL not in the print; telegraph.co.uk, 9 April 2006)
+ITEM: Bob Carter, 'There IS a problem with global warming... it stopped in 1998', The Telegraph, 9 April 2006
+RETRIEVED: printed to PDF from the live page in Steve's browser on 2026-10-07 (PDF creation date in the file's metadata); supplied to the project as an upload; text extracted with pdftotext -layout on 2026-10-07. Full article.
+PDF SHA-256: fa86884e7de0e246…
+NOTE: verbatim text layer of the print; page furniture, advertisements (interleaved mid-paragraph in the WUWT print) and 'more stories' lists are left as extracted. The quotations in corpus.md were checked against this text by scripts/check_quotes.py.
+========================================================================
+        News     Sport    Business   Money   Travel   Tools   Opinion   Ukraine   Health   Recommende
+
+ See all News
+
+
+There IS a problem with global warming... it stopped in 1998
+
+
+By Bob Carter
+
+09 April 2006 • 12:01am
+
+
+
+
+For many years now, human-caused climate change has been viewed as a large and urgent
+problem. In truth, however, the biggest part of the problem is neither environmental nor
+scientific, but a self-created political fiasco. Consider the simple fact, drawn from the official
+temperature records of the Climate Research Unit at the University of East Anglia, that for
+the years 1998-2005 global average temperature did not increase (there was actually a slight
+decrease, though not at a rate that differs significantly from zero).
+
+
+Yes, you did read that right. And also, yes, this eight-year period of temperature stasis did
+coincide with society's continued power station and SUV-inspired pumping of yet more
+carbon dioxide into the atmosphere.
+
+
+In response to these facts, a global warming devotee will chuckle and say "how silly to judge
+climate change over such a short period". Yet in the next breath, the same person will assure
+you that the 28-year-long period of warming which occurred between 1970 and 1998
+constitutes a dangerous (and man-made) warming. Tosh. Our devotee will also pass by the
+curious additional facts that a period of similar warming occurred between 1918 and 1940,
+well prior to the greatest phase of world industrialisation, and that cooling occurred
+between 1940 and 1965, at precisely the time that human emissions were increasing at their
+greatest rate.
+
+
+Does something not strike you as odd here? That industrial carbon dioxide is not the primary
+cause of earth's recent decadal-scale temperature changes doesn't seem at all odd to many
+thousands of independent scientists. They have long appreciated - ever since the early 1990s,
+when the global warming bandwagon first started to roll behind the gravy train of the UN
+Inter-governmental Panel on Climate Change (IPCC) - that such short-term climate
+fluctuations are chiefly of natural origin. Yet the public appears to be largely convinced
+otherwise. How is this possible?
+
+
+Since the early 1990s, the columns of many leading newspapers and magazines, worldwide,
+have carried an increasing stream of alarmist letters and articles on hypothetical, human-
+caused climate change. Each such alarmist article is larded with words such as "if ", "might",
+"could", "probably", "perhaps", "expected", "projected" or "modelled" - and many involve such
+deep dreaming, or ignorance of scientific facts and principles, that they are akin to nonsense.
+
+
+The problem here is not that of climate change per se, but rather that of the sophisticated
+scientific brainwashing that has been inflicted on the public, bureaucrats and politicians
+alike. Governments generally choose not to receive policy advice on climate from
+independent scientists. Rather, they seek guidance from their own self-interested science
+bureaucracies and senior advisers, or from the IPCC itself. No matter how accurate it may be,
+cautious and politically non-correct science advice is not welcomed in Westminster, and nor
+is it widely reported.
+
+
+Marketed under the imprimatur of the IPCC, the bladder-trembling and now infamous
+hockey-stick diagram that shows accelerating warming during the 20th century - a
+statistical construct by scientist Michael Mann and co-workers from mostly tree ring records
+- has been a seminal image of the climate scaremongering campaign. Thanks to the work of a
+Canadian statistician, Stephen McIntyre, and others, this graph is now known to be deeply
+flawed.
+
+
+There are other reasons, too, why the public hears so little in detail from those scientists who
+approach climate change issues rationally, the so-called climate sceptics. Most are to do with
+intimidation against speaking out, which operates intensely on several parallel fronts.
+
+
+First, most government scientists are gagged from making public comment on contentious
+issues, their employing organisations instead making use of public relations experts to craft
+carefully tailored, frisbee-science press releases. Second, scientists are under intense
+pressure to conform with the prevailing paradigm of climate alarmism if they wish to receive
+funding for their research. Third, members of the Establishment have spoken declamatory
+words on the issue, and the kingdom's subjects are expected to listen.
+
+
+On the alarmist campaign trail, the UK's Chief Scientific Adviser, Sir David King, is thus
+reported as saying that global warming is so bad that Antarctica is likely to be the world's
+only habitable continent by the end of this century. Warming devotee and former Chairman
+of Shell, Lord [Ron] Oxburgh, reportedly agrees with another rash statement of King's, that
+climate change is a bigger threat than terrorism. And goodly Archbishop Rowan Williams,
+who self-evidently understands little about the science, has warned of "millions, billions" of
+deaths as a result of global warming and threatened Mr Blair with the wrath of the climate
+God unless he acts. By betraying the public's trust in their positions of influence, so do the
+great and good become the small and silly.
+
+
+Two simple graphs provide needed context, and exemplify the dynamic, fluctuating nature
+of climate change. The first is a temperature curve for the last six million years, which shows
+a three-million year period when it was several degrees warmer than today, followed by a
+three-million year cooling trend which was accompanied by an increase in the magnitude of
+the pervasive, higher frequency, cold and warm climate cycles. During the last three such
+warm (interglacial) periods, temperatures at high latitudes were as much as 5 degrees
+warmer than today's. The second graph shows the average global temperature over the last
+eight years, which has proved to be a period of stasis.
+
+
+The essence of the issue is this. Climate changes naturally all the time, partly in predictable
+cycles, and partly in unpredictable shorter rhythms and rapid episodic shifts, some of the
+causes of which remain unknown. We are fortunate that our modern societies have
+developed during the last 10,000 years of benignly warm, interglacial climate. But for more
+than 90 per cent of the last two million years, the climate has been colder, and generally
+much colder, than today. The reality of the climate record is that a sudden natural cooling is
+far more to be feared, and will do infinitely more social and economic damage, than the late
+20th century phase of gentle warming.
+
+
+The British Government urgently needs to recast the sources from which it draws its climate
+advice. The shrill alarmism of its public advisers, and the often eco-fundamentalist policy
+initiatives that bubble up from the depths of the Civil Service, have all long since been
+detached from science reality. Intern-ationally, the IPCC is a deeply flawed organisation, as
+acknowledged in a recent House of Lords report, and the Kyoto Protocol has proved a costly
+flop. Clearly, the wrong horses have been backed.
+
+
+As mooted recently by Tony Blair, perhaps the time has come for Britain to join instead the
+new Asia-Pacific Partnership on Clean Development and Climate (AP6), whose six member
+countries are committed to the development of new technologies to improve environmental
+outcomes. There, at least, some real solutions are likely to emerge for improving energy
+efficiency and reducing pollution.
+Informal discussions have already begun about a new AP6 audit body, designed to vet
+rigorously the science advice that the Partnership receives, including from the IPCC. Can
+Britain afford not to be there?
+
+
+• Prof Bob Carter is a geologist at James Cook University, Queensland, engaged in
+paleoclimate research
+
+
+
+   Every morning
+From the Editor
+Wake up to free-thinking comment and the biggest news stories, in your inbox every morning
+
+ Sign up      See all newsletters
+
+
+
+
+More stories
+
+           Golden naked Trump statue unveiled at European Parliament
+
+
+
+
+           BBC pays white staff less in almost every pay band
+
+
+
+
+           Kemi Badenoch doesn’t care what the BBC thinks, and that changes
+           everything
+
+
+           Russia plague did not escape from test tube, says dead scientist’s mother
+
+
+
+
+           Octopus blocks £5m of withdrawals from inheritance tax scheme
+
+
+
+
+           Andrew Scott is astonishing as a dying actor in Elsinore
+
+
+
+
+More from The Telegraph
+Badenoch’s new Tories are unashamedly pro-wealth
+
+
+
+
+Boots sold for £7bn to family behind Primark
+
+
+
+
+Spanish woman, 87, whose eviction sparked mass
+protests dies
+
+
+
+
+Jaguar has wasted a golden opportunity with its new
+electric car
+
+
+
+
+Andrew allies compare his arrest to Operation
+Midland
+               Royal GP found bludgeoned and strangled in
+               bedroom, court hears
+
+
+
+
+More stories
+
+               Boots sold for £7bn to family behind Primark
+               Jonathan Prynn
+               7 Oct 2026, 2:49pm
+
+
+
+
+               ‘You have to risk your life to race’ – Police motorbike
+               hits Tom Pidcock’s team-mates
+               Tom Cary
+               7 Oct 2026, 2:47pm
+
+
+
+
+               Modi accused of striking millions of Muslims off
+               electoral roll
+               Samaan Lateef
+               7 Oct 2026, 2:44pm
+
+
+
+
+               AA tells drivers to ‘accelerate gently’ to tackle fuel
+               costs
+               Tim Wallace
+               7 Oct 2026, 2:26pm
+                             Badenoch: I’ll scrap inheritance tax on family homes
+                             Dominic Penna
+                             7 Oct 2026, 2:25pm
+
+                              Follow
+
+
+
+
+                             I write dystopian thrillers, and modern Britain is too
+                             insane even for me
+                                       Sean Thomas
+                                         7 Oct 2026, 2:24pm
+
+
+
+
+                                                                           Back to top
+
+
+
+
+ Follow us on:
+
+
+
+
+Download the Telegraph App                    Recommended
+
+
+Podcasts                                      Licensing and Syndication
+
+
+
+Help Centre                                   Betting
+
+
+Branded Content                               Privacy
+
+
+
+Reader Prints                                 Theatre Tickets
+
+
+Careers                                       About us
+
+
+
+Announcements                                 Puzzles
+
+
+
+Guidelines                                    Terms & Conditions
+
+
+Newsletters                                   Crosswords
+
+
+Tax Strategy                                  Advertising terms
+Subscribe                                       Commissioning Terms
+
+
+Modern Slavery                                  Subscription Terms & Conditions
+
+
+
+Gift Subscriptions                              Plusword
+
+
+The Chelsea Magazine Company
+
+
+© Telegraph Media Group Holdings Limited 2026
+

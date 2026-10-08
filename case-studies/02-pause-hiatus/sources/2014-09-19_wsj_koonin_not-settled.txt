@@ -1,0 +1,266 @@
+SOURCE: https://www.wsj.com/articles/climate-science-is-not-settled-1411143565
+ITEM: Steven E. Koonin, 'Climate Science Is Not Settled', Wall Street Journal, 19 September 2014
+RETRIEVED: printed to PDF from the live page in Steve's browser on 2026-10-07 (PDF creation date in the file's metadata); supplied to the project as an upload; text extracted with pdftotext -layout on 2026-10-07. Full article.
+PDF SHA-256: 3b09bb5d03c1b70b…
+NOTE: verbatim text layer of the print; page furniture, advertisements (interleaved mid-paragraph in the WUWT print) and 'more stories' lists are left as extracted. The quotations in corpus.md were checked against this text by scripts/check_quotes.py.
+========================================================================
+This copy is for your personal, non-commercial use only. Distribution and use of this material are governed by our Subscriber Agreement and by copyright law. For
+non-personal use or to order multiple copies, please contact Dow Jones Reprints at 1-800-843-0008 or visit www.djreprints.com.
+
+
+https://www.wsj.com/articles/climate-science-is-not-settled-1411143565
+
+
+
+
+           Climate Science Is Not Settled
+           We are very far from the knowledge needed to make good climate policy,
+           writes leading scientist Steven E. Koonin
+
+           By Steven E. Koonin
+           Sept. 19, 2014 12:19 pm ET
+
+
+
+
+           The crucial scientific question for policy isn't whether the climate is changing. That is a settled matter:
+           The climate has always changed and always will. MITCH DOBROWNER
+
+
+           The idea that "Climate science is settled" runs through today's popular and
+           policy discussions. Unfortunately, that claim is misguided. It has not only
+           distorted our public and policy debates on issues related to energy,
+           greenhouse-gas emissions and the environment. But it also has inhibited the
+           scientific and policy discussions that we need to have about our climate
+           future.
+
+           My training as a computational physicist—together with a 40-year career of
+           scientific research, advising and management in academia, government and
+           the private sector—has afforded me an extended, up-close perspective on
+           climate science. Detailed technical discussions during the past year with
+           leading climate scientists have given me an even better sense of what we
+           know, and don't know, about climate. I have come to appreciate the daunting
+scientific challenge of answering the questions that policy makers and the
+public are asking.
+
+The crucial scientific question for policy isn't whether the climate is
+changing. That is a settled matter: The climate has always changed and
+always will. Geological and historical records show the occurrence of major
+climate shifts, sometimes over only a few decades. We know, for instance,
+that during the 20th century the Earth's global average surface temperature
+rose 1.4 degrees Fahrenheit.
+
+Nor is the crucial question whether humans are influencing the climate.
+That is no hoax: There is little doubt in the scientific community that
+continually growing amounts of greenhouse gases in the atmosphere, due
+largely to carbon-dioxide emissions from the conventional use of fossil
+fuels, are influencing the climate. There is also little doubt that the carbon
+dioxide will persist in the atmosphere for several centuries. The impact
+today of human activity appears to be comparable to the intrinsic, natural
+variability of the climate system itself.
+
+Rather, the crucial, unsettled scientific question for policy is, "How will the
+climate change over the next century under both natural and human
+influences?" Answers to that question at the global and regional levels, as
+well as to equally complex questions of how ecosystems and human
+activities will be affected, should inform our choices about energy and
+infrastructure.
+
+But—here's the catch—those questions are the hardest ones to answer. They
+challenge, in a fundamental way, what science can tell us about future
+climates.
+
+Even though human influences could have serious consequences for the
+climate, they are physically small in relation to the climate system as a
+whole. For example, human additions to carbon dioxide in the atmosphere
+by the middle of the 21st century are expected to directly shift the
+atmosphere's natural greenhouse effect by only 1% to 2%. Since the climate
+system is highly variable on its own, that smallness sets a very high bar for
+confidently projecting the consequences of human influences.
+
+A second challenge to "knowing" future climate is today's poor
+understanding of the oceans. The oceans, which change over decades and
+centuries, hold most of the climate's heat and strongly influence the
+atmosphere. Unfortunately, precise, comprehensive observations of the
+oceans are available only for the past few decades; the reliable record is still
+far too short to adequately understand how the oceans will change and how
+that will affect climate.
+
+A third fundamental challenge arises from feedbacks that can dramatically
+amplify or mute the climate's response to human and natural influences.
+One important feedback, which is thought to approximately double the
+direct heating effect of carbon dioxide, involves water vapor, clouds and
+temperature.
+
+
+
+
+Scientists measure the sea level of the Ross Sea in Antarctica. NATIONAL GEOGRAPHIC/GETTY IMAGES
+
+
+But feedbacks are uncertain. They depend on the details of processes such
+as evaporation and the flow of radiation through clouds. They cannot be
+determined confidently from the basic laws of physics and chemistry, so
+they must be verified by precise, detailed observations that are, in many
+cases, not yet available.
+Beyond these observational challenges are those posed by the complex
+computer models used to project future climate. These massive programs
+attempt to describe the dynamics and interactions of the various
+components of the Earth system—the atmosphere, the oceans, the land, the
+ice and the biosphere of living things. While some parts of the models rely
+on well-tested physical laws, other parts involve technically informed
+estimation. Computer modeling of complex systems is as much an art as a
+science.
+
+For instance, global climate models describe the Earth on a grid that is
+currently limited by computer capabilities to a resolution of no finer than 60
+miles. (The distance from New York City to Washington, D.C., is thus covered
+by only four grid cells.) But processes such as cloud formation, turbulence
+and rain all happen on much smaller scales. These critical processes then
+appear in the model only through adjustable assumptions that specify, for
+example, how the average cloud cover depends on a grid box's average
+temperature and humidity. In a given model, dozens of such assumptions
+must be adjusted ("tuned," in the jargon of modelers) to reproduce both
+current observations and imperfectly known historical records.
+
+We often hear that there is a "scientific consensus" about climate change.
+But as far as the computer models go, there isn't a useful consensus at the
+level of detail relevant to assessing human influences. Since 1990, the United
+Nations Intergovernmental Panel on Climate Change, or IPCC, has
+periodically surveyed the state of climate science. Each successive report
+from that endeavor, with contributions from thousands of scientists around
+the world, has come to be seen as the definitive assessment of climate
+science at the time of its issue.
+There is little doubt in the scientific community that continually growing amounts of greenhouse
+gases in the atmosphere, due largely to carbon-dioxide emissions from the conventional use of fossil
+fuels, are influencing the climate. Pictured, an estuary in Patgonia. GALLERY STOCK
+
+
+For the latest IPCC report (September 2013), its Working Group I, which
+focuses on physical science, uses an ensemble of some 55 different models.
+Although most of these models are tuned to reproduce the gross features of
+the Earth's climate, the marked differences in their details and projections
+reflect all of the limitations that I have described. For example:
+
+• The models differ in their descriptions of the past century's global average
+surface temperature by more than three times the entire warming recorded
+during that time. Such mismatches are also present in many other basic
+climate factors, including rainfall, which is fundamental to the
+atmosphere's energy balance. As a result, the models give widely varying
+descriptions of the climate's inner workings. Since they disagree so
+markedly, no more than one of them can be right.
+
+• Although the Earth's average surface temperature rose sharply by 0.9
+degree Fahrenheit during the last quarter of the 20th century, it has
+increased much more slowly for the past 16 years, even as the human
+contribution to atmospheric carbon dioxide has risen by some 25%. This
+surprising fact demonstrates directly that natural influences and variability
+are powerful enough to counteract the present warming influence exerted
+by human activity.
+
+Yet the models famously fail to capture this slowing in the temperature rise.
+Several dozen different explanations for this failure have been offered, with
+ocean variability most likely playing a major role. But the whole episode
+continues to highlight the limits of our modeling.
+
+• The models roughly describe the shrinking extent of Arctic sea ice
+observed over the past two decades, but they fail to describe the comparable
+growth of Antarctic sea ice, which is now at a record high.
+
+• The models predict that the lower atmosphere in the tropics will absorb
+much of the heat of the warming atmosphere. But that "hot spot" has not
+been confidently observed, casting doubt on our understanding of the
+crucial feedback of water vapor on temperature.
+
+• Even though the human influence on climate was much smaller in the past,
+the models do not account for the fact that the rate of global sea-level rise
+70 years ago was as large as what we observe today—about one foot per
+century.
+
+• A crucial measure of our knowledge of feedbacks is climate sensitivity—
+that is, the warming induced by a hypothetical doubling of carbon-dioxide
+concentration. Today's best estimate of the sensitivity (between 2.7 degrees
+Fahrenheit and 8.1 degrees Fahrenheit) is no different, and no more certain,
+than it was 30 years ago. And this is despite an heroic research effort costing
+billions of dollars.
+These and many other open questions are in fact described in the IPCC
+research reports, although a detailed and knowledgeable reading is
+sometimes required to discern them. They are not "minor" issues to be
+"cleaned up" by further research. Rather, they are deficiencies that erode
+confidence in the computer projections. Work to resolve these shortcomings
+in climate models should be among the top priorities for climate research.
+
+Yet a public official reading only the IPCC's "Summary for Policy Makers"
+would gain little sense of the extent or implications of these deficiencies.
+These are fundamental challenges to our understanding of human impacts
+on the climate, and they should not be dismissed with the mantra that
+"climate science is settled."
+
+While the past two decades have seen progress in climate science, the field
+is not yet mature enough to usefully answer the difficult and important
+questions being asked of it. This decidedly unsettled state highlights what
+should be obvious: Understanding climate, at the level of detail relevant to
+human influences, is a very, very difficult problem.
+
+We can and should take steps to make climate projections more useful over
+time. An international commitment to a sustained global climate
+observation system would generate an ever-lengthening record of more
+precise observations. And increasingly powerful computers can allow a
+better understanding of the uncertainties in our models, finer model grids
+and more sophisticated descriptions of the processes that occur within
+them. The science is urgent, since we could be caught flat-footed if our
+understanding does not improve more rapidly than the climate itself
+changes.
+
+A transparent rigor would also be a welcome development, especially given
+the momentous political and policy decisions at stake. That could be
+supported by regular, independent, "red team" reviews to stress-test and
+challenge the projections by focusing on their deficiencies and
+uncertainties; that would certainly be the best practice of the scientific
+method. But because the natural climate changes over decades, it will take
+many years to get the data needed to confidently isolate and quantify the
+effects of human influences.
+
+Policy makers and the public may wish for the comfort of certainty in their
+climate science. But I fear that rigidly promulgating the idea that climate
+science is "settled" (or is a "hoax") demeans and chills the scientific
+enterprise, retarding its progress in these important matters. Uncertainty is
+a prime mover and motivator of science and must be faced head-on. It
+should not be confined to hushed sidebar conversations at academic
+conferences.
+
+Society's choices in the years ahead will necessarily be based on uncertain
+knowledge of future climates. That uncertainty need not be an excuse for
+inaction. There is well-justified prudence in accelerating the development of
+low-emissions technologies and in cost-effective energy-efficiency
+measures.
+
+But climate strategies beyond such "no regrets" efforts carry costs, risks
+and questions of effectiveness, so nonscientific factors inevitably enter the
+decision. These include our tolerance for risk and the priorities that we
+assign to economic development, poverty reduction, environmental quality,
+and intergenerational and geographical equity.
+
+Individuals and countries can legitimately disagree about these matters, so
+the discussion should not be about "believing" or "denying" the science.
+Despite the statements of numerous scientific societies, the scientific
+community cannot claim any special expertise in addressing issues related
+to humanity's deepest goals and values. The political and diplomatic
+spheres are best suited to debating and resolving such questions, and
+misrepresenting the current state of climate science does nothing to
+advance that effort.
+
+Any serious discussion of the changing climate must begin by
+acknowledging not only the scientific certainties but also the uncertainties,
+especially in projecting the future. Recognizing those limits, rather than
+ignoring them, will lead to a more sober and ultimately more productive
+discussion of climate change and climate policies. To do otherwise is a great
+disservice to climate science itself.
+
+Dr. Koonin was undersecretary for science in the Energy Department during
+President Barack Obama's first term and is currently director of the Center
+for Urban Science and Progress at New York University. His previous
+positions include professor of theoretical physics and provost at Caltech, as
+well as chief scientist of BP, where his work focused on renewable and low-
+carbon energy technologies.
+
